@@ -10400,7 +10400,7 @@ VDD_3V3EXP
 <label x="25.4" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="PRU1_9" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPIO2_23"/>
 <wire x1="45.72" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
@@ -10414,18 +10414,32 @@ VDD_3V3EXP
 <label x="25.4" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="PRU1_11" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPIO2_25"/>
 <wire x1="101.6" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <label x="121.92" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="PRU1_10" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPIO2_24"/>
 <wire x1="101.6" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 <label x="121.92" y="154.94" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="TIMER4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TIMER4"/>
+<wire x1="45.72" y1="180.34" x2="25.4" y2="180.34" width="0.1524" layer="91"/>
+<label x="25.4" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWDN" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO1_0"/>
+<wire x1="45.72" y1="157.48" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
+<label x="25.4" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -10750,25 +10764,11 @@ VDD_3V3EXP
 <label x="48.26" y="25.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U$3" gate="U" pin="SDATA"/>
-<wire x1="33.02" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-<label x="48.26" y="22.86" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="N$7" class="0">
+<net name="PRU1_11" class="0">
 <segment>
 <pinref part="U$3" gate="U" pin="HREF"/>
 <wire x1="33.02" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <label x="48.26" y="20.32" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$3" gate="U" pin="XCLK"/>
-<wire x1="33.02" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<label x="48.26" y="17.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PRU1_8" class="0">
@@ -10799,13 +10799,6 @@ VDD_3V3EXP
 <label x="48.26" y="7.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$3" gate="U" pin="RSV"/>
-<wire x1="33.02" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
-<label x="48.26" y="5.08" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="PRU1_0" class="0">
 <segment>
 <pinref part="U$3" gate="U" pin="DOUT0"/>
@@ -10820,7 +10813,7 @@ VDD_3V3EXP
 <label x="-15.24" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="PWDN" class="0">
 <segment>
 <pinref part="U$3" gate="U" pin="PWDN"/>
 <wire x1="0" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="91"/>
@@ -10848,25 +10841,18 @@ VDD_3V3EXP
 <label x="-15.24" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="PRU1_10" class="0">
 <segment>
 <pinref part="U$3" gate="U" pin="PCLK"/>
 <wire x1="0" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
 <label x="-15.24" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="TIMER4" class="0">
 <segment>
-<pinref part="U$3" gate="U" pin="VSYNC"/>
-<wire x1="0" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
-<label x="-15.24" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$3" gate="U" pin="SCL"/>
-<wire x1="0" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
-<label x="-15.24" y="22.86" size="1.778" layer="95"/>
+<pinref part="U$3" gate="U" pin="XCLK"/>
+<wire x1="33.02" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
+<label x="48.26" y="17.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PRU1_9" class="0">
@@ -10874,6 +10860,27 @@ VDD_3V3EXP
 <pinref part="U$3" gate="U" pin="DOUT9"/>
 <wire x1="0" y1="15.24" x2="-15.24" y2="15.24" width="0.1524" layer="91"/>
 <label x="-15.24" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<pinref part="U$3" gate="U" pin="SCL"/>
+<wire x1="0" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
+<label x="-15.24" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PRU1_12" class="0">
+<segment>
+<pinref part="U$3" gate="U" pin="VSYNC"/>
+<wire x1="0" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="-15.24" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$101" class="0">
+<segment>
+<pinref part="U$3" gate="U" pin="SDATA"/>
+<wire x1="33.02" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+<label x="48.26" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>

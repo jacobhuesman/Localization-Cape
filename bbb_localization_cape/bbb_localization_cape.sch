@@ -3117,16 +3117,6 @@ CONN_04
 </library>
 <library name="bbb_cape_parts">
 <packages>
-<package name="PJ-102BH">
-<pad name="1" x="0" y="0" drill="1.25" diameter="1.85"/>
-<pad name="2" x="0" y="6" drill="1.25" diameter="1.85"/>
-<pad name="3" x="-4.7" y="3" drill="1.25" diameter="1.85"/>
-<wire x1="-4.7" y1="-0.7" x2="-4.7" y2="13.7" width="0.127" layer="21"/>
-<wire x1="-4.7" y1="13.7" x2="4.5" y2="13.7" width="0.127" layer="21"/>
-<wire x1="4.5" y1="13.7" x2="4.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-0.7" x2="-4.7" y2="-0.7" width="0.127" layer="21"/>
-<text x="-5" y="-2.73" size="1.27" layer="21">&gt;NAME</text>
-</package>
 <package name="ARDUCAM">
 <pad name="1" x="0" y="0" drill="1.12" diameter="1.82" shape="square"/>
 <pad name="2" x="0" y="2.54" drill="1.12" diameter="1.82"/>
@@ -3276,20 +3266,6 @@ CONN_04
 </package>
 </packages>
 <symbols>
-<symbol name="POWERJACK">
-<wire x1="-10.16" y1="2.54" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<text x="-10.16" y="10.16" size="1.778" layer="96" font="vector">&gt;Value</text>
-<text x="-10.16" y="0" size="1.778" layer="95" font="vector">&gt;Name</text>
-<rectangle x1="-10.16" y1="6.858" x2="0" y2="8.382" layer="94"/>
-<pin name="GNDBREAK" x="2.54" y="5.08" visible="off" length="short" rot="R180"/>
-<pin name="GND" x="2.54" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="PWR" x="2.54" y="7.62" visible="off" length="short" rot="R180"/>
-</symbol>
 <symbol name="ARDUCAM">
 <pin name="VCC" x="0" y="25.4" length="middle"/>
 <pin name="GND" x="33.02" y="25.4" length="middle" rot="R180"/>
@@ -3333,24 +3309,6 @@ CONN_04
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PJ-102BH">
-<description>MODEL:  PJ-102BH │ DESCRIPTION: DC POWER JACK</description>
-<gates>
-<gate name="A" symbol="POWERJACK" x="10.16" y="0"/>
-</gates>
-<devices>
-<device name="" package="PJ-102BH">
-<connects>
-<connect gate="A" pin="GND" pad="2"/>
-<connect gate="A" pin="GNDBREAK" pad="3"/>
-<connect gate="A" pin="PWR" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ARDUCAM">
 <gates>
 <gate name="U" symbol="ARDUCAM" x="0" y="0"/>
@@ -10285,7 +10243,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U$2" library="bbb_cape_parts" deviceset="PJ-102BH" device=""/>
 <part name="U$3" library="bbb_cape_parts" deviceset="ARDUCAM" device="OV5642"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="130"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="910"/>
@@ -10518,10 +10475,6 @@ VDD_3V3EXP
 <instance part="SUPPLY2" gate="1" x="170.18" y="114.3" smashed="yes">
 <attribute name="VALUE" x="175.26" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="A" x="22.86" y="109.22" smashed="yes">
-<attribute name="VALUE" x="12.7" y="119.38" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="12.7" y="109.22" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="R1" gate="G$1" x="147.32" y="48.26" rot="R90"/>
 <instance part="R2" gate="G$1" x="147.32" y="22.86" rot="R90"/>
 <instance part="U3" gate="A" x="17.78" y="17.78" rot="MR180"/>
@@ -10567,17 +10520,10 @@ VDD_3V3EXP
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="66.04" y1="88.9" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GNDIN" gate="G$1" pin="P"/>
-<wire x1="66.04" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C3" gate="A" pin="22"/>
-<wire x1="50.8" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <junction x="66.04" y="91.44"/>
-<pinref part="U$2" gate="A" pin="GND"/>
-<wire x1="25.4" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="111.76" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="96.52" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
-<junction x="50.8" y="91.44"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -10598,16 +10544,11 @@ VDD_3V3EXP
 <segment>
 <pinref part="12VIN" gate="G$1" pin="P"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="43.18" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="111.76" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C3" gate="A" pin="11"/>
 <wire x1="66.04" y1="104.14" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <junction x="66.04" y="111.76"/>
-<pinref part="U$2" gate="A" pin="PWR"/>
-<wire x1="25.4" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="116.84" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<junction x="50.8" y="111.76"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>

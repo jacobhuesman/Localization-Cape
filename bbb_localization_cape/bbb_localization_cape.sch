@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -831,112 +831,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="P15799CT">
-<packages>
-<package name="CAP_PAN_4X7">
-<pad name="1" x="-1.4986" y="0" drill="0.762" diameter="1.27" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.762" diameter="1.27" rot="R180"/>
-<wire x1="-4.5212" y1="0" x2="-3.2512" y2="0" width="0.1524" layer="21"/>
-<wire x1="-3.8862" y1="0.635" x2="-3.8862" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.6256" y1="0" x2="-3.1242" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.1242" y1="0" x2="1.6256" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.5212" y1="0" x2="-3.2512" y2="0" width="0.1524" layer="51"/>
-<wire x1="-3.8862" y1="0.635" x2="-3.8862" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="0" x2="-2.9972" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-2.9972" y1="0" x2="1.4986" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-4.0132" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPH">
-<pin name="22" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="11" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EEA-GA1E100H" prefix="C">
-<description>Digikey Part Number: P15799CT-ND</description>
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_PAN_4X7">
-<connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEAGA1E100H" constant="no"/>
-<attribute name="VENDOR" value="PANASONIC" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="P15782CT">
-<packages>
-<package name="CAP_PAN_6.3X7">
-<pad name="1" x="-2.4892" y="0" drill="0.762" diameter="1.27" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.762" diameter="1.27" rot="R180"/>
-<wire x1="-6.1722" y1="0" x2="-4.9022" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.5372" y1="0.635" x2="-5.5372" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="0" x2="-4.7752" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.7752" y1="0" x2="2.286" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-6.1722" y1="0" x2="-4.9022" y2="0" width="0.1524" layer="51"/>
-<wire x1="-5.5372" y1="0.635" x2="-5.5372" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="2.159" y1="0" x2="-4.6482" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-4.6482" y1="0" x2="2.159" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-4.5212" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPH">
-<pin name="22" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="11" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EEA-GA1A101B" prefix="C">
-<description>Digikey Part Number:  P15782CT-ND</description>
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_PAN_6.3X7">
-<connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEAGA1A101B" constant="no"/>
-<attribute name="VENDOR" value="PANASONIC" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -1117,59 +1011,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="P15791CT">
-<packages>
-<package name="CAP_PAN_5X7">
-<pad name="1" x="-2.0066" y="0" drill="0.762" diameter="1.27" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.762" diameter="1.27" rot="R180"/>
-<wire x1="-5.2832" y1="0" x2="-4.0132" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.6482" y1="0.635" x2="-4.6482" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.8796" y1="0" x2="-3.8862" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.8862" y1="0" x2="1.8796" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-5.2832" y1="0" x2="-4.0132" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.6482" y1="0.635" x2="-4.6482" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.7526" y1="0" x2="-3.7592" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-3.7592" y1="0" x2="1.7526" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-4.2672" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPH">
-<pin name="22" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="11" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EEA-GA1C220H" prefix="C">
-<description>Digikey Part Number: P15791CT-ND</description>
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_PAN_5X7">
-<connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEAGA1C220H" constant="no"/>
-<attribute name="VENDOR" value="PANASONIC" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -10223,16 +10064,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U2" library="lm1085" deviceset="LM1085ISX-ADJ" device=""/>
 <part name="12VIN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
 <part name="GNDIN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
-<part name="C2" library="P15782CT" deviceset="EEA-GA1A101B" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+10V" device=""/>
 <part name="5V" library="V78-2000" deviceset="V78-2000" device=""/>
-<part name="C3" library="P15799CT" deviceset="EEA-GA1E100H" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="C4" library="P15791CT" deviceset="EEA-GA1C220H" device=""/>
 <part name="SUPPLY2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="BEAGLEBONE_OUTLINE" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38102/1"/>
@@ -10249,11 +10087,14 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U3" library="bbb_cape_parts" deviceset="LP38693MP-3.3/NOPB" device=""/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1"/>
-<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1"/>
+<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="4.7uF"/>
+<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="1uF"/>
 <part name="SUPPLY4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="10uF"/>
+<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="22uF"/>
+<part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:26139/1" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10461,10 +10302,6 @@ VDD_3V3EXP
 <attribute name="NAME" x="39.497" y="88.2142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.497" y="85.598" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="A" x="177.8" y="33.02" smashed="yes" rot="R90">
-<attribute name="VALUE" x="180.7972" y="30.4038" size="1.778" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="180.7972" y="34.0106" size="1.778" layer="95" ratio="10" rot="SR0"/>
-</instance>
 <instance part="GND1" gate="1" x="177.8" y="2.54"/>
 <instance part="GND2" gate="1" x="66.04" y="86.36"/>
 <instance part="P+1" gate="1" x="66.04" y="116.84" smashed="yes">
@@ -10475,16 +10312,8 @@ VDD_3V3EXP
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="177.8" y="60.96"/>
 <instance part="5V" gate="A" x="147.32" y="106.68"/>
-<instance part="C3" gate="A" x="66.04" y="104.14" smashed="yes" rot="R270">
-<attribute name="VALUE" x="70.6628" y="96.5962" size="1.778" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="70.6628" y="100.6094" size="1.778" layer="91" ratio="10" rot="SR0"/>
-</instance>
 <instance part="P+3" gate="1" x="124.46" y="111.76" smashed="yes">
 <attribute name="VALUE" x="127" y="109.22" size="1.778" layer="96"/>
-</instance>
-<instance part="C4" gate="A" x="170.18" y="91.44" smashed="yes" rot="R90">
-<attribute name="VALUE" x="175.7172" y="93.9038" size="1.778" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="175.7172" y="97.5106" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="SUPPLY2" gate="1" x="170.18" y="114.3" smashed="yes">
 <attribute name="VALUE" x="175.26" y="114.3" size="1.778" layer="96"/>
@@ -10502,6 +10331,9 @@ VDD_3V3EXP
 <attribute name="VALUE" x="7.62" y="22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="96.52" y="38.1"/>
+<instance part="C6" gate="G$1" x="66.04" y="101.6"/>
+<instance part="C3" gate="G$1" x="170.18" y="96.52"/>
+<instance part="C4" gate="G$1" x="177.8" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -10521,21 +10353,21 @@ VDD_3V3EXP
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C2" gate="A" pin="11"/>
-<wire x1="177.8" y1="33.02" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="177.8" y1="5.08" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
-<junction x="177.8" y="12.7"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="17.78" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="33.02" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
+<junction x="177.8" y="12.7"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="66.04" y1="88.9" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GNDIN" gate="G$1" pin="P"/>
 <wire x1="66.04" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C3" gate="A" pin="22"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <junction x="66.04" y="91.44"/>
 </segment>
@@ -10560,7 +10392,7 @@ VDD_3V3EXP
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="43.18" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="111.76" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C3" gate="A" pin="11"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="104.14" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <junction x="66.04" y="111.76"/>
 </segment>
@@ -10579,26 +10411,26 @@ VDD_3V3EXP
 </net>
 <net name="+10V" class="0">
 <segment>
-<pinref part="C2" gate="A" pin="22"/>
-<wire x1="177.8" y1="40.64" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="OUT"/>
 <wire x1="177.8" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="+10V"/>
-<junction x="177.8" y="58.42"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="53.34" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
 <junction x="147.32" y="58.42"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="40.64" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
+<junction x="177.8" y="58.42"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="C4" gate="A" pin="22"/>
 <wire x1="170.18" y1="111.76" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="1" pin="+5V"/>
 <pinref part="5V" gate="A" pin="VOUT"/>
-<wire x1="170.18" y1="106.68" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="99.06" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <junction x="170.18" y="106.68"/>
 </segment>
 <segment>
@@ -10621,9 +10453,9 @@ VDD_3V3EXP
 <segment>
 <pinref part="5V" gate="A" pin="GND"/>
 <wire x1="147.32" y1="96.52" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C4" gate="A" pin="11"/>
-<wire x1="170.18" y1="91.44" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="86.36" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="91.44" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">

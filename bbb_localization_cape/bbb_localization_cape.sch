@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10095,6 +10095,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="10uF"/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="22uF"/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:26139/1" value="100uF"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="10k"/>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="10k"/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10576,7 +10580,11 @@ VDD_3V3EXP
 </plain>
 <instances>
 <instance part="U$3" gate="U" x="0" y="0"/>
-<instance part="+3V3" gate="G$1" x="-7.62" y="30.48"/>
+<instance part="+3V3" gate="G$1" x="-7.62" y="43.18"/>
+<instance part="R3" gate="G$1" x="-22.86" y="30.48" rot="R90"/>
+<instance part="R4" gate="G$1" x="55.88" y="30.48" rot="R90"/>
+<instance part="+3V4" gate="G$1" x="-22.86" y="43.18"/>
+<instance part="+3V5" gate="G$1" x="55.88" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -10584,9 +10592,19 @@ VDD_3V3EXP
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="-7.62" y1="27.94" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="40.64" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="U" pin="VCC"/>
 <wire x1="-7.62" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="40.64" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10694,11 +10712,13 @@ VDD_3V3EXP
 <label x="-15.24" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$100" class="0">
+<net name="I2C2_SCL" class="0">
 <segment>
 <pinref part="U$3" gate="U" pin="SCL"/>
-<wire x1="0" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="0" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <label x="-15.24" y="22.86" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="25.4" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRU1_12" class="0">
@@ -10708,11 +10728,13 @@ VDD_3V3EXP
 <label x="-15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$101" class="0">
+<net name="I2C2_SDA" class="0">
 <segment>
 <pinref part="U$3" gate="U" pin="SDATA"/>
-<wire x1="33.02" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <label x="48.26" y="22.86" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

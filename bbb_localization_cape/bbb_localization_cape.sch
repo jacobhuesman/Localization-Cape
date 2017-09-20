@@ -10757,6 +10757,17 @@ VDD_3V3EXP
 </net>
 </nets>
 </sheet>
+<sheet>
+<description>Dynamixel</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 </sheets>
 </schematic>
 </drawing>

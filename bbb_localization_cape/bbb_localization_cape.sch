@@ -11373,21 +11373,6 @@ Source: AVX .. aphvc.pdf</description>
 <sheet>
 <description>Main</description>
 <plain>
-<text x="137.16" y="165.1" size="1.778" layer="97">I2C2
-- EEPROM Chip (Cape Standard)
-- Camera
-
-UART2_TXD
-- Dynamixel
-
-VDD_3V3EXP
-- Max current of 250mA
-  - MCP2562 - 500uA
-  - OV5642 - ~270mA
-
-Tri-State Buffer
-- P9.23
-</text>
 </plain>
 <instances>
 <instance part="A1" gate="G$1" x="81.28" y="127"/>
@@ -12336,10 +12321,6 @@ Tri-State Buffer
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

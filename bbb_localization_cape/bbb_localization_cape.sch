@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11368,6 +11368,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+10V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12119,8 +12120,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="P+6" gate="1" x="81.28" y="167.64" smashed="yes">
 <attribute name="VALUE" x="83.82" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="P+9" gate="1" x="157.48" y="104.14" smashed="yes">
-<attribute name="VALUE" x="154.94" y="101.6" size="1.778" layer="96" rot="R180"/>
+<instance part="P+9" gate="1" x="144.78" y="104.14" smashed="yes">
+<attribute name="VALUE" x="142.24" y="101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="226.06" y="104.14"/>
 <instance part="PS1" gate="A" x="73.66" y="76.2"/>
@@ -12157,11 +12158,12 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C4" gate="G$1" x="81.28" y="152.4"/>
 <instance part="C5" gate="G$1" x="96.52" y="66.04"/>
 <instance part="C9" gate="G$1" x="226.06" y="83.82"/>
-<instance part="C6" gate="G$1" x="157.48" y="83.82"/>
+<instance part="C6" gate="G$1" x="144.78" y="83.82"/>
 <instance part="C3" gate="G$1" x="50.8" y="66.04"/>
 <instance part="GND10" gate="1" x="96.52" y="50.8"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="172.72" y="0"/>
+<instance part="SUPPLY3" gate="G$1" x="157.48" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -12190,8 +12192,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="226.06" y1="78.74" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
 <junction x="226.06" y="68.58"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="78.74" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="78.74" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
 <junction x="213.36" y="68.58"/>
 </segment>
 <segment>
@@ -12244,12 +12246,12 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="157.48" y1="101.6" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="101.6" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U7" gate="A" pin="IN"/>
-<wire x1="165.1" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="86.36" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
-<junction x="157.48" y="99.06"/>
+<wire x1="144.78" y1="86.36" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
+<junction x="144.78" y="99.06"/>
 </segment>
 <segment>
 <pinref part="PS1" gate="A" pin="VIN"/>
@@ -12274,6 +12276,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="226.06" y1="99.06" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <junction x="226.06" y="99.06"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="+10V"/>
+<wire x1="157.48" y1="88.9" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U7" gate="A" pin="TAB"/>
+<wire x1="165.1" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="86.36" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">

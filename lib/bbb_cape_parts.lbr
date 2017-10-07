@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1090,20 +1090,20 @@
 <pin name="P2.0/TA1.0" x="2.54" y="-17.78" length="middle"/>
 <pin name="P2.1/TA1.1" x="2.54" y="-20.32" length="middle"/>
 <pin name="P2.2/TA1.1" x="2.54" y="-22.86" length="middle"/>
-<pin name="P2.3/TA1.0" x="241.3" y="-22.86" length="middle" rot="R180"/>
-<pin name="P2.4/TA1.2" x="241.3" y="-20.32" length="middle" rot="R180"/>
-<pin name="P2.5/TA1.2" x="241.3" y="-17.78" length="middle" rot="R180"/>
-<pin name="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK" x="241.3" y="-15.24" length="middle" rot="R180"/>
-<pin name="P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI" x="241.3" y="-12.7" length="middle" rot="R180"/>
-<pin name="!RST/NMI/SBWTDIO" x="241.3" y="-10.16" length="middle" rot="R180"/>
-<pin name="TEST/SBWTCK" x="241.3" y="-7.62" length="middle" rot="R180"/>
-<pin name="XOUT/P2.7" x="241.3" y="-5.08" length="middle" rot="R180"/>
-<pin name="XIN/P2.6/TA0.1" x="241.3" y="-2.54" length="middle" rot="R180"/>
-<pin name="DVSS" x="241.3" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="P2.3/TA1.0" x="144.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="P2.4/TA1.2" x="144.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="P2.5/TA1.2" x="144.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK" x="144.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI" x="144.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="!RST/NMI/SBWTDIO" x="144.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="TEST/SBWTCK" x="144.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="XOUT/P2.7" x="144.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="XIN/P2.6/TA0.1" x="144.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="DVSS" x="144.78" y="0" length="middle" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-27.94" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-27.94" x2="236.22" y2="-27.94" width="0.1524" layer="94"/>
-<wire x1="236.22" y1="-27.94" x2="236.22" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="236.22" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-27.94" x2="139.7" y2="-27.94" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="-27.94" x2="139.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="117.1956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="116.5606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>

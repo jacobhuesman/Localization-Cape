@@ -3743,20 +3743,20 @@ CONN_04
 <pin name="P2.0/TA1.0" x="2.54" y="-17.78" length="middle"/>
 <pin name="P2.1/TA1.1" x="2.54" y="-20.32" length="middle"/>
 <pin name="P2.2/TA1.1" x="2.54" y="-22.86" length="middle"/>
-<pin name="P2.3/TA1.0" x="241.3" y="-22.86" length="middle" rot="R180"/>
-<pin name="P2.4/TA1.2" x="241.3" y="-20.32" length="middle" rot="R180"/>
-<pin name="P2.5/TA1.2" x="241.3" y="-17.78" length="middle" rot="R180"/>
-<pin name="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK" x="241.3" y="-15.24" length="middle" rot="R180"/>
-<pin name="P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI" x="241.3" y="-12.7" length="middle" rot="R180"/>
-<pin name="!RST/NMI/SBWTDIO" x="241.3" y="-10.16" length="middle" rot="R180"/>
-<pin name="TEST/SBWTCK" x="241.3" y="-7.62" length="middle" rot="R180"/>
-<pin name="XOUT/P2.7" x="241.3" y="-5.08" length="middle" rot="R180"/>
-<pin name="XIN/P2.6/TA0.1" x="241.3" y="-2.54" length="middle" rot="R180"/>
-<pin name="DVSS" x="241.3" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="P2.3/TA1.0" x="144.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="P2.4/TA1.2" x="144.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="P2.5/TA1.2" x="144.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK" x="144.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI" x="144.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="!RST/NMI/SBWTDIO" x="144.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="TEST/SBWTCK" x="144.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="XOUT/P2.7" x="144.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="XIN/P2.6/TA0.1" x="144.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="DVSS" x="144.78" y="0" length="middle" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-27.94" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-27.94" x2="236.22" y2="-27.94" width="0.1524" layer="94"/>
-<wire x1="236.22" y1="-27.94" x2="236.22" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="236.22" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-27.94" x2="139.7" y2="-27.94" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="-27.94" x2="139.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="117.1956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="116.5606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
@@ -11180,6 +11180,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47k"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="100nF"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47k"/>
+<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="100nF"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12061,10 +12070,97 @@ Tri-State Buffer
 </plain>
 <instances>
 <instance part="U4" gate="A" x="2.54" y="38.1"/>
+<instance part="+3V7" gate="G$1" x="-40.64" y="58.42"/>
+<instance part="R6" gate="G$1" x="-40.64" y="45.72" rot="R90"/>
+<instance part="R7" gate="G$1" x="269.24" y="53.34" rot="R90"/>
+<instance part="C8" gate="G$1" x="-40.64" y="20.32"/>
+<instance part="GND10" gate="1" x="-40.64" y="7.62"/>
+<instance part="+3V9" gate="G$1" x="165.1" y="60.96"/>
+<instance part="R8" gate="G$1" x="165.1" y="48.26" rot="R90"/>
+<instance part="C9" gate="G$1" x="165.1" y="15.24"/>
+<instance part="GND11" gate="1" x="165.1" y="2.54"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="40.64" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="P1.3/ADC10CLK/CAOUT/VREF-/VEREF-/A3/CA3"/>
+<wire x1="-40.64" y1="27.94" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="22.86" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-40.64" y="27.94"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="55.88" x2="-40.64" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="DVCC"/>
+<wire x1="-40.64" y1="53.34" x2="-40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="38.1" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="38.1" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="53.34" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-40.64" y="53.34"/>
+</segment>
+<segment>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="58.42" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-40.64" y1="15.24" x2="-40.64" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="DVSS"/>
+<wire x1="147.32" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
+<label x="187.96" y="38.1" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="165.1" y1="10.16" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEST/SBWTCK" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="TEST/SBWTCK"/>
+<wire x1="147.32" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+<label x="187.96" y="30.48" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="RST/SBWTDIO" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="!RST/NMI/SBWTDIO"/>
+<wire x1="147.32" y1="27.94" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<label x="187.96" y="27.94" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="27.94" x2="187.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="43.18" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<junction x="165.1" y="27.94"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="27.94" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI"/>
+<wire x1="147.32" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK"/>
+<wire x1="147.32" y1="22.86" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

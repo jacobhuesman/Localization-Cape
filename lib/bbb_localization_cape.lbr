@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1307,15 +1307,15 @@
 <symbol name="LP38693MP-3.3/NOPB">
 <pin name="VEN" x="2.54" y="0" length="middle" direction="pas"/>
 <pin name="NC" x="2.54" y="-2.54" length="middle" direction="pas"/>
-<pin name="VOUT" x="53.34" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="VIN" x="53.34" y="-2.54" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="53.34" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="VOUT" x="35.56" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="VIN" x="35.56" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="48.26" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="48.26" y1="-10.16" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="7.62" y1="-10.16" x2="30.48" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="7.9756" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="7.3406" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="CONN_03">
 <description>&lt;h3&gt;3 Pin Connection&lt;/h3&gt;</description>
@@ -1364,16 +1364,16 @@
 <pin name="GND" x="2.54" y="-2.54" length="middle" direction="pwr"/>
 <pin name="VCC" x="2.54" y="-5.08" length="middle" direction="pwr"/>
 <pin name="RXD" x="2.54" y="-7.62" length="middle" direction="out"/>
-<pin name="VRXD" x="53.34" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="CANL" x="53.34" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="CANH" x="53.34" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="S" x="53.34" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="VRXD" x="40.64" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="CANL" x="40.64" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="CANH" x="40.64" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="S" x="40.64" y="0" length="middle" direction="in" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="48.26" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="48.26" y1="-12.7" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="7.62" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="35.56" y1="-12.7" x2="35.56" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="35.56" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="7.9756" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="7.3406" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="SN74LV1T126DBVR">
 <pin name="OE" x="2.54" y="0" length="middle" direction="in"/>
@@ -1430,14 +1430,14 @@
 <symbol name="LM1085ISX-ADJ">
 <pin name="ADJ" x="2.54" y="0" length="middle" direction="in"/>
 <pin name="OUT" x="2.54" y="-2.54" length="middle" direction="pwr"/>
-<pin name="IN" x="53.34" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="TAB" x="53.34" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="IN" x="35.56" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="TAB" x="35.56" y="0" length="middle" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="48.26" y1="-7.62" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="7.62" y1="-7.62" x2="30.48" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="-7.62" x2="30.48" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="7.9756" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="7.3406" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="V78-2000">
 <description>SERIES: V78-2000 │ DESCRIPTION: NON-ISOLATED SWITCHING REGULATOR</description>

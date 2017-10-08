@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11301,8 +11301,8 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="U7" library="bbb_localization_cape" deviceset="LM1085ISX-ADJ" device=""/>
-<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
-<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
+<part name="+12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
+<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -11516,20 +11516,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="246.38" y="66.04" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="254" y1="68.58" x2="254" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="I2C2_SCL" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="I2C2_SCL"/>
-<wire x1="53.34" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<label x="33.02" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="SCL"/>
-<wire x1="198.12" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<label x="182.88" y="66.04" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="68.58" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART2_RXD" class="0">
@@ -11770,6 +11756,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="198.12" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 <label x="182.88" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="GPIO1_30"/>
+<wire x1="53.34" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
+<label x="33.02" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART_DYN_DIR" class="0">
 <segment>
@@ -11822,6 +11813,25 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="167.64" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 <label x="182.88" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="GPIO1_17"/>
+<wire x1="53.34" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
+<label x="33.02" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_SCL" class="0">
+<segment>
+<pinref part="A1" gate="G$1" pin="I2C2_SCL"/>
+<wire x1="53.34" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
+<label x="33.02" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="&gt;NAME" pin="SCL"/>
+<wire x1="198.12" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<label x="182.88" y="66.04" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="68.58" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -12096,6 +12106,13 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="116.84" y1="170.18" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="UART_MSP_DIR" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="P2.0/TA1.0"/>
+<wire x1="58.42" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<label x="35.56" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12107,11 +12124,11 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="170.5864" y="108.2294" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="170.4594" y="105.1814" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="PAD1" gate="G$1" x="55.88" y="162.56" smashed="yes">
+<instance part="+12V" gate="G$1" x="55.88" y="162.56" smashed="yes">
 <attribute name="NAME" x="56.007" y="168.4782" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.007" y="165.608" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD2" gate="G$1" x="55.88" y="142.24" smashed="yes">
+<instance part="GND" gate="G$1" x="55.88" y="142.24" smashed="yes">
 <attribute name="NAME" x="56.007" y="147.6502" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.007" y="144.526" size="1.778" layer="96"/>
 </instance>
@@ -12199,7 +12216,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="81.28" y1="139.7" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="PAD2" gate="G$1" pin="P"/>
+<pinref part="GND" gate="G$1" pin="P"/>
 <wire x1="81.28" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="147.32" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
@@ -12236,7 +12253,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="PAD1" gate="G$1" pin="P"/>
+<pinref part="+12V" gate="G$1" pin="P"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 <wire x1="58.42" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="162.56" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
@@ -12328,6 +12345,42 @@ Source: AVX .. aphvc.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,3,198.12,99.06,U7,OUT,+10V,,,"/>
+<approved hash="104,3,165.1,99.06,U7,IN,+12V,,,"/>
+<approved hash="104,3,165.1,96.52,U7,TAB,+10V,,,"/>
+<approved hash="204,1,53.34,119.38,A1,VDD_3V3EXP,,,,"/>
+<approved hash="204,1,109.22,119.38,A1,VDD_3V3EXP,,,,"/>
+<approved hash="104,1,53.34,116.84,A1,VDD_5V,+5V,,,"/>
+<approved hash="104,1,109.22,116.84,A1,VDD_5V,+5V,,,"/>
+<approved hash="204,1,53.34,114.3,A1,SYS_5V,,,,"/>
+<approved hash="204,1,53.34,73.66,A1,AIN0,,,,"/>
+<approved hash="202,1,53.34,71.12,A1,CLKOUT2,,,,"/>
+<approved hash="104,2,58.42,86.36,U4,DVCC,+3V3,,,"/>
+<approved hash="104,2,200.66,86.36,U4,DVSS,GND,,,"/>
+<approved hash="104,1,58.42,25.4,U1,VCC,+5V,,,"/>
+<approved hash="104,1,96.52,27.94,U1,VRXD,+3V3,,,"/>
+<approved hash="202,1,96.52,20.32,U1,S,,,,"/>
+<approved hash="104,2,91.44,170.18,U3,VCC,+5V,,,"/>
+<approved hash="104,2,58.42,142.24,U5,VCC,+3V3,,,"/>
+<approved hash="208,1,99.06,30.48,+3V3,sup,,,,"/>
+<approved hash="208,1,190.5,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,175.26,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,254,83.82,+3V3,sup,,,,"/>
+<approved hash="208,2,20.32,93.98,+3V3,sup,,,,"/>
+<approved hash="208,2,256.54,91.44,+3V3,sup,,,,"/>
+<approved hash="208,2,55.88,144.78,+3V3,sup,,,,"/>
+<approved hash="208,3,190.5,165.1,+3V3,out,,,,"/>
+<approved hash="208,3,218.44,177.8,+3V3,sup,,,,"/>
+<approved hash="113,2,244.077,94.2061,JP1,,,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="113,1,124.943,25.9436,J1,,,,,"/>
+<approved hash="113,1,209.879,121.92,SJ3,,,,,"/>
+<approved hash="113,1,211.761,147.32,SJ2,,,,,"/>
+<approved hash="113,1,211.761,172.72,SJ1,,,,,"/>
+<approved hash="113,2,139.596,107.846,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

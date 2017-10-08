@@ -376,17 +376,6 @@ CONN_04
 <text x="-2.4384" y="1.9558" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="MOLEX-22-03-5035">
-<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.6" shape="square"/>
-<pad name="P$2" x="2.5" y="0" drill="0.9" diameter="1.6"/>
-<pad name="P$3" x="5" y="0" drill="0.9" diameter="1.6"/>
-<wire x1="-2.4384" y1="-3.0988" x2="7.45" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="7.4422" y1="1.8034" x2="-1.2446" y2="1.8034" width="0.127" layer="21"/>
-<wire x1="-2.4384" y1="0.6096" x2="-2.4384" y2="-3.0988" width="0.127" layer="21"/>
-<wire x1="7.4422" y1="1.8034" x2="7.45" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-1.2446" y1="1.8034" x2="-2.413" y2="0.635" width="0.127" layer="21"/>
-<text x="0" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
-</package>
 </packages>
 </library>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -2360,6 +2349,17 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <text x="-5" y="20" size="1.27" layer="21">&gt;VALUE</text>
 <text x="-5" y="22" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="MOLEX-22-03-5035">
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.6" shape="square"/>
+<pad name="P$2" x="2.5" y="0" drill="0.9" diameter="1.6"/>
+<pad name="P$3" x="5" y="0" drill="0.9" diameter="1.6"/>
+<wire x1="-2.4384" y1="-3.0988" x2="7.45" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="7.4422" y1="1.8034" x2="-1.2446" y2="1.8034" width="0.127" layer="21"/>
+<wire x1="-2.4384" y1="0.6096" x2="-2.4384" y2="-3.0988" width="0.127" layer="21"/>
+<wire x1="7.4422" y1="1.8034" x2="7.45" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-1.2446" y1="1.8034" x2="-2.413" y2="0.635" width="0.127" layer="21"/>
+<text x="0" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -2602,12 +2602,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="32.0294" y="19.431" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="27.94" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47k" x="31.75" y="12.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.242" y="9.652" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="100nF" x="26.67" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.162" y="9.652" size="1.27" layer="25" rot="R270"/>
-</element>
 <element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47k" x="29.21" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.702" y="9.652" size="1.27" layer="25" rot="R270"/>
 </element>
@@ -2647,7 +2641,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="10k" x="35.306" y="35.306" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.036" y="32.512" size="1.27" layer="25"/>
 </element>
-<element name="J2" library="bbb_cape_parts" package="MOLEX-22-03-5035" value="MOLEX-22-03-5035" x="39.37" y="39.37" smashed="yes" rot="R90">
+<element name="J2" library="bbb_localization_cape" package="MOLEX-22-03-5035" value="MOLEX-22-03-5035" x="39.37" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.18" y="37.338" size="1.27" layer="25"/>
 </element>
 <element name="U3" library="bbb_localization_cape" package="DCK5" value="SN74LV1T126DCKR" x="40.64" y="34.29" smashed="yes" rot="R90">
@@ -2674,7 +2668,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="C6" pad="2"/>
-<contactref element="C1" pad="2"/>
 <contactref element="U4" pad="20"/>
 <contactref element="C2" pad="2"/>
 <contactref element="PS1" pad="2"/>
@@ -2720,7 +2713,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="36.195" y1="21.6662" x2="31.73415" y2="27.36826875" width="0" layer="19" extent="1-1"/>
 <wire x1="25.015003125" y1="23.1394" x2="31.73415" y2="27.36826875" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="14.1" x2="25.015003125" y2="23.1394" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="14.1" x2="24.13" y2="14.1" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="4.445" x2="24.13" y2="14.1" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="1.905" x2="19.05" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="50.165" x2="26.67" y2="38.1" width="0" layer="19" extent="1-1"/>
@@ -2819,7 +2811,6 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="+3V3">
 <contactref element="C8" pad="1"/>
 <contactref element="U6" pad="3"/>
-<contactref element="R3" pad="2"/>
 <contactref element="U4" pad="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U1" pad="5"/>
@@ -2833,9 +2824,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="45.1" y1="33.3248" x2="58.42" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="38.735" y1="26.5938" x2="45.1" y2="33.3248" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="14.122" x2="38.735" y2="26.5938" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="11.278" x2="29.21" y2="14.122" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="11.278" x2="31.75" y2="11.278" width="0" layer="19" extent="1-1"/>
 <wire x1="25.015" y1="17.5006" x2="29.21" y2="14.122" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="11.278" x2="29.21" y2="14.122" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_3V3EXP">
 </signal>
@@ -2959,13 +2949,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SJ1" pad="3"/>
 <contactref element="A1" pad="69"/>
 <wire x1="46.99" y1="1.905" x2="40.894" y2="17.78" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$7">
-<contactref element="R3" pad="1"/>
-<contactref element="U4" pad="5"/>
-<contactref element="C1" pad="1"/>
-<wire x1="27.615" y1="17.5006" x2="31.75" y2="14.122" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="11.3" x2="31.75" y2="14.122" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TEST">
 <contactref element="U4" pad="17"/>

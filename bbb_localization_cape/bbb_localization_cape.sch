@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10695,98 +10695,98 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-31.75" y="-66.04" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-31.75" y="64.135" size="1.778" layer="95">P8</text>
 <text x="-31.75" y="-1.905" size="1.778" layer="95">P9</text>
-<pin name="GND@1" x="-27.94" y="-5.08" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="GND@2" x="27.94" y="-5.08" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
-<pin name="VDD_3V3EXP@1" x="-27.94" y="-7.62" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="VDD_3V3EXP@2" x="27.94" y="-7.62" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
-<pin name="VDD_5V@1" x="-27.94" y="-10.16" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="VDD_5V@2" x="27.94" y="-10.16" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
-<pin name="SYS_5V@1" x="-27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="SYS_5V@2" x="27.94" y="-12.7" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="PWR_BUT" x="-27.94" y="-15.24" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="SYS_RESETN" x="27.94" y="-15.24" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART4_RXD" x="-27.94" y="-17.78" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_28" x="27.94" y="-17.78" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART4_TXD" x="-27.94" y="-20.32" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="EHRPWM1A" x="27.94" y="-20.32" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_16" x="-27.94" y="-22.86" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="EHRPWM1B" x="27.94" y="-22.86" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="I2C1_SCL" x="-27.94" y="-25.4" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="I2C1_SDA" x="27.94" y="-25.4" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="I2C2_SCL" x="-27.94" y="-27.94" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="I2C2_SDA" x="27.94" y="-27.94" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART2_TXD" x="-27.94" y="-30.48" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART2_RXD" x="27.94" y="-30.48" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_17" x="-27.94" y="-33.02" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART1_TXD" x="27.94" y="-33.02" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO3_21" x="-27.94" y="-35.56" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART1_RXD" x="27.94" y="-35.56" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO3_19" x="-27.94" y="-38.1" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="SPI1_CS0" x="27.94" y="-38.1" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="SPI1_DO" x="-27.94" y="-40.64" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="SPI1_DI" x="27.94" y="-40.64" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="SPI1_SCLK" x="-27.94" y="-43.18" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="VDD_ADC" x="27.94" y="-43.18" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="AIN4" x="-27.94" y="-45.72" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GNDA_ADC" x="27.94" y="-45.72" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="AIN6" x="-27.94" y="-48.26" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="AIN5" x="27.94" y="-48.26" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="AIN2" x="-27.94" y="-50.8" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="AIN3" x="27.94" y="-50.8" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="AIN0" x="-27.94" y="-53.34" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="AIN1" x="27.94" y="-53.34" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="CLKOUT2" x="-27.94" y="-55.88" visible="pin" length="short" direction="in" function="dot"/>
-<pin name="GPIO0_7" x="27.94" y="-55.88" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GND@3" x="-27.94" y="-58.42" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="GND@5" x="27.94" y="-58.42" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
-<pin name="GND@4" x="-27.94" y="-60.96" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="GND@6" x="27.94" y="-60.96" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
-<pin name="GND@7" x="-27.94" y="60.96" visible="pin" length="short" direction="pwr" function="dot"/>
-<pin name="GND@8" x="27.94" y="60.96" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
-<pin name="GPIO1_6" x="-27.94" y="58.42" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_7" x="27.94" y="58.42" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_2" x="-27.94" y="55.88" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_3" x="27.94" y="55.88" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="TIMER4" x="-27.94" y="53.34" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="TIMER7" x="27.94" y="53.34" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="TIMER5" x="-27.94" y="50.8" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="TIMER6" x="27.94" y="50.8" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_13" x="-27.94" y="48.26" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_12" x="27.94" y="48.26" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="EHRPWM2B" x="-27.94" y="45.72" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO0_26" x="27.94" y="45.72" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_15" x="-27.94" y="43.18" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_14" x="27.94" y="43.18" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO0_27" x="-27.94" y="40.64" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_1" x="27.94" y="40.64" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="EHRPWM2A" x="-27.94" y="38.1" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_31" x="27.94" y="38.1" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_30" x="-27.94" y="35.56" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_5" x="27.94" y="35.56" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_4" x="-27.94" y="33.02" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_1" x="27.94" y="33.02" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO1_0" x="-27.94" y="30.48" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO1_29" x="27.94" y="30.48" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO2_22" x="-27.94" y="27.94" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_24" x="27.94" y="27.94" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO2_23" x="-27.94" y="25.4" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_25" x="27.94" y="25.4" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART5_CTSN" x="-27.94" y="22.86" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART5_RTSN" x="27.94" y="22.86" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART4_RTSN" x="-27.94" y="20.32" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART3_RTSN" x="27.94" y="20.32" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART4_CTSN" x="-27.94" y="17.78" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART3_CTSN" x="27.94" y="17.78" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="UART5_TXD" x="-27.94" y="15.24" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="UART5_RXD" x="27.94" y="15.24" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO2_12" x="-27.94" y="12.7" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_13" x="27.94" y="12.7" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO2_10" x="-27.94" y="10.16" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_11" x="27.94" y="10.16" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO2_8" x="-27.94" y="7.62" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_9" x="27.94" y="7.62" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GPIO2_6" x="-27.94" y="5.08" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="GPIO2_7" x="27.94" y="5.08" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="01.DGND@P9" x="-27.94" y="-5.08" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="GND.02@P9" x="27.94" y="-5.08" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="03.VDD_3V3@P9" x="-27.94" y="-7.62" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="VDD_3V3.04@P9" x="27.94" y="-7.62" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="05.VDD_5V@P9" x="-27.94" y="-10.16" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="VDD_5V.06@P9" x="27.94" y="-10.16" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="07.SYS_5V@P9" x="-27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="SYS_5V.08@P9" x="27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="09.PWR_BUT@P9" x="-27.94" y="-15.24" visible="pin" length="short" direction="in" function="dot"/>
+<pin name="SYS_RESETN.10@P9" x="27.94" y="-15.24" visible="pin" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="11@P9" x="-27.94" y="-17.78" visible="pin" length="short" function="dot"/>
+<pin name="12@P9" x="27.94" y="-17.78" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="13@P9" x="-27.94" y="-20.32" visible="pin" length="short" function="dot"/>
+<pin name="14@P9" x="27.94" y="-20.32" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="15@P9" x="-27.94" y="-22.86" visible="pin" length="short" function="dot"/>
+<pin name="16@P9" x="27.94" y="-22.86" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="17@P9" x="-27.94" y="-25.4" visible="pin" length="short" function="dot"/>
+<pin name="18@P9" x="27.94" y="-25.4" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="19@P9" x="-27.94" y="-27.94" visible="pin" length="short" function="dot"/>
+<pin name="20@P9" x="27.94" y="-27.94" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="21@P9" x="-27.94" y="-30.48" visible="pin" length="short" function="dot"/>
+<pin name="22@P9" x="27.94" y="-30.48" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="23@P9" x="-27.94" y="-33.02" visible="pin" length="short" function="dot"/>
+<pin name="24@P9" x="27.94" y="-33.02" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="25@P9" x="-27.94" y="-35.56" visible="pin" length="short" function="dot"/>
+<pin name="26@P9" x="27.94" y="-35.56" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="27@P9" x="-27.94" y="-38.1" visible="pin" length="short" function="dot"/>
+<pin name="28@P9" x="27.94" y="-38.1" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="29@P9" x="-27.94" y="-40.64" visible="pin" length="short" function="dot"/>
+<pin name="30@P9" x="27.94" y="-40.64" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="31@P9" x="-27.94" y="-43.18" visible="pin" length="short" function="dot"/>
+<pin name="VDD_ADC.32@P9" x="27.94" y="-43.18" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="33.AIN4@P9" x="-27.94" y="-45.72" visible="pin" length="short" direction="in" function="dot"/>
+<pin name="GNDA_ADC.34@P9" x="27.94" y="-45.72" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="35.AIN6@P9" x="-27.94" y="-48.26" visible="pin" length="short" direction="in" function="dot"/>
+<pin name="AIN5.36@P9" x="27.94" y="-48.26" visible="pin" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="37.AIN2@P9" x="-27.94" y="-50.8" visible="pin" length="short" direction="in" function="dot"/>
+<pin name="AIN3.38@P9" x="27.94" y="-50.8" visible="pin" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="39.AIN0@P9" x="-27.94" y="-53.34" visible="pin" length="short" direction="in" function="dot"/>
+<pin name="AIN1.40@P9" x="27.94" y="-53.34" visible="pin" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="41@P9" x="-27.94" y="-55.88" visible="pin" length="short" function="dot"/>
+<pin name="42@P9" x="27.94" y="-55.88" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="43.DGND@P9" x="-27.94" y="-58.42" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="DGND.44@P9" x="27.94" y="-58.42" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="45.DGND@P9" x="-27.94" y="-60.96" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="DGND.46@P9" x="27.94" y="-60.96" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="01.DGND@P8" x="-27.94" y="60.96" visible="pin" length="short" direction="pwr" function="dot"/>
+<pin name="DGND.02@P8" x="27.94" y="60.96" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
+<pin name="03@P8" x="-27.94" y="58.42" visible="pin" length="short" function="dot"/>
+<pin name="04@P8" x="27.94" y="58.42" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="05@P8" x="-27.94" y="55.88" visible="pin" length="short" function="dot"/>
+<pin name="06@P8" x="27.94" y="55.88" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="07@P8" x="-27.94" y="53.34" visible="pin" length="short" function="dot"/>
+<pin name="08@P8" x="27.94" y="53.34" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="09@P8" x="-27.94" y="50.8" visible="pin" length="short" function="dot"/>
+<pin name="10@P8" x="27.94" y="50.8" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="11@P8" x="-27.94" y="48.26" visible="pin" length="short" function="dot"/>
+<pin name="12@P8" x="27.94" y="48.26" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="13@P8" x="-27.94" y="45.72" visible="pin" length="short" function="dot"/>
+<pin name="14@P8" x="27.94" y="45.72" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="15@P8" x="-27.94" y="43.18" visible="pin" length="short" function="dot"/>
+<pin name="16@P8" x="27.94" y="43.18" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="17@P8" x="-27.94" y="40.64" visible="pin" length="short" function="dot"/>
+<pin name="18@P8" x="27.94" y="40.64" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="19@P8" x="-27.94" y="38.1" visible="pin" length="short" function="dot"/>
+<pin name="20@P8" x="27.94" y="38.1" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="21@P8" x="-27.94" y="35.56" visible="pin" length="short" function="dot"/>
+<pin name="22@P8" x="27.94" y="35.56" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="23@P8" x="-27.94" y="33.02" visible="pin" length="short" function="dot"/>
+<pin name="24@P8" x="27.94" y="33.02" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="25@P8" x="-27.94" y="30.48" visible="pin" length="short" function="dot"/>
+<pin name="26@P8" x="27.94" y="30.48" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="27@P8" x="-27.94" y="27.94" visible="pin" length="short" function="dot"/>
+<pin name="28@P8" x="27.94" y="27.94" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="29@P8" x="-27.94" y="25.4" visible="pin" length="short" function="dot"/>
+<pin name="30@P8" x="27.94" y="25.4" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="31@P8" x="-27.94" y="22.86" visible="pin" length="short" function="dot"/>
+<pin name="32@P8" x="27.94" y="22.86" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="33@P8" x="-27.94" y="20.32" visible="pin" length="short" function="dot"/>
+<pin name="34@P8" x="27.94" y="20.32" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="35@P8" x="-27.94" y="17.78" visible="pin" length="short" function="dot"/>
+<pin name="36@P8" x="27.94" y="17.78" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="37@P8" x="-27.94" y="15.24" visible="pin" length="short" function="dot"/>
+<pin name="38@P8" x="27.94" y="15.24" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="39@P8" x="-27.94" y="12.7" visible="pin" length="short" function="dot"/>
+<pin name="40@P8" x="27.94" y="12.7" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="41@P8" x="-27.94" y="10.16" visible="pin" length="short" function="dot"/>
+<pin name="42@P8" x="27.94" y="10.16" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="43@P8" x="-27.94" y="7.62" visible="pin" length="short" function="dot"/>
+<pin name="44@P8" x="27.94" y="7.62" visible="pin" length="short" function="dot" rot="R180"/>
+<pin name="45@P8" x="-27.94" y="5.08" visible="pin" length="short" function="dot"/>
+<pin name="46@P8" x="27.94" y="5.08" visible="pin" length="short" function="dot" rot="R180"/>
 </symbol>
 <symbol name="V78-2000">
 <description>SERIES: V78-2000 │ DESCRIPTION: NON-ISOLATED SWITCHING REGULATOR</description>
@@ -11116,98 +11116,98 @@ Source: AVX .. aphvc.pdf</description>
 <devices>
 <device name="" package="BEAGLEBONE_SHIELD">
 <connects>
-<connect gate="G$1" pin="AIN0" pad="85"/>
-<connect gate="G$1" pin="AIN1" pad="86"/>
-<connect gate="G$1" pin="AIN2" pad="83"/>
-<connect gate="G$1" pin="AIN3" pad="84"/>
-<connect gate="G$1" pin="AIN4" pad="79"/>
-<connect gate="G$1" pin="AIN5" pad="82"/>
-<connect gate="G$1" pin="AIN6" pad="81"/>
-<connect gate="G$1" pin="CLKOUT2" pad="87"/>
-<connect gate="G$1" pin="EHRPWM1A" pad="60"/>
-<connect gate="G$1" pin="EHRPWM1B" pad="62"/>
-<connect gate="G$1" pin="EHRPWM2A" pad="19"/>
-<connect gate="G$1" pin="EHRPWM2B" pad="13"/>
-<connect gate="G$1" pin="GND@1" pad="47"/>
-<connect gate="G$1" pin="GND@2" pad="48"/>
-<connect gate="G$1" pin="GND@3" pad="89"/>
-<connect gate="G$1" pin="GND@4" pad="91"/>
-<connect gate="G$1" pin="GND@5" pad="90"/>
-<connect gate="G$1" pin="GND@6" pad="92"/>
-<connect gate="G$1" pin="GND@7" pad="1"/>
-<connect gate="G$1" pin="GND@8" pad="2"/>
-<connect gate="G$1" pin="GNDA_ADC" pad="80"/>
-<connect gate="G$1" pin="GPIO0_26" pad="14"/>
-<connect gate="G$1" pin="GPIO0_27" pad="17"/>
-<connect gate="G$1" pin="GPIO0_7" pad="88"/>
-<connect gate="G$1" pin="GPIO1_0" pad="25"/>
-<connect gate="G$1" pin="GPIO1_1" pad="24"/>
-<connect gate="G$1" pin="GPIO1_12" pad="12"/>
-<connect gate="G$1" pin="GPIO1_13" pad="11"/>
-<connect gate="G$1" pin="GPIO1_14" pad="16"/>
-<connect gate="G$1" pin="GPIO1_15" pad="15"/>
-<connect gate="G$1" pin="GPIO1_16" pad="61"/>
-<connect gate="G$1" pin="GPIO1_17" pad="69"/>
-<connect gate="G$1" pin="GPIO1_2" pad="5"/>
-<connect gate="G$1" pin="GPIO1_28" pad="58"/>
-<connect gate="G$1" pin="GPIO1_29" pad="26"/>
-<connect gate="G$1" pin="GPIO1_3" pad="6"/>
-<connect gate="G$1" pin="GPIO1_30" pad="21"/>
-<connect gate="G$1" pin="GPIO1_31" pad="20"/>
-<connect gate="G$1" pin="GPIO1_4" pad="23"/>
-<connect gate="G$1" pin="GPIO1_5" pad="22"/>
-<connect gate="G$1" pin="GPIO1_6" pad="3"/>
-<connect gate="G$1" pin="GPIO1_7" pad="4"/>
-<connect gate="G$1" pin="GPIO2_1" pad="18"/>
-<connect gate="G$1" pin="GPIO2_10" pad="41"/>
-<connect gate="G$1" pin="GPIO2_11" pad="42"/>
-<connect gate="G$1" pin="GPIO2_12" pad="39"/>
-<connect gate="G$1" pin="GPIO2_13" pad="40"/>
-<connect gate="G$1" pin="GPIO2_22" pad="27"/>
-<connect gate="G$1" pin="GPIO2_23" pad="29"/>
-<connect gate="G$1" pin="GPIO2_24" pad="28"/>
-<connect gate="G$1" pin="GPIO2_25" pad="30"/>
-<connect gate="G$1" pin="GPIO2_6" pad="45"/>
-<connect gate="G$1" pin="GPIO2_7" pad="46"/>
-<connect gate="G$1" pin="GPIO2_8" pad="43"/>
-<connect gate="G$1" pin="GPIO2_9" pad="44"/>
-<connect gate="G$1" pin="GPIO3_19" pad="73"/>
-<connect gate="G$1" pin="GPIO3_21" pad="71"/>
-<connect gate="G$1" pin="I2C1_SCL" pad="63"/>
-<connect gate="G$1" pin="I2C1_SDA" pad="64"/>
-<connect gate="G$1" pin="I2C2_SCL" pad="65"/>
-<connect gate="G$1" pin="I2C2_SDA" pad="66"/>
-<connect gate="G$1" pin="PWR_BUT" pad="55"/>
-<connect gate="G$1" pin="SPI1_CS0" pad="74"/>
-<connect gate="G$1" pin="SPI1_DI" pad="76"/>
-<connect gate="G$1" pin="SPI1_DO" pad="75"/>
-<connect gate="G$1" pin="SPI1_SCLK" pad="77"/>
-<connect gate="G$1" pin="SYS_5V@1" pad="53"/>
-<connect gate="G$1" pin="SYS_5V@2" pad="54"/>
-<connect gate="G$1" pin="SYS_RESETN" pad="56"/>
-<connect gate="G$1" pin="TIMER4" pad="7"/>
-<connect gate="G$1" pin="TIMER5" pad="9"/>
-<connect gate="G$1" pin="TIMER6" pad="10"/>
-<connect gate="G$1" pin="TIMER7" pad="8"/>
-<connect gate="G$1" pin="UART1_RXD" pad="72"/>
-<connect gate="G$1" pin="UART1_TXD" pad="70"/>
-<connect gate="G$1" pin="UART2_RXD" pad="68"/>
-<connect gate="G$1" pin="UART2_TXD" pad="67"/>
-<connect gate="G$1" pin="UART3_CTSN" pad="36"/>
-<connect gate="G$1" pin="UART3_RTSN" pad="34"/>
-<connect gate="G$1" pin="UART4_CTSN" pad="35"/>
-<connect gate="G$1" pin="UART4_RTSN" pad="33"/>
-<connect gate="G$1" pin="UART4_RXD" pad="57"/>
-<connect gate="G$1" pin="UART4_TXD" pad="59"/>
-<connect gate="G$1" pin="UART5_CTSN" pad="31"/>
-<connect gate="G$1" pin="UART5_RTSN" pad="32"/>
-<connect gate="G$1" pin="UART5_RXD" pad="38"/>
-<connect gate="G$1" pin="UART5_TXD" pad="37"/>
-<connect gate="G$1" pin="VDD_3V3EXP@1" pad="49"/>
-<connect gate="G$1" pin="VDD_3V3EXP@2" pad="50"/>
-<connect gate="G$1" pin="VDD_5V@1" pad="51"/>
-<connect gate="G$1" pin="VDD_5V@2" pad="52"/>
-<connect gate="G$1" pin="VDD_ADC" pad="78"/>
+<connect gate="G$1" pin="01.DGND@P8" pad="1"/>
+<connect gate="G$1" pin="01.DGND@P9" pad="47"/>
+<connect gate="G$1" pin="03.VDD_3V3@P9" pad="49"/>
+<connect gate="G$1" pin="03@P8" pad="3"/>
+<connect gate="G$1" pin="04@P8" pad="4"/>
+<connect gate="G$1" pin="05.VDD_5V@P9" pad="51"/>
+<connect gate="G$1" pin="05@P8" pad="5"/>
+<connect gate="G$1" pin="06@P8" pad="6"/>
+<connect gate="G$1" pin="07.SYS_5V@P9" pad="53"/>
+<connect gate="G$1" pin="07@P8" pad="7"/>
+<connect gate="G$1" pin="08@P8" pad="8"/>
+<connect gate="G$1" pin="09.PWR_BUT@P9" pad="55"/>
+<connect gate="G$1" pin="09@P8" pad="9"/>
+<connect gate="G$1" pin="10@P8" pad="10"/>
+<connect gate="G$1" pin="11@P8" pad="11"/>
+<connect gate="G$1" pin="11@P9" pad="57"/>
+<connect gate="G$1" pin="12@P8" pad="12"/>
+<connect gate="G$1" pin="12@P9" pad="58"/>
+<connect gate="G$1" pin="13@P8" pad="13"/>
+<connect gate="G$1" pin="13@P9" pad="59"/>
+<connect gate="G$1" pin="14@P8" pad="14"/>
+<connect gate="G$1" pin="14@P9" pad="60"/>
+<connect gate="G$1" pin="15@P8" pad="15"/>
+<connect gate="G$1" pin="15@P9" pad="61"/>
+<connect gate="G$1" pin="16@P8" pad="16"/>
+<connect gate="G$1" pin="16@P9" pad="62"/>
+<connect gate="G$1" pin="17@P8" pad="17"/>
+<connect gate="G$1" pin="17@P9" pad="63"/>
+<connect gate="G$1" pin="18@P8" pad="18"/>
+<connect gate="G$1" pin="18@P9" pad="64"/>
+<connect gate="G$1" pin="19@P8" pad="19"/>
+<connect gate="G$1" pin="19@P9" pad="65"/>
+<connect gate="G$1" pin="20@P8" pad="20"/>
+<connect gate="G$1" pin="20@P9" pad="66"/>
+<connect gate="G$1" pin="21@P8" pad="21"/>
+<connect gate="G$1" pin="21@P9" pad="67"/>
+<connect gate="G$1" pin="22@P8" pad="22"/>
+<connect gate="G$1" pin="22@P9" pad="68"/>
+<connect gate="G$1" pin="23@P8" pad="23"/>
+<connect gate="G$1" pin="23@P9" pad="69"/>
+<connect gate="G$1" pin="24@P8" pad="24"/>
+<connect gate="G$1" pin="24@P9" pad="70"/>
+<connect gate="G$1" pin="25@P8" pad="25"/>
+<connect gate="G$1" pin="25@P9" pad="71"/>
+<connect gate="G$1" pin="26@P8" pad="26"/>
+<connect gate="G$1" pin="26@P9" pad="72"/>
+<connect gate="G$1" pin="27@P8" pad="27"/>
+<connect gate="G$1" pin="27@P9" pad="73"/>
+<connect gate="G$1" pin="28@P8" pad="28"/>
+<connect gate="G$1" pin="28@P9" pad="74"/>
+<connect gate="G$1" pin="29@P8" pad="29"/>
+<connect gate="G$1" pin="29@P9" pad="75"/>
+<connect gate="G$1" pin="30@P8" pad="30"/>
+<connect gate="G$1" pin="30@P9" pad="76"/>
+<connect gate="G$1" pin="31@P8" pad="31"/>
+<connect gate="G$1" pin="31@P9" pad="77"/>
+<connect gate="G$1" pin="32@P8" pad="32"/>
+<connect gate="G$1" pin="33.AIN4@P9" pad="79"/>
+<connect gate="G$1" pin="33@P8" pad="33"/>
+<connect gate="G$1" pin="34@P8" pad="34"/>
+<connect gate="G$1" pin="35.AIN6@P9" pad="81"/>
+<connect gate="G$1" pin="35@P8" pad="35"/>
+<connect gate="G$1" pin="36@P8" pad="36"/>
+<connect gate="G$1" pin="37.AIN2@P9" pad="83"/>
+<connect gate="G$1" pin="37@P8" pad="37"/>
+<connect gate="G$1" pin="38@P8" pad="38"/>
+<connect gate="G$1" pin="39.AIN0@P9" pad="85"/>
+<connect gate="G$1" pin="39@P8" pad="39"/>
+<connect gate="G$1" pin="40@P8" pad="40"/>
+<connect gate="G$1" pin="41@P8" pad="41"/>
+<connect gate="G$1" pin="41@P9" pad="87"/>
+<connect gate="G$1" pin="42@P8" pad="42"/>
+<connect gate="G$1" pin="42@P9" pad="88"/>
+<connect gate="G$1" pin="43.DGND@P9" pad="89"/>
+<connect gate="G$1" pin="43@P8" pad="43"/>
+<connect gate="G$1" pin="44@P8" pad="44"/>
+<connect gate="G$1" pin="45.DGND@P9" pad="91"/>
+<connect gate="G$1" pin="45@P8" pad="45"/>
+<connect gate="G$1" pin="46@P8" pad="46"/>
+<connect gate="G$1" pin="AIN1.40@P9" pad="86"/>
+<connect gate="G$1" pin="AIN3.38@P9" pad="84"/>
+<connect gate="G$1" pin="AIN5.36@P9" pad="82"/>
+<connect gate="G$1" pin="DGND.02@P8" pad="2"/>
+<connect gate="G$1" pin="DGND.44@P9" pad="90"/>
+<connect gate="G$1" pin="DGND.46@P9" pad="92"/>
+<connect gate="G$1" pin="GND.02@P9" pad="48"/>
+<connect gate="G$1" pin="GNDA_ADC.34@P9" pad="80"/>
+<connect gate="G$1" pin="SYS_5V.08@P9" pad="54"/>
+<connect gate="G$1" pin="SYS_RESETN.10@P9" pad="56"/>
+<connect gate="G$1" pin="VDD_3V3.04@P9" pad="50"/>
+<connect gate="G$1" pin="VDD_5V.06@P9" pad="52"/>
+<connect gate="G$1" pin="VDD_ADC.32@P9" pad="78"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11425,12 +11425,12 @@ Source: AVX .. aphvc.pdf</description>
 <nets>
 <net name="+5V" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="VDD_5V@1"/>
+<pinref part="A1" gate="G$1" pin="05.VDD_5V@P9"/>
 <wire x1="53.34" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <label x="33.02" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="VDD_5V@2"/>
+<pinref part="A1" gate="G$1" pin="VDD_5V.06@P9"/>
 <wire x1="109.22" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="129.54" y="116.84" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11451,12 +11451,12 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GND@1"/>
+<pinref part="A1" gate="G$1" pin="01.DGND@P9"/>
 <wire x1="53.34" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
 <label x="33.02" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="GND@2"/>
+<pinref part="A1" gate="G$1" pin="GND.02@P9"/>
 <wire x1="109.22" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <label x="129.54" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11479,10 +11479,40 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="231.14" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
 <label x="246.38" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="01.DGND@P8"/>
+<wire x1="53.34" y1="187.96" x2="33.02" y2="187.96" width="0.1524" layer="91"/>
+<label x="33.02" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="DGND.02@P8"/>
+<wire x1="109.22" y1="187.96" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
+<label x="129.54" y="187.96" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="43.DGND@P9"/>
+<wire x1="53.34" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="33.02" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="45.DGND@P9"/>
+<wire x1="53.34" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+<label x="33.02" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="DGND.44@P9"/>
+<wire x1="109.22" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<label x="129.54" y="68.58" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="DGND.46@P9"/>
+<wire x1="109.22" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="129.54" y="66.04" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="DCAN1_RX" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="UART1_TXD"/>
+<pinref part="A1" gate="G$1" pin="24@P9"/>
 <wire x1="109.22" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <label x="129.54" y="93.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11494,7 +11524,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="DCAN1_TX" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="UART1_RXD"/>
+<pinref part="A1" gate="G$1" pin="26@P9"/>
 <wire x1="109.22" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 <label x="129.54" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11504,9 +11534,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="40.64" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="I2C_SDA" class="0">
+<net name="I2C2_SDA" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="I2C2_SDA"/>
+<pinref part="A1" gate="G$1" pin="20@P9"/>
 <wire x1="109.22" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
 <label x="129.54" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11520,7 +11550,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="UART2_RXD" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="UART2_RXD"/>
+<pinref part="A1" gate="G$1" pin="22@P9"/>
 <wire x1="109.22" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <label x="129.54" y="96.52" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11533,7 +11563,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="UART2_TXD" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="UART2_TXD"/>
+<pinref part="A1" gate="G$1" pin="21@P9"/>
 <wire x1="53.34" y1="96.52" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
 <label x="33.02" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -11546,7 +11576,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_1" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_7"/>
+<pinref part="A1" gate="G$1" pin="46@P8"/>
 <wire x1="109.22" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <label x="129.54" y="132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11558,7 +11588,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_3" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_9"/>
+<pinref part="A1" gate="G$1" pin="44@P8"/>
 <wire x1="109.22" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <label x="129.54" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11570,7 +11600,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_5" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_11"/>
+<pinref part="A1" gate="G$1" pin="42@P8"/>
 <wire x1="109.22" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="129.54" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11582,7 +11612,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_7" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_13"/>
+<pinref part="A1" gate="G$1" pin="40@P8"/>
 <wire x1="109.22" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <label x="129.54" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11594,7 +11624,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_0" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_6"/>
+<pinref part="A1" gate="G$1" pin="45@P8"/>
 <wire x1="53.34" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
 <label x="33.02" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -11606,7 +11636,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_2" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_8"/>
+<pinref part="A1" gate="G$1" pin="43@P8"/>
 <wire x1="53.34" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 <label x="33.02" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -11618,7 +11648,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_4" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_10"/>
+<pinref part="A1" gate="G$1" pin="41@P8"/>
 <wire x1="53.34" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
 <label x="33.02" y="137.16" size="1.778" layer="95"/>
 </segment>
@@ -11630,7 +11660,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_6" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_12"/>
+<pinref part="A1" gate="G$1" pin="39@P8"/>
 <wire x1="53.34" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
 <label x="33.02" y="139.7" size="1.778" layer="95"/>
 </segment>
@@ -11642,7 +11672,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_9" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_23"/>
+<pinref part="A1" gate="G$1" pin="29@P8"/>
 <wire x1="53.34" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="33.02" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -11654,7 +11684,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_8" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_22"/>
+<pinref part="A1" gate="G$1" pin="27@P8"/>
 <wire x1="53.34" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <label x="33.02" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -11666,7 +11696,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_11" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_25"/>
+<pinref part="A1" gate="G$1" pin="30@P8"/>
 <wire x1="109.22" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <label x="129.54" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11678,7 +11708,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PRU1_10" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO2_24"/>
+<pinref part="A1" gate="G$1" pin="28@P8"/>
 <wire x1="109.22" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="129.54" y="154.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -11690,7 +11720,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="TIMER4" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="TIMER4"/>
+<pinref part="A1" gate="G$1" pin="07@P8"/>
 <wire x1="53.34" y1="180.34" x2="33.02" y2="180.34" width="0.1524" layer="91"/>
 <label x="33.02" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -11702,7 +11732,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PWDN" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO1_0"/>
+<pinref part="A1" gate="G$1" pin="25@P8"/>
 <wire x1="53.34" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="33.02" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -11757,7 +11787,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO1_30"/>
+<pinref part="A1" gate="G$1" pin="21@P8"/>
 <wire x1="53.34" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
 <label x="33.02" y="162.56" size="1.778" layer="95"/>
 </segment>
@@ -11815,14 +11845,14 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="GPIO1_17"/>
+<pinref part="A1" gate="G$1" pin="23@P9"/>
 <wire x1="53.34" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="33.02" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="I2C_SCL" class="0">
+<net name="I2C2_SCL" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="I2C2_SCL"/>
+<pinref part="A1" gate="G$1" pin="19@P9"/>
 <wire x1="53.34" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="33.02" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -12013,7 +12043,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="243.84" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="I2C_SDA" class="0">
+<net name="I2C2_SDA" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI"/>
 <wire x1="200.66" y1="73.66" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
@@ -12034,7 +12064,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="35.56" y="78.74" size="1.778" layer="95" rot="SR0"/>
 </segment>
 </net>
-<net name="I2C_SCL" class="0">
+<net name="I2C2_SCL" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK"/>
 <wire x1="200.66" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
@@ -12349,13 +12379,6 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,3,198.12,99.06,U7,OUT,+10V,,,"/>
 <approved hash="104,3,165.1,99.06,U7,IN,+12V,,,"/>
 <approved hash="104,3,165.1,96.52,U7,TAB,+10V,,,"/>
-<approved hash="204,1,53.34,119.38,A1,VDD_3V3EXP,,,,"/>
-<approved hash="204,1,109.22,119.38,A1,VDD_3V3EXP,,,,"/>
-<approved hash="104,1,53.34,116.84,A1,VDD_5V,+5V,,,"/>
-<approved hash="104,1,109.22,116.84,A1,VDD_5V,+5V,,,"/>
-<approved hash="204,1,53.34,114.3,A1,SYS_5V,,,,"/>
-<approved hash="204,1,53.34,73.66,A1,AIN0,,,,"/>
-<approved hash="202,1,53.34,71.12,A1,CLKOUT2,,,,"/>
 <approved hash="104,2,58.42,86.36,U4,DVCC,+3V3,,,"/>
 <approved hash="104,2,200.66,86.36,U4,DVSS,GND,,,"/>
 <approved hash="104,1,58.42,25.4,U1,VCC,+5V,,,"/>

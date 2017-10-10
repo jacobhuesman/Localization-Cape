@@ -1,2 +1,2 @@
 # bbb_localization_cape
-BeagleBone Black cape for localization project
+BeagleBone Black Cape for Localization Project

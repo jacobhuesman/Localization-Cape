@@ -2007,7 +2007,7 @@
 <pin name="07.SYS_5V@P9" x="-27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot"/>
 <pin name="SYS_5V.08@P9" x="27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
 <pin name="09.PWR_BUT@P9" x="-27.94" y="-15.24" visible="pin" length="short" direction="in" function="dot"/>
-<pin name="SYS_RESETN.10@P9" x="27.94" y="-15.24" visible="pin" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="SYS_RESETN.10@P9" x="27.94" y="-15.24" visible="pin" length="short" function="dot" rot="R180"/>
 <pin name="11@P9" x="-27.94" y="-17.78" visible="pin" length="short" function="dot"/>
 <pin name="12@P9" x="27.94" y="-17.78" visible="pin" length="short" function="dot" rot="R180"/>
 <pin name="13@P9" x="-27.94" y="-20.32" visible="pin" length="short" function="dot"/>

@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -10672,7 +10672,7 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="07.SYS_5V@P9" x="-27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot"/>
 <pin name="SYS_5V.08@P9" x="27.94" y="-12.7" visible="pin" length="short" direction="pwr" function="dot" rot="R180"/>
 <pin name="09.PWR_BUT@P9" x="-27.94" y="-15.24" visible="pin" length="short" direction="in" function="dot"/>
-<pin name="SYS_RESETN.10@P9" x="27.94" y="-15.24" visible="pin" length="short" direction="in" function="dot" rot="R180"/>
+<pin name="SYS_RESETN.10@P9" x="27.94" y="-15.24" visible="pin" length="short" function="dot" rot="R180"/>
 <pin name="11@P9" x="-27.94" y="-17.78" visible="pin" length="short" function="dot"/>
 <pin name="12@P9" x="27.94" y="-17.78" visible="pin" length="short" function="dot" rot="R180"/>
 <pin name="13@P9" x="-27.94" y="-20.32" visible="pin" length="short" function="dot"/>
@@ -11695,13 +11695,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PRU1_11" class="1">
-<segment>
-<pinref part="A1" gate="G$1" pin="30@P8"/>
-<wire x1="109.22" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<label x="129.54" y="152.4" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="PRU1_10" class="1">
 <segment>
 <pinref part="A1" gate="G$1" pin="28@P8"/>
@@ -11774,13 +11767,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="A" pin="CANH"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="96.52" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PRU1_12" class="1">
-<segment>
-<pinref part="A1" gate="G$1" pin="21@P8"/>
-<wire x1="53.34" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
-<label x="33.02" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_DYN_DIR" class="0">
@@ -12372,23 +12358,48 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,3,198.12,99.06,U7,OUT,+10V,,,"/>
 <approved hash="104,3,165.1,99.06,U7,IN,+12V,,,"/>
 <approved hash="104,3,165.1,96.52,U7,TAB,+10V,,,"/>
-<approved hash="104,2,58.42,86.36,U4,DVCC,+3V3,,,"/>
-<approved hash="104,2,200.66,86.36,U4,DVSS,GND,,,"/>
+<approved hash="104,1,53.34,121.92,A1,01.DGND,GND,,,"/>
+<approved hash="104,1,109.22,121.92,A1,GND.02,GND,,,"/>
+<approved hash="204,1,53.34,119.38,A1,03.VDD_3V3,,,,"/>
+<approved hash="204,1,109.22,119.38,A1,VDD_3V3.04,,,,"/>
+<approved hash="104,1,53.34,116.84,A1,05.VDD_5V,+5V,,,"/>
+<approved hash="104,1,109.22,116.84,A1,VDD_5V.06,+5V,,,"/>
+<approved hash="204,1,53.34,114.3,A1,07.SYS_5V,,,,"/>
+<approved hash="204,1,109.22,114.3,A1,SYS_5V.08,,,,"/>
+<approved hash="202,1,53.34,111.76,A1,09.PWR_BUT,,,,"/>
+<approved hash="204,1,109.22,83.82,A1,VDD_ADC.32,,,,"/>
+<approved hash="202,1,53.34,81.28,A1,33.AIN4,,,,"/>
+<approved hash="204,1,109.22,81.28,A1,GNDA_ADC.34,,,,"/>
+<approved hash="202,1,53.34,78.74,A1,35.AIN6,,,,"/>
+<approved hash="202,1,109.22,78.74,A1,AIN5.36,,,,"/>
+<approved hash="202,1,53.34,76.2,A1,37.AIN2,,,,"/>
+<approved hash="202,1,109.22,76.2,A1,AIN3.38,,,,"/>
+<approved hash="202,1,53.34,73.66,A1,39.AIN0,,,,"/>
+<approved hash="202,1,109.22,73.66,A1,AIN1.40,,,,"/>
+<approved hash="104,1,53.34,68.58,A1,43.DGND,GND,,,"/>
+<approved hash="104,1,109.22,68.58,A1,DGND.44,GND,,,"/>
+<approved hash="104,1,53.34,66.04,A1,45.DGND,GND,,,"/>
+<approved hash="104,1,109.22,66.04,A1,DGND.46,GND,,,"/>
+<approved hash="104,1,53.34,187.96,A1,01.DGND,GND,,,"/>
+<approved hash="104,1,109.22,187.96,A1,DGND.02,GND,,,"/>
+<approved hash="104,2,45.72,165.1,U4,DVCC,+3V3,,,"/>
+<approved hash="104,2,187.96,165.1,U4,DVSS,GND,,,"/>
 <approved hash="104,1,58.42,25.4,U1,VCC,+5V,,,"/>
 <approved hash="104,1,96.52,27.94,U1,VRXD,+3V3,,,"/>
 <approved hash="202,1,96.52,20.32,U1,S,,,,"/>
-<approved hash="104,2,91.44,170.18,U3,VCC,+5V,,,"/>
-<approved hash="104,2,58.42,142.24,U5,VCC,+3V3,,,"/>
+<approved hash="104,2,111.76,63.5,U3,VCC,+5V,,,"/>
+<approved hash="104,2,78.74,35.56,U5,VCC,+3V3,,,"/>
+<approved hash="104,3,149.86,160.02,U8,VCC,+5V,,,"/>
 <approved hash="208,1,99.06,30.48,+3V3,sup,,,,"/>
 <approved hash="208,1,190.5,83.82,+3V3,sup,,,,"/>
 <approved hash="208,1,175.26,83.82,+3V3,sup,,,,"/>
 <approved hash="208,1,254,83.82,+3V3,sup,,,,"/>
-<approved hash="208,2,20.32,93.98,+3V3,sup,,,,"/>
-<approved hash="208,2,256.54,91.44,+3V3,sup,,,,"/>
-<approved hash="208,2,55.88,144.78,+3V3,sup,,,,"/>
-<approved hash="208,3,190.5,165.1,+3V3,out,,,,"/>
-<approved hash="208,3,218.44,177.8,+3V3,sup,,,,"/>
-<approved hash="113,2,244.077,94.2061,JP1,,,,,"/>
+<approved hash="208,2,43.18,167.64,+3V3,sup,,,,"/>
+<approved hash="208,2,243.84,170.18,+3V3,sup,,,,"/>
+<approved hash="208,2,76.2,38.1,+3V3,sup,,,,"/>
+<approved hash="208,3,213.36,162.56,+3V3,out,,,,"/>
+<approved hash="208,3,241.3,175.26,+3V3,sup,,,,"/>
+<approved hash="113,2,231.377,172.946,JP1,,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
 <approved hash="113,3,139.596,107.846,FRAME3,,,,,"/>
 <approved hash="113,1,124.943,25.9436,J1,,,,,"/>

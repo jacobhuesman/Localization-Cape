@@ -11298,6 +11298,9 @@ Source: AVX .. aphvc.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="PRU" width="0.254" drill="0.254">
+<clearance class="1" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="U7" library="bbb_localization_cape" deviceset="LM1085ISX-ADJ" device=""/>
@@ -11572,23 +11575,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PRU1_1" class="0">
+<net name="PRU1_1" class="1">
 <segment>
 <pinref part="A1" gate="G$1" pin="46@P8"/>
 <wire x1="109.22" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <label x="129.54" y="132.08" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="DOUT1"/>
-<wire x1="198.12" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
-<label x="182.88" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PRU1_3" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="44@P8"/>
-<wire x1="109.22" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
-<label x="129.54" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT3"/>
@@ -11596,11 +11587,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PRU1_5" class="0">
+<net name="PRU1_3" class="1">
 <segment>
-<pinref part="A1" gate="G$1" pin="42@P8"/>
-<wire x1="109.22" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
-<label x="129.54" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<pinref part="A1" gate="G$1" pin="44@P8"/>
+<wire x1="109.22" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<label x="129.54" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT5"/>
@@ -11608,11 +11599,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PRU1_7" class="0">
+<net name="PRU1_5" class="1">
 <segment>
-<pinref part="A1" gate="G$1" pin="40@P8"/>
-<wire x1="109.22" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
-<label x="129.54" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<pinref part="A1" gate="G$1" pin="42@P8"/>
+<wire x1="109.22" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
+<label x="129.54" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT7"/>
@@ -11620,59 +11611,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PRU1_0" class="0">
+<net name="PRU1_7" class="1">
 <segment>
-<pinref part="A1" gate="G$1" pin="45@P8"/>
-<wire x1="53.34" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
-<label x="33.02" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="DOUT0"/>
-<wire x1="231.14" y1="45.72" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
-<label x="246.38" y="45.72" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="PRU1_2" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="43@P8"/>
-<wire x1="53.34" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
-<label x="33.02" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="DOUT2"/>
-<wire x1="231.14" y1="50.8" x2="246.38" y2="50.8" width="0.1524" layer="91"/>
-<label x="246.38" y="50.8" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="PRU1_4" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="41@P8"/>
-<wire x1="53.34" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
-<label x="33.02" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="DOUT4"/>
-<wire x1="231.14" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
-<label x="246.38" y="53.34" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="PRU1_6" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="39@P8"/>
-<wire x1="53.34" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
-<label x="33.02" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="DOUT6"/>
-<wire x1="231.14" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
-<label x="246.38" y="55.88" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="PRU1_9" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="29@P8"/>
-<wire x1="53.34" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
-<label x="33.02" y="152.4" size="1.778" layer="95"/>
+<pinref part="A1" gate="G$1" pin="40@P8"/>
+<wire x1="109.22" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
+<label x="129.54" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT9"/>
@@ -11680,11 +11623,47 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PRU1_8" class="0">
+<net name="PRU1_0" class="1">
 <segment>
-<pinref part="A1" gate="G$1" pin="27@P8"/>
-<wire x1="53.34" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
-<label x="33.02" y="154.94" size="1.778" layer="95"/>
+<pinref part="A1" gate="G$1" pin="45@P8"/>
+<wire x1="53.34" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<label x="33.02" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="&gt;NAME" pin="DOUT2"/>
+<wire x1="231.14" y1="50.8" x2="246.38" y2="50.8" width="0.1524" layer="91"/>
+<label x="246.38" y="50.8" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="PRU1_2" class="1">
+<segment>
+<pinref part="A1" gate="G$1" pin="43@P8"/>
+<wire x1="53.34" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
+<label x="33.02" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="&gt;NAME" pin="DOUT4"/>
+<wire x1="231.14" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
+<label x="246.38" y="53.34" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="PRU1_4" class="1">
+<segment>
+<pinref part="A1" gate="G$1" pin="41@P8"/>
+<wire x1="53.34" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
+<label x="33.02" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="&gt;NAME" pin="DOUT6"/>
+<wire x1="231.14" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
+<label x="246.38" y="55.88" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="PRU1_6" class="1">
+<segment>
+<pinref part="A1" gate="G$1" pin="39@P8"/>
+<wire x1="53.34" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
+<label x="33.02" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT8"/>
@@ -11692,11 +11671,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="246.38" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="PRU1_11" class="0">
+<net name="PRU1_9" class="1">
 <segment>
-<pinref part="A1" gate="G$1" pin="30@P8"/>
-<wire x1="109.22" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<label x="129.54" y="152.4" size="1.778" layer="95" rot="MR0"/>
+<pinref part="A1" gate="G$1" pin="29@P8"/>
+<wire x1="53.34" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="33.02" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="HREF"/>
@@ -11704,7 +11683,26 @@ Source: AVX .. aphvc.pdf</description>
 <label x="246.38" y="63.5" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="PRU1_10" class="0">
+<net name="PRU1_8" class="1">
+<segment>
+<pinref part="A1" gate="G$1" pin="27@P8"/>
+<wire x1="53.34" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
+<label x="33.02" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="&gt;NAME" pin="VSYNC"/>
+<wire x1="198.12" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="182.88" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PRU1_11" class="1">
+<segment>
+<pinref part="A1" gate="G$1" pin="30@P8"/>
+<wire x1="109.22" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
+<label x="129.54" y="152.4" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="PRU1_10" class="1">
 <segment>
 <pinref part="A1" gate="G$1" pin="28@P8"/>
 <wire x1="109.22" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
@@ -11716,7 +11714,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="182.88" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TIMER4" class="0">
+<net name="TIMER4" class="1">
 <segment>
 <pinref part="A1" gate="G$1" pin="07@P8"/>
 <wire x1="53.34" y1="180.34" x2="33.02" y2="180.34" width="0.1524" layer="91"/>
@@ -11778,12 +11776,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="96.52" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PRU1_12" class="0">
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="VSYNC"/>
-<wire x1="198.12" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
-<label x="182.88" y="63.5" size="1.778" layer="95"/>
-</segment>
+<net name="PRU1_12" class="1">
 <segment>
 <pinref part="A1" gate="G$1" pin="21@P8"/>
 <wire x1="53.34" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
@@ -11848,7 +11841,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="33.02" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="I2C2_SCL" class="0">
+<net name="I2C2_SCL" class="1">
 <segment>
 <pinref part="A1" gate="G$1" pin="19@P9"/>
 <wire x1="53.34" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
@@ -12036,7 +12029,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="22.86" y="157.48" size="1.778" layer="95" rot="SR0"/>
 </segment>
 </net>
-<net name="I2C2_SCL" class="0">
+<net name="I2C2_SCL" class="1">
 <segment>
 <pinref part="U4" gate="A" pin="P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK"/>
 <wire x1="187.96" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>

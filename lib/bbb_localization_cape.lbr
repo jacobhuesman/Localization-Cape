@@ -1794,6 +1794,18 @@
 <rectangle x1="40.005" y1="0" x2="50.165" y2="11.43" layer="39"/>
 <rectangle x1="15.875" y1="0" x2="34.29" y2="17.78" layer="39"/>
 </package>
+<package name="BEAGLEBONE_CAPE_GND_PLANE">
+<wire x1="54.61" y1="73.66" x2="54.61" y2="14.605" width="0.127" layer="1"/>
+<wire x1="12.7" y1="86.36" x2="0" y2="73.66" width="0.127" layer="1" curve="90"/>
+<wire x1="54.61" y1="73.66" x2="41.91" y2="86.36" width="0.127" layer="1" curve="90"/>
+<wire x1="12.7" y1="86.36" x2="41.91" y2="86.36" width="0.127" layer="1"/>
+<wire x1="0" y1="73.66" x2="0" y2="14.605" width="0.127" layer="1"/>
+<wire x1="0" y1="14.605" x2="12.7" y2="14.605" width="0.127" layer="1"/>
+<wire x1="41.91" y1="14.605" x2="54.61" y2="14.605" width="0.127" layer="1"/>
+<wire x1="18.415" y1="20.32" x2="36.195" y2="20.32" width="0.127" layer="1"/>
+<wire x1="18.415" y1="20.32" x2="12.7" y2="14.605" width="0.127" layer="1" curve="90"/>
+<wire x1="36.195" y1="20.32" x2="41.91" y2="14.605" width="0.127" layer="1" curve="-90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -2552,6 +2564,113 @@
 </devices>
 </deviceset>
 <deviceset name="BEAGLEBONE_OUTLINE" prefix="A">
+<description>Should match A3 pinout - but not completely tested</description>
+<gates>
+<gate name="G$1" symbol="BEAGLEBONE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BEAGLEBONE_SHIELD">
+<connects>
+<connect gate="G$1" pin="01.DGND@P8" pad="1"/>
+<connect gate="G$1" pin="01.DGND@P9" pad="47"/>
+<connect gate="G$1" pin="03.VDD_3V3@P9" pad="49"/>
+<connect gate="G$1" pin="03@P8" pad="3"/>
+<connect gate="G$1" pin="04@P8" pad="4"/>
+<connect gate="G$1" pin="05.VDD_5V@P9" pad="51"/>
+<connect gate="G$1" pin="05@P8" pad="5"/>
+<connect gate="G$1" pin="06@P8" pad="6"/>
+<connect gate="G$1" pin="07.SYS_5V@P9" pad="53"/>
+<connect gate="G$1" pin="07@P8" pad="7"/>
+<connect gate="G$1" pin="08@P8" pad="8"/>
+<connect gate="G$1" pin="09.PWR_BUT@P9" pad="55"/>
+<connect gate="G$1" pin="09@P8" pad="9"/>
+<connect gate="G$1" pin="10@P8" pad="10"/>
+<connect gate="G$1" pin="11@P8" pad="11"/>
+<connect gate="G$1" pin="11@P9" pad="57"/>
+<connect gate="G$1" pin="12@P8" pad="12"/>
+<connect gate="G$1" pin="12@P9" pad="58"/>
+<connect gate="G$1" pin="13@P8" pad="13"/>
+<connect gate="G$1" pin="13@P9" pad="59"/>
+<connect gate="G$1" pin="14@P8" pad="14"/>
+<connect gate="G$1" pin="14@P9" pad="60"/>
+<connect gate="G$1" pin="15@P8" pad="15"/>
+<connect gate="G$1" pin="15@P9" pad="61"/>
+<connect gate="G$1" pin="16@P8" pad="16"/>
+<connect gate="G$1" pin="16@P9" pad="62"/>
+<connect gate="G$1" pin="17@P8" pad="17"/>
+<connect gate="G$1" pin="17@P9" pad="63"/>
+<connect gate="G$1" pin="18@P8" pad="18"/>
+<connect gate="G$1" pin="18@P9" pad="64"/>
+<connect gate="G$1" pin="19@P8" pad="19"/>
+<connect gate="G$1" pin="19@P9" pad="65"/>
+<connect gate="G$1" pin="20@P8" pad="20"/>
+<connect gate="G$1" pin="20@P9" pad="66"/>
+<connect gate="G$1" pin="21@P8" pad="21"/>
+<connect gate="G$1" pin="21@P9" pad="67"/>
+<connect gate="G$1" pin="22@P8" pad="22"/>
+<connect gate="G$1" pin="22@P9" pad="68"/>
+<connect gate="G$1" pin="23@P8" pad="23"/>
+<connect gate="G$1" pin="23@P9" pad="69"/>
+<connect gate="G$1" pin="24@P8" pad="24"/>
+<connect gate="G$1" pin="24@P9" pad="70"/>
+<connect gate="G$1" pin="25@P8" pad="25"/>
+<connect gate="G$1" pin="25@P9" pad="71"/>
+<connect gate="G$1" pin="26@P8" pad="26"/>
+<connect gate="G$1" pin="26@P9" pad="72"/>
+<connect gate="G$1" pin="27@P8" pad="27"/>
+<connect gate="G$1" pin="27@P9" pad="73"/>
+<connect gate="G$1" pin="28@P8" pad="28"/>
+<connect gate="G$1" pin="28@P9" pad="74"/>
+<connect gate="G$1" pin="29@P8" pad="29"/>
+<connect gate="G$1" pin="29@P9" pad="75"/>
+<connect gate="G$1" pin="30@P8" pad="30"/>
+<connect gate="G$1" pin="30@P9" pad="76"/>
+<connect gate="G$1" pin="31@P8" pad="31"/>
+<connect gate="G$1" pin="31@P9" pad="77"/>
+<connect gate="G$1" pin="32@P8" pad="32"/>
+<connect gate="G$1" pin="33.AIN4@P9" pad="79"/>
+<connect gate="G$1" pin="33@P8" pad="33"/>
+<connect gate="G$1" pin="34@P8" pad="34"/>
+<connect gate="G$1" pin="35.AIN6@P9" pad="81"/>
+<connect gate="G$1" pin="35@P8" pad="35"/>
+<connect gate="G$1" pin="36@P8" pad="36"/>
+<connect gate="G$1" pin="37.AIN2@P9" pad="83"/>
+<connect gate="G$1" pin="37@P8" pad="37"/>
+<connect gate="G$1" pin="38@P8" pad="38"/>
+<connect gate="G$1" pin="39.AIN0@P9" pad="85"/>
+<connect gate="G$1" pin="39@P8" pad="39"/>
+<connect gate="G$1" pin="40@P8" pad="40"/>
+<connect gate="G$1" pin="41@P8" pad="41"/>
+<connect gate="G$1" pin="41@P9" pad="87"/>
+<connect gate="G$1" pin="42@P8" pad="42"/>
+<connect gate="G$1" pin="42@P9" pad="88"/>
+<connect gate="G$1" pin="43.DGND@P9" pad="89"/>
+<connect gate="G$1" pin="43@P8" pad="43"/>
+<connect gate="G$1" pin="44@P8" pad="44"/>
+<connect gate="G$1" pin="45.DGND@P9" pad="91"/>
+<connect gate="G$1" pin="45@P8" pad="45"/>
+<connect gate="G$1" pin="46@P8" pad="46"/>
+<connect gate="G$1" pin="AIN1.40@P9" pad="86"/>
+<connect gate="G$1" pin="AIN3.38@P9" pad="84"/>
+<connect gate="G$1" pin="AIN5.36@P9" pad="82"/>
+<connect gate="G$1" pin="DGND.02@P8" pad="2"/>
+<connect gate="G$1" pin="DGND.44@P9" pad="90"/>
+<connect gate="G$1" pin="DGND.46@P9" pad="92"/>
+<connect gate="G$1" pin="GND.02@P9" pad="48"/>
+<connect gate="G$1" pin="GNDA_ADC.34@P9" pad="80"/>
+<connect gate="G$1" pin="SYS_5V.08@P9" pad="54"/>
+<connect gate="G$1" pin="SYS_RESETN.10@P9" pad="56"/>
+<connect gate="G$1" pin="VDD_3V3.04@P9" pad="50"/>
+<connect gate="G$1" pin="VDD_5V.06@P9" pad="52"/>
+<connect gate="G$1" pin="VDD_ADC.32@P9" pad="78"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BEAGLEBONE_CAPE_GND_PLANE" prefix="A">
 <description>Should match A3 pinout - but not completely tested</description>
 <gates>
 <gate name="G$1" symbol="BEAGLEBONE-1" x="0" y="0"/>

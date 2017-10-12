@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjQyNjE5" projecturn="a.cGVyc29uYWw6dWUyYjQyNjE5IzIwMTcxMDA4OTczMTc3MDE" f3durn="urn:adsk.wipprod:dm.lineage:4ue_-3ieTSSXT3ZEs_mMkw" pcbguid="aeb03dfb-aa97-4c81-a82f-a409306b356b" lastpulledtime="" lastsyncedchangeguid="529500f1-aa39-b450-d781-35c28706ecb8"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjQyNjE5" projecturn="a.cGVyc29uYWw6dWUyYjQyNjE5IzIwMTcxMDA4OTczMTc3MDE" f3durn="urn:adsk.wipprod:dm.lineage:4ue_-3ieTSSXT3ZEs_mMkw" pcbguid="aeb03dfb-aa97-4c81-a82f-a409306b356b" lastpulledtime="" lastsyncedchangeguid="f051ff45-cb78-acbb-7a43-63a7e936fee8"/>
 <plain>
 <text x="71.12" y="-20.32" size="1.778" layer="48" rot="R270">Add holes for bolts</text>
 <text x="50.165" y="45.085" size="1.27" layer="25" rot="R90">TST</text>
@@ -2265,21 +2265,21 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <package3d name="V78-2000" urn="urn:adsk.eagle:package:616618/2" type="model" library_version="3">
 <description>SERIES: V78-2000 │ DESCRIPTION: NON-ISOLATED SWITCHING REGULATOR</description>
 </package3d>
-<package3d name="BEAGLEBONE_SHIELD" urn="urn:adsk.eagle:package:616619/1" type="box" library_version="1">
+<package3d name="BEAGLEBONE_SHIELD" urn="urn:adsk.eagle:package:616619/3" type="model" library_version="15" library_locally_modified="yes">
 </package3d>
 <package3d name="MP05A" urn="urn:adsk.eagle:package:616601/2" type="model" library_version="3">
 </package3d>
 <package3d name="D8" urn="urn:adsk.eagle:package:616611/2" type="model" library_version="4">
 </package3d>
-<package3d name="ARDUCAM" urn="urn:adsk.eagle:package:616600/1" type="box" library_version="1">
+<package3d name="ARDUCAM" urn="urn:adsk.eagle:package:616600/3" type="model" library_version="17">
 </package3d>
-<package3d name="MOLEX-22-03-5035" urn="urn:adsk.eagle:package:616605/2" type="model" library_version="4">
+<package3d name="MOLEX-22-03-5035" urn="urn:adsk.eagle:package:616605/3" type="model" library_version="18">
 </package3d>
 <package3d name="DCK5" urn="urn:adsk.eagle:package:616612/2" type="model" library_version="3">
 </package3d>
 <package3d name="PW20" urn="urn:adsk.eagle:package:616606/3" type="model" library_version="4">
 </package3d>
-<package3d name="JST-4-PTH-VERT" urn="urn:adsk.eagle:package:617428/2" type="model" library_version="13">
+<package3d name="JST-4-PTH-VERT" urn="urn:adsk.eagle:package:617428/3" type="model" library_version="18">
 <description>JST Vertical 4 Pin Plated Through Hole
 Specifications:
 Pin count: 4
@@ -3605,7 +3605,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="PAD2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:617414/2" value="WIREPADSMD2,54-5,08" x="26.67" y="10.16" smashed="yes" rot="R270">
 <attribute name="VALUE" x="29.47" y="10.26" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="BEAGLEBONE_SHIELD" package3d_urn="urn:adsk.eagle:package:616619/1" value="BEAGLEBONE_OUTLINE" x="0" y="54.61" smashed="yes" rot="R270"/>
+<element name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="BEAGLEBONE_SHIELD" package3d_urn="urn:adsk.eagle:package:616619/3" value="BEAGLEBONE_OUTLINE" x="0" y="54.61" smashed="yes" rot="R270"/>
 <element name="U8" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="TS3B" package3d_urn="urn:adsk.eagle:package:616615/2" value="LM1085ISX-ADJ" x="39.37" y="24.13" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="lm1085isxadj" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.655" y="20.32" size="1.27" layer="25" ratio="6" rot="R180"/>
@@ -3659,10 +3659,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="36.195" y="43.4975" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="18.415" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="JST-4-PTH-VERT" package3d_urn="urn:adsk.eagle:package:617428/2" value="CONN_04" x="26.035" y="45.085" smashed="yes">
+<element name="J1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="JST-4-PTH-VERT" package3d_urn="urn:adsk.eagle:package:617428/3" value="CONN_04" x="26.035" y="45.085" smashed="yes">
 <attribute name="VALUE" x="24.384" y="41.783" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="ARDUCAM" package3d_urn="urn:adsk.eagle:package:616600/1" value="ARDUCAMOV5642" x="58.42" y="45.72" rot="R270"/>
+<element name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="ARDUCAM" package3d_urn="urn:adsk.eagle:package:616600/3" value="ARDUCAMOV5642" x="58.42" y="45.72" rot="R270"/>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="52.705" y="42.545" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.975" y="41.91" size="1.27" layer="25"/>
 </element>
@@ -3681,7 +3681,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="51.435" y="34.925" smashed="yes">
 <attribute name="NAME" x="53.6575" y="34.29" size="1.27" layer="25"/>
 </element>
-<element name="J2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="MOLEX-22-03-5035" package3d_urn="urn:adsk.eagle:package:616605/2" value="MOLEX-22-03-5035" x="23.495" y="39.37" smashed="yes">
+<element name="J2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="MOLEX-22-03-5035" package3d_urn="urn:adsk.eagle:package:616605/3" value="MOLEX-22-03-5035" x="23.495" y="39.37" smashed="yes">
 <attribute name="NAME" x="23.495" y="35.687" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="U4" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="DCK5" package3d_urn="urn:adsk.eagle:package:616612/2" value="SN74LV1T126DCKR" x="43.815" y="38.735" smashed="yes" rot="R270">

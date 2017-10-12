@@ -2003,14 +2003,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </package3d>
 <package3d name="D8" urn="urn:adsk.eagle:package:616611/2" type="model" library_version="4">
 </package3d>
-<package3d name="ARDUCAM" urn="urn:adsk.eagle:package:616600/1" type="box" library_version="1">
+<package3d name="ARDUCAM" urn="urn:adsk.eagle:package:616600/3" type="model" library_version="17">
 </package3d>
-<package3d name="BEAGLEBONE_SHIELD" urn="urn:adsk.eagle:package:616619/1" type="box" library_version="1">
+<package3d name="BEAGLEBONE_SHIELD" urn="urn:adsk.eagle:package:616619/3" type="model" library_version="15" library_locally_modified="yes">
 </package3d>
 <package3d name="V78-2000" urn="urn:adsk.eagle:package:616618/2" type="model" library_version="3">
 <description>SERIES: V78-2000 │ DESCRIPTION: NON-ISOLATED SWITCHING REGULATOR</description>
 </package3d>
-<package3d name="MOLEX-22-03-5035" urn="urn:adsk.eagle:package:616605/2" type="model" library_version="4">
+<package3d name="MOLEX-22-03-5035" urn="urn:adsk.eagle:package:616605/3" type="model" library_version="18">
 </package3d>
 <package3d name="DCK5-M" urn="urn:adsk.eagle:package:616613/2" type="model" library_version="3">
 </package3d>
@@ -2030,7 +2030,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </package3d>
 <package3d name="PW20-L" urn="urn:adsk.eagle:package:616608/2" type="model" library_version="4">
 </package3d>
-<package3d name="JST-4-PTH-VERT" urn="urn:adsk.eagle:package:617428/2" type="model" library_version="13">
+<package3d name="JST-4-PTH-VERT" urn="urn:adsk.eagle:package:617428/3" type="model" library_version="18">
 <description>JST Vertical 4 Pin Plated Through Hole
 Specifications:
 Pin count: 4
@@ -2665,7 +2665,7 @@ CONN_04
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUCAM" urn="urn:adsk.eagle:component:616620/5" prefix="U" library_version="13">
+<deviceset name="ARDUCAM" urn="urn:adsk.eagle:component:616620/7" prefix="U" library_version="17">
 <description>ArduCAM OV5642</description>
 <gates>
 <gate name="&gt;NAME" symbol="ARDUCAM" x="0" y="0"/>
@@ -2695,7 +2695,7 @@ CONN_04
 <connect gate="&gt;NAME" pin="XCLK" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:616600/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:616600/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2703,7 +2703,7 @@ CONN_04
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_OUTLINE" urn="urn:adsk.eagle:component:616627/5" prefix="A" library_version="13">
+<deviceset name="BEAGLEBONE_OUTLINE" urn="urn:adsk.eagle:component:616627/7" prefix="A" library_version="15" library_locally_modified="yes">
 <description>Should match A3 pinout - but not completely tested</description>
 <gates>
 <gate name="G$1" symbol="BEAGLEBONE-1" x="0" y="0"/>
@@ -2805,7 +2805,7 @@ CONN_04
 <connect gate="G$1" pin="VDD_ADC.32@P9" pad="78"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:616619/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:616619/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2834,7 +2834,7 @@ CONN_04
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOLEX-22-03-5035" urn="urn:adsk.eagle:component:616623/6" prefix="J" library_version="13">
+<deviceset name="MOLEX-22-03-5035" urn="urn:adsk.eagle:component:616623/7" prefix="J" library_version="18">
 <description>MOLEX, LLC 22-03-5035</description>
 <gates>
 <gate name="&gt;NAME" symbol="CONN_03" x="2.54" y="5.08"/>
@@ -2847,7 +2847,7 @@ CONN_04
 <connect gate="&gt;NAME" pin="3" pad="P$3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:616605/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:616605/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2962,7 +2962,7 @@ CONN_04
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_04" urn="urn:adsk.eagle:component:617429/2" prefix="J" library_version="13">
+<deviceset name="CONN_04" urn="urn:adsk.eagle:component:617429/3" prefix="J" library_version="18">
 <gates>
 <gate name="G$1" symbol="CONN_04" x="5.08" y="7.62"/>
 </gates>
@@ -2975,7 +2975,7 @@ CONN_04
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:617428/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:617428/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -9905,7 +9905,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="PS1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="V78-2000" device="" package3d_urn="urn:adsk.eagle:package:616618/2"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="BEAGLEBONE_OUTLINE" device="" package3d_urn="urn:adsk.eagle:package:616619/1"/>
+<part name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="BEAGLEBONE_OUTLINE" device="" package3d_urn="urn:adsk.eagle:package:616619/3"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="130"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="910"/>
 <part name="U7" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="LP38693MP-3.3/NOPB" device="" package3d_urn="urn:adsk.eagle:package:616601/2"/>
@@ -9934,10 +9934,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:617428/2"/>
+<part name="J1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:617428/3"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="ARDUCAM" device="OV5642" package3d_urn="urn:adsk.eagle:package:616600/1"/>
+<part name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="ARDUCAM" device="OV5642" package3d_urn="urn:adsk.eagle:package:616600/3"/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -9948,7 +9948,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SJ2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:617412/2"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="J2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="MOLEX-22-03-5035" device="" package3d_urn="urn:adsk.eagle:package:616605/2"/>
+<part name="J2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="MOLEX-22-03-5035" device="" package3d_urn="urn:adsk.eagle:package:616605/3"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+10V" device=""/>
 <part name="U4" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SN74LV1T126DCKR" device="" package3d_urn="urn:adsk.eagle:package:616612/2"/>

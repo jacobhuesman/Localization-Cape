@@ -3597,107 +3597,243 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="PAD1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:617414/2" value="WIREPADSMD2,54-5,08" x="26.67" y="15.24" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="26.67" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.47" y="15.34" size="0.0254" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="OSH Park" x="26.67" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="PS1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="V78-2000" package3d_urn="urn:adsk.eagle:package:616618/2" value="V78-2000" x="66.04" y="12.7" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="66.04" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI Inc." x="66.04" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="V7805-2000R" x="66.04" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="67.31" y="17.78" size="1.27" layer="21" rot="R180"/>
+<attribute name="PN" value="102-2188-ND" x="66.04" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="66.04" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="PAD2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:617414/2" value="WIREPADSMD2,54-5,08" x="26.67" y="10.16" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="26.67" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.47" y="10.26" size="0.0254" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="OSH Park" x="26.67" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="BEAGLEBONE_SHIELD" package3d_urn="urn:adsk.eagle:package:616619/3" value="BEAGLEBONE_OUTLINE" x="0" y="54.61" smashed="yes" rot="R270"/>
+<element name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="BEAGLEBONE_SHIELD" package3d_urn="urn:adsk.eagle:package:616619/3" value="BEAGLEBONE_OUTLINE" x="0" y="54.61" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="0" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Adafruit Industries LLC" x="0" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="706" x="0" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="2 pack stacking header" x="0" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="1528-1365-ND" x="0" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="0" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="U8" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="TS3B" package3d_urn="urn:adsk.eagle:package:616615/2" value="LM1085ISX-ADJ" x="39.37" y="24.13" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_PART_NUMBER" value="lm1085isxadj" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ECE_STOCK" value="?" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM1085ISX-ADJ/NOPB" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.655" y="20.32" size="1.27" layer="25" ratio="6" rot="R180"/>
-<attribute name="VENDOR" value="Texas Instruments" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="LM1085ISX-ADJ/NOPBCT-ND" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="39.37" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="130" x="27.94" y="25.4" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="27.94" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="27.94" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0805FR-07130RL" x="27.94" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="28.956" y="23.114" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="311-130CRCT-ND" x="27.94" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="27.94" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="910" x="29.21" y="29.21" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="29.21" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="29.21" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0805FR-07910RL" x="29.21" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.924" y="29.845" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="311-910CRCT-ND" x="29.21" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="29.21" y="29.21" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U7" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="MP05A" package3d_urn="urn:adsk.eagle:package:616601/2" value="LP38693MP-3.3/NOPB" x="75.565" y="24.13" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER_PART_NUMBER" value="LP38693MP3.3NOPB" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ECE_STOCK" value="N" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" LP38693MP-3.3/NOPB" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.375" y="20.32" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Texas Instruments" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value=" LP38693MP-3.3/NOPBCT-ND" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="75.565" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF" x="70.485" y="25.4" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="Y" x="70.485" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LOCATION" value="R-3-078F" x="70.485" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="70.485" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="70.485" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="69.215" y="26.035" size="1.27" layer="25" rot="R180"/>
+<attribute name="VENDOR" value="Digi-Key" x="70.485" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF" x="80.645" y="25.4" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="Y" x="80.645" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LOCATION" value="R-3-078C (D)" x="80.645" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="80.645" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="80.645" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="81.915" y="24.765" size="1.27" layer="25"/>
+<attribute name="VENDOR" value="Digi-Key" x="80.645" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="26.035" y="19.685" smashed="yes" rot="R180">
+<attribute name="ECE_STOCK" value="N" x="26.035" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="26.035" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR61C106KE15K" x="26.035" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.8125" y="20.32" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="490-6473-1-ND" x="26.035" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="26.035" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF" x="60.6425" y="10.16" smashed="yes" rot="R180">
+<attribute name="ECE_STOCK" value="N" x="60.6425" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="60.6425" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL21A226MOCLRNC" x="60.6425" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="58.7375" y="10.795" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="1276-6780-1-ND" x="60.6425" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Dig-Key" x="60.6425" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF" x="24.13" y="25.4" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="N" x="24.13" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" x="24.13" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C3216X5R1A107M160AC" x="24.13" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.273" y="22.733" size="1.27" layer="25" rot="R180"/>
+<attribute name="NOTES" value="Right at edge of rated voltage, consider larger form factor for V2" x="24.13" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value="445-6007-1-ND" x="24.13" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="24.13" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="59.69" y="13.97" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="59.69" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="59.69" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR61C106KE15K" x="59.69" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="60.96" y="12.3825" size="1.27" layer="25"/>
+<attribute name="PN" value="490-6473-1-ND" x="59.69" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="59.69" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U3" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="PW20" package3d_urn="urn:adsk.eagle:package:616606/3" value="MSP430G2553IPW20R" x="74.295" y="37.465" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MSP430G2553IPW20R" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="70.485" y="38.1" size="1.27" layer="25" ratio="6" rot="R180"/>
-<attribute name="VENDOR" value="Texas Instruments" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="ECE stocks a different version" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value=" 296-28430-1-ND" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="74.295" y="37.465" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k" x="80.01" y="40.64" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="N" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" RMCF0805JT47K0" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="81.28" y="33.9725" size="1.27" layer="25" rot="R180"/>
+<attribute name="NOTES" value="ECE stocks 0603" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value=" RMCF0805JT47K0CT-ND" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="80.01" y="36.195" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="Y" x="80.01" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LOCATION" value="R-3-074E, R-3-075" x="80.01" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="80.01" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="80.01" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="81.28" y="40.005" size="1.27" layer="25"/>
+<attribute name="PN" value="" x="80.01" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="80.01" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="45.72" y="43.18" smashed="yes" rot="R180">
+<attribute name="ECE_STOCK" value="N" x="45.72" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec Inc." x="45.72" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-104-01-F-S" x="45.72" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="SAM10018-ND" x="45.72" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="50.8" y="46.355" size="1.27" layer="27" rot="R180"/>
+<attribute name="VENDOR" value="Digi-Key" x="45.72" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="D8" package3d_urn="urn:adsk.eagle:package:616611/2" value="SN65HVD256DR" x="34.925" y="39.37" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="N" x="34.925" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="34.925" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN65HVD256DR" x="18.415" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="36.195" y="43.4975" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Texas Instruments" x="18.415" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value="296-30093-1-ND" x="34.925" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="DIGIKEY" x="18.415" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="JST-4-PTH-VERT" package3d_urn="urn:adsk.eagle:package:617428/3" value="CONN_04" x="26.035" y="45.085" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="26.035" y="45.085" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="26.035" y="45.085" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" B4B-PH-K-S(LF)(SN)" x="26.035" y="45.085" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="455-1706-ND" x="26.035" y="45.085" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.384" y="41.783" size="0.6096" layer="27" font="vector" ratio="20"/>
+<attribute name="VENDOR" value="Digi-Key" x="26.035" y="45.085" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="ARDUCAM" package3d_urn="urn:adsk.eagle:package:616600/3" value="ARDUCAMOV5642" x="58.42" y="45.72" rot="R270"/>
+<element name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="ARDUCAM" package3d_urn="urn:adsk.eagle:package:616600/3" value="ARDUCAMOV5642" x="58.42" y="45.72" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="58.42" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec Inc." x="58.42" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-110-02-L-D" x="58.42" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="20 pin header" x="58.42" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="SAM11952-ND" x="58.42" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="58.42" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="52.705" y="42.545" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="Y" x="52.705" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LOCATION" value="R‐4‐033B" x="52.705" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="52.705" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="52.705" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="53.975" y="41.91" size="1.27" layer="25"/>
+<attribute name="PN" value="P10.0KCCT‐ND" x="52.705" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="52.705" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="82.55" y="36.195" smashed="yes" rot="R90">
+<attribute name="ECE_STOCK" value="Y" x="82.55" y="36.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LOCATION" value="R-4-033B" x="82.55" y="36.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="82.55" y="36.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="82.55" y="36.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="83.82" y="35.56" size="1.27" layer="25"/>
+<attribute name="PN" value="P10.0KCCT-ND" x="82.55" y="36.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="82.55" y="36.195" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SJ3" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="SJ_2" package3d_urn="urn:adsk.eagle:package:617412/2" value="" x="51.435" y="24.13" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="51.435" y="24.13" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.3349" y="24.13" size="0.02" layer="27"/>
+<attribute name="VENDOR" value="OSH Park" x="51.435" y="24.13" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SJ1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="SJ_2" package3d_urn="urn:adsk.eagle:package:617412/2" value="" x="51.435" y="31.75" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="51.435" y="31.75" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.3349" y="31.75" size="0.02" layer="27"/>
+<attribute name="VENDOR" value="OSH Park" x="51.435" y="31.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SJ2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="SJ_2" package3d_urn="urn:adsk.eagle:package:617412/2" value="" x="51.435" y="27.94" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="51.435" y="27.94" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.3349" y="27.94" size="0.02" layer="27"/>
+<attribute name="VENDOR" value="OSH Park" x="51.435" y="27.94" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="51.435" y="34.925" smashed="yes">
+<attribute name="ECE_STOCK" value="Y" x="51.435" y="34.925" size="1.778" layer="27" display="off"/>
+<attribute name="LOCATION" value="R‐4‐033B" x="51.435" y="34.925" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-6ENF1002V" x="51.435" y="34.925" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="53.6575" y="34.29" size="1.27" layer="25"/>
+<attribute name="PN" value="P10.0KCCT-ND" x="51.435" y="34.925" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="51.435" y="34.925" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="MOLEX-22-03-5035" package3d_urn="urn:adsk.eagle:package:616605/3" value="MOLEX-22-03-5035" x="23.495" y="39.37" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="23.495" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex, LLC" x="23.495" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="22-03-5035" x="23.495" y="39.37" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.495" y="35.687" size="1.27" layer="25" rot="R180"/>
+<attribute name="PN" value="WM18887-ND" x="23.495" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="23.495" y="39.37" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="DCK5" package3d_urn="urn:adsk.eagle:package:616612/2" value="SN74LV1T126DCKR" x="43.815" y="38.735" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="43.815" y="38.735" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="43.815" y="38.735" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LV1T126DCKR" x="24.765" y="43.815" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.91" y="39.37" size="1.27" layer="25" ratio="6" rot="R180"/>
-<attribute name="VENDOR" value="Texas Instruments" x="24.765" y="43.815" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="296-37175-1-ND" x="43.815" y="38.735" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="24.765" y="43.815" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U5" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="DCK5" package3d_urn="urn:adsk.eagle:package:616612/2" value="SN74LV1T125DCKR" x="43.815" y="34.925" smashed="yes" rot="R270">
+<attribute name="ECE_STOCK" value="N" x="43.815" y="34.925" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="43.815" y="34.925" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LV1T125DCKR" x="19.685" y="47.625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.91" y="35.56" size="1.27" layer="25" ratio="6" rot="R180"/>
-<attribute name="VENDOR" value="TEXAS INSTRUMENTS" x="19.685" y="47.625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="296-37173-1-ND" x="43.815" y="34.925" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="19.685" y="47.625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" package="DCK5" package3d_urn="urn:adsk.eagle:package:616612/2" value="SN74LV1T126DCKR" x="36.83" y="7.62" smashed="yes">
+<attribute name="ECE_STOCK" value="N" x="36.83" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="36.83" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LV1T126DCKR" x="36.83" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.052" y="8.255" size="1.27" layer="25" ratio="6" rot="R180"/>
-<attribute name="VENDOR" value="Texas Instruments" x="36.83" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="296-37175-1-ND" x="36.83" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="36.83" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

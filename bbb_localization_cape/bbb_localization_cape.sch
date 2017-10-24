@@ -9895,18 +9895,15 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="U8" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="LM1085ISX-ADJ" device="" package3d_urn="urn:adsk.eagle:package:616615/2">
-<attribute name="ECE_STOCK" value="?"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM1085ISX-ADJ/NOPB"/>
 <attribute name="PN" value="LM1085ISX-ADJ/NOPBCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="PAD1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="WIREPAD" device="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:617414/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="VENDOR" value="OSH Park"/>
 </part>
 <part name="PAD2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="WIREPAD" device="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:617414/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="VENDOR" value="OSH Park"/>
 </part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9915,7 +9912,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+10V" device=""/>
 <part name="PS1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="V78-2000" device="" package3d_urn="urn:adsk.eagle:package:616618/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="CUI Inc."/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="V7805-2000R"/>
 <attribute name="PN" value="102-2188-ND"/>
@@ -9924,7 +9920,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="A1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="BEAGLEBONE_OUTLINE" device="" package3d_urn="urn:adsk.eagle:package:616619/3">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Adafruit Industries LLC"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="706"/>
 <attribute name="NOTES" value="2 pack stacking header"/>
@@ -9932,101 +9927,86 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="130">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0805FR-07130RL"/>
 <attribute name="PN" value="311-130CRCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="910">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0805FR-07910RL"/>
 <attribute name="PN" value="311-910CRCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="U7" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="LP38693MP-3.3/NOPB" device="" package3d_urn="urn:adsk.eagle:package:616601/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=" LP38693MP-3.3/NOPB"/>
-<attribute name="PN" value=" LP38693MP-3.3/NOPBCT-ND"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LP38693MP-3.3/NOPB"/>
+<attribute name="PN" value="LP38693MP-3.3/NOPBCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF">
-<attribute name="ECE_STOCK" value="Y"/>
-<attribute name="LOCATION" value="R-3-078F"/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL21A475KQFNNNG"/>
+<attribute name="PN" value="1276-6465-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
-<attribute name="ECE_STOCK" value="Y"/>
-<attribute name="LOCATION" value="R-3-078C (D)"/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL21B105KPFNNNE"/>
+<attribute name="PN" value="1276-1275-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR61C106KE15K"/>
-<attribute name="PN" value="490-6473-1-ND"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR61E106MA73L"/>
+<attribute name="PN" value="490-10748-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL21A226MOCLRNC"/>
 <attribute name="PN" value="1276-6780-1-ND"/>
 <attribute name="VENDOR" value="Dig-Key"/>
 </part>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF">
-<attribute name="ECE_STOCK" value="N"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF">
 <attribute name="MANUFACTURER" value="TDK Corporation"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C3216X5R1A107M160AC"/>
-<attribute name="NOTES" value="Right at edge of rated voltage, consider larger form factor for V2"/>
-<attribute name="PN" value="445-6007-1-ND"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C3216X5R1E476M160AC"/>
+<attribute name="NOTES" value="Reduced capacitance from 100uF to 47uF, V2 package should be 1210 or larger"/>
+<attribute name="PN" value="445-8047-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR61C106KE15K"/>
-<attribute name="PN" value="490-6473-1-ND"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR61E106MA73L"/>
+<attribute name="PN" value="490-10748-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="U3" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="MSP430G2553IPW20R" device="" package3d_urn="urn:adsk.eagle:package:616606/3">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="NOTES" value="ECE stocks a different version"/>
-<attribute name="PN" value=" 296-28430-1-ND"/>
+<attribute name="PN" value="296-28430-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=" RMCF0805JT47K0"/>
-<attribute name="NOTES" value="ECE stocks 0603"/>
-<attribute name="PN" value=" RMCF0805JT47K0CT-ND"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0805JT47K0"/>
+<attribute name="PN" value="RMCF0805JT47K0CT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<attribute name="ECE_STOCK" value="Y"/>
-<attribute name="LOCATION" value="R-3-074E, R-3-075"/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL21B104KOANNNC"/>
+<attribute name="PN" value="1276-2448-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Samtec Inc."/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SSW-104-01-F-S"/>
 <attribute name="PN" value="SAM10018-ND"/>
@@ -10037,25 +10017,22 @@ Source: AVX .. aphvc.pdf</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="Main"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SN65HVD256DR" device="" package3d_urn="urn:adsk.eagle:package:616611/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="PN" value="296-30093-1-ND"/>
-<attribute name="VENDOR" value="DIGIKEY"/>
+<attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:617428/3">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="JST Sales America Inc."/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=" B4B-PH-K-S(LF)(SN)"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B4B-PH-K-S(LF)(SN)"/>
 <attribute name="PN" value="455-1706-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="ARDUCAM" device="OV5642" package3d_urn="urn:adsk.eagle:package:616600/3">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Samtec Inc."/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SSW-110-02-L-D"/>
 <attribute name="NOTES" value="20 pin header"/>
@@ -10064,45 +10041,36 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
-<attribute name="ECE_STOCK" value="Y"/>
-<attribute name="LOCATION" value="R‐4‐033B"/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="PN" value="P10.0KCCT‐ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0805JR-0710KL"/>
+<attribute name="PN" value="311-10KARCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
-<attribute name="ECE_STOCK" value="Y"/>
-<attribute name="LOCATION" value="R-4-033B"/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="PN" value="P10.0KCCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0805JR-0710KL"/>
+<attribute name="PN" value="311-10KARCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SJ3" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:617412/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="VENDOR" value="OSH Park"/>
 </part>
 <part name="SJ1" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:617412/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="VENDOR" value="OSH Park"/>
 </part>
 <part name="SJ2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:617412/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="VENDOR" value="OSH Park"/>
 </part>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
-<attribute name="ECE_STOCK" value="Y"/>
-<attribute name="LOCATION" value="R‐4‐033B"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-6ENF1002V"/>
-<attribute name="PN" value="P10.0KCCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0805JR-0710KL"/>
+<attribute name="PN" value="311-10KARCT-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="J2" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="MOLEX-22-03-5035" device="" package3d_urn="urn:adsk.eagle:package:616605/3">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Molex, LLC"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="22-03-5035"/>
 <attribute name="PN" value="WM18887-ND"/>
@@ -10111,13 +10079,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+10V" device=""/>
 <part name="U4" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SN74LV1T126DCKR" device="" package3d_urn="urn:adsk.eagle:package:616612/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="PN" value="296-37175-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="U5" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SN74LV1T125DCKR" device="" package3d_urn="urn:adsk.eagle:package:616612/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="PN" value="296-37173-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
@@ -10128,7 +10094,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+10V" device=""/>
 <part name="U6" library="bbb_localization_cape" library_urn="urn:adsk.eagle:library:616562" deviceset="SN74LV1T126DCKR" device="" package3d_urn="urn:adsk.eagle:package:616612/2">
-<attribute name="ECE_STOCK" value="N"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="PN" value="296-37175-1-ND"/>
 <attribute name="VENDOR" value="Digi-Key"/>
@@ -10146,7 +10111,6 @@ Source: AVX .. aphvc.pdf</description>
 <instances>
 <instance part="A1" gate="G$1" x="81.28" y="127">
 <attribute name="VENDOR" x="81.28" y="127" size="1.778" layer="96" display="off"/>
-<attribute name="ECE_STOCK" x="81.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="81.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="81.28" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="NOTES" x="81.28" y="127" size="1.778" layer="96" display="off"/>
@@ -10159,7 +10123,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="63.7794" y="34.5186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 <attribute name="MANUFACTURER" x="55.88" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="PN" x="55.88" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="ECE_STOCK" x="55.88" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="33.02" y="33.02" smashed="yes">
 <attribute name="VALUE" x="33.02" y="33.02" size="1.778" layer="96"/>
@@ -10175,14 +10138,12 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VENDOR" x="127" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" x="127" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="127" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="ECE_STOCK" x="127" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="P+2" gate="1" x="114.3" y="17.78" smashed="yes">
 <attribute name="VALUE" x="114.3" y="17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="114.3" y="30.48"/>
 <instance part="U2" gate="&gt;NAME" x="198.12" y="43.18">
-<attribute name="ECE_STOCK" x="198.12" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="198.12" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="198.12" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="NOTES" x="198.12" y="43.18" size="1.778" layer="96" display="off"/>
@@ -10195,8 +10156,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R1" gate="G$1" x="175.26" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="178.8414" y="74.93" size="1.778" layer="95"/>
 <attribute name="VALUE" x="178.562" y="72.39" size="1.778" layer="96"/>
-<attribute name="ECE_STOCK" x="175.26" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LOCATION" x="175.26" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="175.26" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="175.26" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="175.26" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
@@ -10205,8 +10164,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R2" gate="G$1" x="254" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="257.5814" y="74.93" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.302" y="72.39" size="1.778" layer="96"/>
-<attribute name="ECE_STOCK" x="254" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LOCATION" x="254" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="254" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="254" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="254" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
@@ -10219,15 +10176,12 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="254" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="SJ3" gate="G$1" x="210.82" y="121.92">
-<attribute name="ECE_STOCK" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="210.82" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SJ1" gate="G$1" x="210.82" y="172.72" rot="MR0">
-<attribute name="ECE_STOCK" x="210.82" y="172.72" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="VENDOR" x="210.82" y="172.72" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SJ2" gate="G$1" x="210.82" y="147.32" rot="MR0">
-<attribute name="ECE_STOCK" x="210.82" y="147.32" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="VENDOR" x="210.82" y="147.32" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 </instances>
@@ -10670,7 +10624,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U3" gate="A" x="43.18" y="165.1" smashed="yes">
 <attribute name="NAME" x="52.9336" y="174.4726" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="53.0606" y="171.6786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-<attribute name="ECE_STOCK" x="43.18" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="43.18" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="43.18" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="NOTES" x="43.18" y="165.1" size="1.778" layer="96" display="off"/>
@@ -10684,26 +10637,21 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R4" gate="G$1" x="243.84" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="247.65" y="161.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.65" y="159.258" size="1.778" layer="96"/>
-<attribute name="ECE_STOCK" x="243.84" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="243.84" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="243.84" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="243.84" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="VENDOR" x="243.84" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NOTES" x="243.84" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="243.84" y="149.86" smashed="yes">
 <attribute name="NAME" x="247.396" y="147.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.396" y="145.669" size="1.778" layer="96"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="243.84" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="243.84" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="ECE_STOCK" x="243.84" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="243.84" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="243.84" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="LOCATION" x="243.84" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="243.84" y="139.7"/>
 <instance part="JP1" gate="A" x="233.68" y="170.18">
-<attribute name="ECE_STOCK" x="233.68" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="233.68" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="233.68" y="170.18" size="1.778" layer="96" display="off"/>
@@ -10714,14 +10662,12 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R3" gate="G$1" x="124.46" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.0414" y="72.39" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127.762" y="69.85" size="1.778" layer="96"/>
-<attribute name="ECE_STOCK" x="124.46" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LOCATION" x="124.46" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="124.46" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="124.46" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="VENDOR" x="124.46" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="124.46" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J2" gate="&gt;NAME" x="157.48" y="63.5" rot="MR0">
-<attribute name="ECE_STOCK" x="157.48" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="157.48" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="157.48" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PN" x="157.48" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -10734,14 +10680,12 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U4" gate="A" x="73.66" y="63.5" smashed="yes">
 <attribute name="NAME" x="81.6356" y="72.1106" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="81.5086" y="69.3166" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-<attribute name="ECE_STOCK" x="73.66" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="73.66" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="73.66" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U5" gate="A" x="114.3" y="35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="84.2264" y="43.9166" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="84.0994" y="41.1226" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-<attribute name="ECE_STOCK" x="114.3" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="114.3" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PN" x="114.3" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -10960,20 +10904,17 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U8" gate="A" x="200.66" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="170.5864" y="108.2294" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="170.4594" y="105.1814" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-<attribute name="ECE_STOCK" x="200.66" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" x="200.66" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PN" x="200.66" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="PAD1" gate="G$1" x="25.4" y="170.18" smashed="yes">
 <attribute name="NAME" x="25.527" y="176.0982" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.527" y="173.228" size="1.778" layer="96"/>
-<attribute name="ECE_STOCK" x="25.4" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="25.4" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD2" gate="G$1" x="25.4" y="149.86" smashed="yes">
 <attribute name="NAME" x="25.527" y="155.2702" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.527" y="152.146" size="1.778" layer="96"/>
-<attribute name="ECE_STOCK" x="25.4" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="25.4" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="226.06" y="63.5"/>
@@ -10986,7 +10927,6 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="226.06" y="104.14"/>
 <instance part="PS1" gate="A" x="73.66" y="76.2">
-<attribute name="ECE_STOCK" x="73.66" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="73.66" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="73.66" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="73.66" y="76.2" size="1.778" layer="96" display="off"/>
@@ -11001,7 +10941,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R5" gate="G$1" x="213.36" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="216.9414" y="92.71" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="217.17" y="89.662" size="1.778" layer="96" rot="MR180"/>
-<attribute name="ECE_STOCK" x="213.36" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="213.36" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="213.36" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
@@ -11010,7 +10949,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R6" gate="G$1" x="213.36" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="217.17" y="77.2414" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="217.17" y="74.422" size="1.778" layer="96" rot="MR180"/>
-<attribute name="ECE_STOCK" x="213.36" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="213.36" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="213.36" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
@@ -11019,7 +10957,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U7" gate="A" x="177.8" y="157.48" smashed="yes" rot="MR180">
 <attribute name="NAME" x="185.7756" y="173.7614" size="2.0828" layer="95" ratio="6" rot="SMR180"/>
 <attribute name="VALUE" x="186.1566" y="170.7134" size="2.0828" layer="96" ratio="6" rot="SMR180"/>
-<attribute name="ECE_STOCK" x="177.8" y="157.48" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" x="177.8" y="157.48" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="PN" x="177.8" y="157.48" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
@@ -11030,16 +10967,14 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C7" gate="G$1" x="241.3" y="160.02">
 <attribute name="MANUFACTURER_PART_NUMBER" x="241.3" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="241.3" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="ECE_STOCK" x="241.3" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="LOCATION" x="241.3" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="241.3" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="241.3" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="226.06" y="154.94">
 <attribute name="MANUFACTURER_PART_NUMBER" x="226.06" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="226.06" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="ECE_STOCK" x="226.06" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="LOCATION" x="226.06" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="226.06" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="226.06" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+8" gate="1" x="152.4" y="165.1" smashed="yes">
 <attribute name="VALUE" x="152.4" y="165.1" size="1.778" layer="96"/>
@@ -11048,21 +10983,18 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="241.3" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="50.8" y="160.02">
-<attribute name="ECE_STOCK" x="50.8" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="50.8" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="50.8" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="50.8" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="50.8" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="96.52" y="66.04">
-<attribute name="ECE_STOCK" x="96.52" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="96.52" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="96.52" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="96.52" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="96.52" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="226.06" y="83.82">
-<attribute name="ECE_STOCK" x="226.06" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="226.06" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="226.06" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="NOTES" x="226.06" y="83.82" size="1.778" layer="96" display="off"/>
@@ -11070,11 +11002,10 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VENDOR" x="226.06" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="45.72" y="66.04">
-<attribute name="ECE_STOCK" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="VENDOR" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="45.72" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="96.52" y="50.8"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -11083,7 +11014,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U6" gate="A" x="111.76" y="160.02" smashed="yes">
 <attribute name="NAME" x="119.9896" y="169.1386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="119.8626" y="166.0906" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-<attribute name="ECE_STOCK" x="111.76" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="111.76" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="111.76" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>

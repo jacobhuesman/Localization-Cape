@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9881,6 +9881,427 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Boards" urn="urn:adsk.eagle:library:509">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BEAGLE_BONE_BLACK_CAPE" urn="urn:adsk.eagle:footprint:37261/1" library_version="1">
+<description>&lt;h3&gt;BeagleBone Black Cape Footprint&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:92&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
+&lt;li&gt;Area:3.4x2.15 in&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BeagleBone Black Cape&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-44.45" y1="-22.86" x2="-38.1" y2="-29.21" width="0.127" layer="51" curve="90"/>
+<wire x1="-38.1" y1="-29.21" x2="29.21" y2="-29.21" width="0.127" layer="51"/>
+<wire x1="29.21" y1="-29.21" x2="41.91" y2="-16.51" width="0.127" layer="51" curve="90"/>
+<wire x1="41.91" y1="-16.51" x2="41.91" y2="12.7" width="0.127" layer="51"/>
+<wire x1="41.91" y1="12.7" x2="29.21" y2="25.4" width="0.127" layer="51" curve="90"/>
+<wire x1="29.21" y1="25.4" x2="-38.735" y2="25.4" width="0.127" layer="51"/>
+<wire x1="-44.45" y1="-8.255" x2="-44.45" y2="-22.86" width="0.127" layer="51"/>
+<wire x1="-44.45" y1="-8.255" x2="-24.13" y2="-8.255" width="0.127" layer="51"/>
+<wire x1="-38.735" y1="9.525" x2="-24.13" y2="9.525" width="0.127" layer="51"/>
+<wire x1="-24.13" y1="-8.255" x2="-24.13" y2="9.525" width="0.127" layer="51"/>
+<wire x1="-38.735" y1="9.525" x2="-38.735" y2="25.4" width="0.127" layer="51"/>
+<wire x1="-44.45" y1="-7.62" x2="-25.4" y2="-7.62" width="0.127" layer="48" style="longdash"/>
+<wire x1="-25.4" y1="-7.62" x2="-25.4" y2="8.89" width="0.127" layer="48" style="longdash"/>
+<wire x1="-25.4" y1="8.89" x2="-44.45" y2="8.89" width="0.127" layer="48" style="longdash"/>
+<wire x1="-44.45" y1="8.89" x2="-44.45" y2="-7.62" width="0.127" layer="48" style="longdash"/>
+<wire x1="-44.45" y1="10.16" x2="-39.37" y2="10.16" width="0.127" layer="48" style="longdash"/>
+<wire x1="-39.37" y1="10.16" x2="-39.37" y2="25.4" width="0.127" layer="48" style="longdash"/>
+<wire x1="-39.37" y1="25.4" x2="-44.45" y2="25.4" width="0.127" layer="48" style="longdash"/>
+<wire x1="-44.45" y1="25.4" x2="-44.45" y2="10.16" width="0.127" layer="48" style="longdash"/>
+<hole x="-29.845" y="-26.035" drill="3.175"/>
+<hole x="36.195" y="-22.86" drill="3.175"/>
+<hole x="36.195" y="19.05" drill="3.175"/>
+<hole x="-29.845" y="22.225" drill="3.175"/>
+<text x="-26.67" y="22.225" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">P8</text>
+<text x="-26.67" y="-26.035" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">P9</text>
+<text x="-25.4" y="20.955" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">1</text>
+<text x="-25.4" y="-27.305" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">1</text>
+<text x="-25.4" y="-24.765" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">2</text>
+<text x="-25.4" y="23.495" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">2</text>
+<text x="34.29" y="23.495" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">46</text>
+<text x="34.29" y="20.955" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">45</text>
+<text x="34.29" y="-27.305" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">45</text>
+<text x="34.29" y="-24.765" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">46</text>
+<text x="-36.83" y="1.27" size="1.27" layer="48" font="vector" ratio="15" rot="R270" align="center">Ethernet</text>
+<text x="-41.91" y="17.78" size="1.27" layer="48" font="vector" ratio="15" rot="R270" align="center">LED/Button</text>
+<text x="-33.02" y="1.27" size="1.27" layer="48" font="vector" ratio="15" rot="R270" align="center">Cutout</text>
+<text x="0" y="-30.48" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<text x="0" y="26.67" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="-25.4" y="20.955" size="1.27" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">1</text>
+<text x="-25.4" y="23.495" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">2</text>
+<text x="-26.67" y="22.225" size="1.27" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">P8</text>
+<text x="34.29" y="20.955" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">45</text>
+<text x="34.29" y="23.495" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">46</text>
+<text x="34.29" y="-24.765" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">46</text>
+<text x="34.29" y="-27.305" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">45</text>
+<text x="-25.4" y="-27.305" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">1</text>
+<text x="-25.4" y="-24.765" size="1.016" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">2</text>
+<text x="-26.67" y="-26.035" size="1.27" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">P9</text>
+<pad name="P9.1" x="-24.13" y="-27.305" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="P9.2" x="-24.13" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.3" x="-21.59" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.4" x="-21.59" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.5" x="-19.05" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.6" x="-19.05" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.7" x="-16.51" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.8" x="-16.51" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.9" x="-13.97" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.10" x="-13.97" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.11" x="-11.43" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.12" x="-11.43" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.13" x="-8.89" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.14" x="-8.89" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.15" x="-6.35" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.16" x="-6.35" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.17" x="-3.81" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.18" x="-3.81" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.19" x="-1.27" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.20" x="-1.27" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.21" x="1.27" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.22" x="1.27" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.23" x="3.81" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.24" x="3.81" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.25" x="6.35" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.26" x="6.35" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.27" x="8.89" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.28" x="8.89" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.29" x="11.43" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.30" x="11.43" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.31" x="13.97" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.32" x="13.97" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.33" x="16.51" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.34" x="16.51" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.35" x="19.05" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.36" x="19.05" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.37" x="21.59" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.38" x="21.59" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.39" x="24.13" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.40" x="24.13" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.41" x="26.67" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.42" x="26.67" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.43" x="29.21" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.44" x="29.21" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P9.45" x="31.75" y="-27.305" drill="1.016" diameter="1.8796"/>
+<pad name="P9.46" x="31.75" y="-24.765" drill="1.016" diameter="1.8796"/>
+<pad name="P8.1" x="-24.13" y="20.955" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="P8.2" x="-24.13" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.3" x="-21.59" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.4" x="-21.59" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.5" x="-19.05" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.6" x="-19.05" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.7" x="-16.51" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.8" x="-16.51" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.9" x="-13.97" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.10" x="-13.97" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.11" x="-11.43" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.12" x="-11.43" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.13" x="-8.89" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.14" x="-8.89" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.15" x="-6.35" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.16" x="-6.35" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.17" x="-3.81" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.18" x="-3.81" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.19" x="-1.27" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.20" x="-1.27" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.21" x="1.27" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.22" x="1.27" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.23" x="3.81" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.24" x="3.81" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.25" x="6.35" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.26" x="6.35" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.27" x="8.89" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.28" x="8.89" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.29" x="11.43" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.30" x="11.43" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.31" x="13.97" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.32" x="13.97" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.33" x="16.51" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.34" x="16.51" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.35" x="19.05" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.36" x="19.05" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.37" x="21.59" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.38" x="21.59" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.39" x="24.13" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.40" x="24.13" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.41" x="26.67" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.42" x="26.67" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.43" x="29.21" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.44" x="29.21" y="23.495" drill="1.016" diameter="1.8796"/>
+<pad name="P8.45" x="31.75" y="20.955" drill="1.016" diameter="1.8796"/>
+<pad name="P8.46" x="31.75" y="23.495" drill="1.016" diameter="1.8796"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="BEAGLE_BONE_BLACK_CAPE" urn="urn:adsk.eagle:package:37329/1" type="box" library_version="1">
+<description>BeagleBone Black Cape Footprint
+Specifications:
+Pin count:92
+Pin pitch: 0.1"
+Area:3.4x2.15 in
+
+Datasheet referenced for footprint:
+Example device(s):
+BeagleBone Black Cape
+</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BEAGLE_BONE_BLACK_P8" urn="urn:adsk.eagle:symbol:37259/1" library_version="1">
+<description>&lt;h3&gt;Beagle Bone Black - Expansion Header P8 Pinout &lt;/h3&gt;
+&lt;p&gt; Default configuration of pins on power up on P8 expansion header. &lt;/p&gt;</description>
+<pin name="DGND@1" x="-17.78" y="25.4" length="short"/>
+<pin name="GPIO_38" x="-17.78" y="22.86" length="short"/>
+<pin name="GPIO_39" x="17.78" y="22.86" length="short" rot="R180"/>
+<pin name="GPIO_34" x="-17.78" y="20.32" length="short"/>
+<pin name="GPIO_35" x="17.78" y="20.32" length="short" rot="R180"/>
+<pin name="GPIO_66" x="-17.78" y="17.78" length="short"/>
+<pin name="GPIO_67" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="GPIO_69" x="-17.78" y="15.24" length="short"/>
+<pin name="GPIO_68" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="GPIO_45" x="-17.78" y="12.7" length="short"/>
+<pin name="GPIO_44" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="GPIO_23" x="-17.78" y="10.16" length="short"/>
+<pin name="GPIO_26" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="GPIO_47" x="-17.78" y="7.62" length="short"/>
+<pin name="GPIO_46" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="GPIO_27" x="-17.78" y="5.08" length="short"/>
+<pin name="GPIO_65" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="GPIO_22" x="-17.78" y="2.54" length="short"/>
+<pin name="GPIO_63" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="GPIO_62" x="-17.78" y="0" length="short"/>
+<pin name="GPIO_37" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="GPIO_36" x="-17.78" y="-2.54" length="short"/>
+<pin name="GPIO_61" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="GPIO_32" x="-17.78" y="-5.08" length="short"/>
+<pin name="GPIO_88" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="GPIO_86" x="-17.78" y="-7.62" length="short"/>
+<pin name="GPIO_89" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="GPIO_87" x="-17.78" y="-10.16" length="short"/>
+<pin name="GPIO_11" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="GPIO_10" x="-17.78" y="-12.7" length="short"/>
+<pin name="GPIO_81" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="GPIO_9" x="-17.78" y="-15.24" length="short"/>
+<pin name="GPIO_80" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="GPIO_8" x="-17.78" y="-17.78" length="short"/>
+<pin name="GPIO_79" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="GPIO_76" x="-17.78" y="-22.86" length="short"/>
+<pin name="GPIO_77" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="GPIO_74" x="-17.78" y="-25.4" length="short"/>
+<pin name="GPIO_75" x="17.78" y="-25.4" length="short" rot="R180"/>
+<pin name="DGND@2" x="17.78" y="25.4" length="short" rot="R180"/>
+<pin name="GPIO_72" x="-17.78" y="-27.94" length="short"/>
+<pin name="GPIO_73" x="17.78" y="-27.94" length="short" rot="R180"/>
+<pin name="GPIO_70" x="-17.78" y="-30.48" length="short"/>
+<pin name="GPIO_71" x="17.78" y="-30.48" length="short" rot="R180"/>
+<pin name="GPIO_78" x="-17.78" y="-20.32" length="short"/>
+<pin name="GPIO_33" x="17.78" y="-2.54" length="short" rot="R180"/>
+<wire x1="-15.24" y1="27.94" x2="15.24" y2="27.94" width="0.254" layer="94"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-33.02" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
+<text x="0" y="25.4" size="1.778" layer="94" font="vector" ratio="15" align="bottom-center">P8</text>
+<text x="0" y="-30.48" size="1.778" layer="94" font="vector" ratio="15" rot="R180" align="bottom-center">P8</text>
+<text x="-15.24" y="29.21" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-34.29" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUES</text>
+</symbol>
+<symbol name="BEAGLE_BONE_BLACK_P9" urn="urn:adsk.eagle:symbol:37260/1" library_version="1">
+<description>&lt;h3&gt;Beagle Bone Black - Expansion Header P9 Pinout &lt;/h3&gt;
+&lt;p&gt; Default configuration of pins on power up on P9 expansion header. &lt;/p&gt;</description>
+<pin name="DGND@1" x="-17.78" y="25.4" length="short"/>
+<pin name="VDD_3V3@1" x="-17.78" y="22.86" length="short"/>
+<pin name="VDD_3V3@2" x="17.78" y="22.86" length="short" rot="R180"/>
+<pin name="SYS_5V@1" x="-17.78" y="17.78" length="short"/>
+<pin name="SYS_5V@2" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="PWR_BUT" x="-17.78" y="15.24" length="short"/>
+<pin name="SYS_RESET!N" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="GPIO_30" x="-17.78" y="12.7" length="short"/>
+<pin name="GPIO_60" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="GPIO_31" x="-17.78" y="10.16" length="short"/>
+<pin name="GPIO_40" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="GPIO_48" x="-17.78" y="7.62" length="short"/>
+<pin name="GPIO_51" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="GPIO_4" x="-17.78" y="5.08" length="short"/>
+<pin name="GPIO_5" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="I2C2_SCL" x="-17.78" y="2.54" length="short"/>
+<pin name="I2C2_SDA" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="GPIO_3" x="-17.78" y="0" length="short"/>
+<pin name="GPIO_2" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="GPIO_49" x="-17.78" y="-2.54" length="short"/>
+<pin name="GPIO_15" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="GPIO_117" x="-17.78" y="-5.08" length="short"/>
+<pin name="GPIO_14" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="GPIO_125" x="-17.78" y="-7.62" length="short"/>
+<pin name="GPIO_123" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="GPIO_121" x="-17.78" y="-10.16" length="short"/>
+<pin name="GPIO_122" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="GPIO_120" x="-17.78" y="-12.7" length="short"/>
+<pin name="VDD_ADC" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="AIN4" x="-17.78" y="-15.24" length="short"/>
+<pin name="GNDA_ADC" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="AIN6" x="-17.78" y="-17.78" length="short"/>
+<pin name="AIN5" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="AIN2" x="-17.78" y="-20.32" length="short"/>
+<pin name="AIN3" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="AIN0" x="-17.78" y="-22.86" length="short"/>
+<pin name="AIN1" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="GPIO_20" x="-17.78" y="-25.4" length="short"/>
+<pin name="GPIO_7" x="17.78" y="-25.4" length="short" rot="R180"/>
+<pin name="DGND@2" x="17.78" y="25.4" length="short" rot="R180"/>
+<pin name="DGND@3" x="-17.78" y="-27.94" length="short"/>
+<pin name="DGND@4" x="17.78" y="-27.94" length="short" rot="R180"/>
+<pin name="DGND@5" x="-17.78" y="-30.48" length="short"/>
+<pin name="DGND@6" x="17.78" y="-30.48" length="short" rot="R180"/>
+<pin name="VDD_5V@1" x="-17.78" y="20.32" length="short"/>
+<pin name="VDD_5V@2" x="17.78" y="20.32" length="short" rot="R180"/>
+<wire x1="-15.24" y1="27.94" x2="15.24" y2="27.94" width="0.254" layer="94"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-33.02" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
+<text x="0" y="25.4" size="1.778" layer="94" font="vector" ratio="15" align="bottom-center">P9</text>
+<text x="0" y="-30.48" size="1.778" layer="94" font="vector" ratio="15" rot="R180" align="bottom-center">P9</text>
+<text x="-15.24" y="29.21" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-34.29" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SPARKFUN_BEAGLE_BONE_BLACK_CAPE" urn="urn:adsk.eagle:component:37364/1" prefix="B" library_version="1">
+<description>&lt;h3&gt;BeagleBone Black Rev C Cape &lt;/h3&gt;
+&lt;p&gt; Generic footprint for BeagleBone Black Rev C Capes.&lt;/p&gt;
+
+
+&lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12774”&gt;SparkFun BeagleBone Black Proto Cape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12773”&gt;SparkFun CryptoCape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="P8" symbol="BEAGLE_BONE_BLACK_P8" x="-17.78" y="-2.54"/>
+<gate name="P9" symbol="BEAGLE_BONE_BLACK_P9" x="-17.78" y="-66.04"/>
+</gates>
+<devices>
+<device name="" package="BEAGLE_BONE_BLACK_CAPE">
+<connects>
+<connect gate="P8" pin="DGND@1" pad="P8.1"/>
+<connect gate="P8" pin="DGND@2" pad="P8.2"/>
+<connect gate="P8" pin="GPIO_10" pad="P8.31"/>
+<connect gate="P8" pin="GPIO_11" pad="P8.32"/>
+<connect gate="P8" pin="GPIO_22" pad="P8.19"/>
+<connect gate="P8" pin="GPIO_23" pad="P8.13"/>
+<connect gate="P8" pin="GPIO_26" pad="P8.14"/>
+<connect gate="P8" pin="GPIO_27" pad="P8.17"/>
+<connect gate="P8" pin="GPIO_32" pad="P8.25"/>
+<connect gate="P8" pin="GPIO_33" pad="P8.24"/>
+<connect gate="P8" pin="GPIO_34" pad="P8.5"/>
+<connect gate="P8" pin="GPIO_35" pad="P8.6"/>
+<connect gate="P8" pin="GPIO_36" pad="P8.23"/>
+<connect gate="P8" pin="GPIO_37" pad="P8.22"/>
+<connect gate="P8" pin="GPIO_38" pad="P8.3"/>
+<connect gate="P8" pin="GPIO_39" pad="P8.4"/>
+<connect gate="P8" pin="GPIO_44" pad="P8.12"/>
+<connect gate="P8" pin="GPIO_45" pad="P8.11"/>
+<connect gate="P8" pin="GPIO_46" pad="P8.16"/>
+<connect gate="P8" pin="GPIO_47" pad="P8.15"/>
+<connect gate="P8" pin="GPIO_61" pad="P8.26"/>
+<connect gate="P8" pin="GPIO_62" pad="P8.21"/>
+<connect gate="P8" pin="GPIO_63" pad="P8.20"/>
+<connect gate="P8" pin="GPIO_65" pad="P8.18"/>
+<connect gate="P8" pin="GPIO_66" pad="P8.7"/>
+<connect gate="P8" pin="GPIO_67" pad="P8.8"/>
+<connect gate="P8" pin="GPIO_68" pad="P8.10"/>
+<connect gate="P8" pin="GPIO_69" pad="P8.9"/>
+<connect gate="P8" pin="GPIO_70" pad="P8.45"/>
+<connect gate="P8" pin="GPIO_71" pad="P8.46"/>
+<connect gate="P8" pin="GPIO_72" pad="P8.43"/>
+<connect gate="P8" pin="GPIO_73" pad="P8.44"/>
+<connect gate="P8" pin="GPIO_74" pad="P8.41"/>
+<connect gate="P8" pin="GPIO_75" pad="P8.42"/>
+<connect gate="P8" pin="GPIO_76" pad="P8.39"/>
+<connect gate="P8" pin="GPIO_77" pad="P8.40"/>
+<connect gate="P8" pin="GPIO_78" pad="P8.37"/>
+<connect gate="P8" pin="GPIO_79" pad="P8.38"/>
+<connect gate="P8" pin="GPIO_8" pad="P8.35"/>
+<connect gate="P8" pin="GPIO_80" pad="P8.36"/>
+<connect gate="P8" pin="GPIO_81" pad="P8.34"/>
+<connect gate="P8" pin="GPIO_86" pad="P8.27"/>
+<connect gate="P8" pin="GPIO_87" pad="P8.29"/>
+<connect gate="P8" pin="GPIO_88" pad="P8.28"/>
+<connect gate="P8" pin="GPIO_89" pad="P8.30"/>
+<connect gate="P8" pin="GPIO_9" pad="P8.33"/>
+<connect gate="P9" pin="AIN0" pad="P9.39"/>
+<connect gate="P9" pin="AIN1" pad="P9.40"/>
+<connect gate="P9" pin="AIN2" pad="P9.37"/>
+<connect gate="P9" pin="AIN3" pad="P9.38"/>
+<connect gate="P9" pin="AIN4" pad="P9.33"/>
+<connect gate="P9" pin="AIN5" pad="P9.36"/>
+<connect gate="P9" pin="AIN6" pad="P9.35"/>
+<connect gate="P9" pin="DGND@1" pad="P9.1"/>
+<connect gate="P9" pin="DGND@2" pad="P9.2"/>
+<connect gate="P9" pin="DGND@3" pad="P9.43"/>
+<connect gate="P9" pin="DGND@4" pad="P9.44"/>
+<connect gate="P9" pin="DGND@5" pad="P9.45"/>
+<connect gate="P9" pin="DGND@6" pad="P9.46"/>
+<connect gate="P9" pin="GNDA_ADC" pad="P9.34"/>
+<connect gate="P9" pin="GPIO_117" pad="P9.25"/>
+<connect gate="P9" pin="GPIO_120" pad="P9.31"/>
+<connect gate="P9" pin="GPIO_121" pad="P9.29"/>
+<connect gate="P9" pin="GPIO_122" pad="P9.30"/>
+<connect gate="P9" pin="GPIO_123" pad="P9.28"/>
+<connect gate="P9" pin="GPIO_125" pad="P9.27"/>
+<connect gate="P9" pin="GPIO_14" pad="P9.26"/>
+<connect gate="P9" pin="GPIO_15" pad="P9.24"/>
+<connect gate="P9" pin="GPIO_2" pad="P9.22"/>
+<connect gate="P9" pin="GPIO_20" pad="P9.41"/>
+<connect gate="P9" pin="GPIO_3" pad="P9.21"/>
+<connect gate="P9" pin="GPIO_30" pad="P9.11"/>
+<connect gate="P9" pin="GPIO_31" pad="P9.13"/>
+<connect gate="P9" pin="GPIO_4" pad="P9.17"/>
+<connect gate="P9" pin="GPIO_40" pad="P9.14"/>
+<connect gate="P9" pin="GPIO_48" pad="P9.15"/>
+<connect gate="P9" pin="GPIO_49" pad="P9.23"/>
+<connect gate="P9" pin="GPIO_5" pad="P9.18"/>
+<connect gate="P9" pin="GPIO_51" pad="P9.16"/>
+<connect gate="P9" pin="GPIO_60" pad="P9.12"/>
+<connect gate="P9" pin="GPIO_7" pad="P9.42"/>
+<connect gate="P9" pin="I2C2_SCL" pad="P9.19"/>
+<connect gate="P9" pin="I2C2_SDA" pad="P9.20"/>
+<connect gate="P9" pin="PWR_BUT" pad="P9.9"/>
+<connect gate="P9" pin="SYS_5V@1" pad="P9.7"/>
+<connect gate="P9" pin="SYS_5V@2" pad="P9.8"/>
+<connect gate="P9" pin="SYS_RESET!N" pad="P9.10"/>
+<connect gate="P9" pin="VDD_3V3@1" pad="P9.3"/>
+<connect gate="P9" pin="VDD_3V3@2" pad="P9.4"/>
+<connect gate="P9" pin="VDD_5V@1" pad="P9.5"/>
+<connect gate="P9" pin="VDD_5V@2" pad="P9.6"/>
+<connect gate="P9" pin="VDD_ADC" pad="P9.32"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37329/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10100,6 +10521,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="B1" library="SparkFun-Boards" library_urn="urn:adsk.eagle:library:509" deviceset="SPARKFUN_BEAGLE_BONE_BLACK_CAPE" device="" package3d_urn="urn:adsk.eagle:package:37329/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10184,6 +10606,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SJ2" gate="G$1" x="210.82" y="147.32" rot="MR0">
 <attribute name="VENDOR" x="210.82" y="147.32" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
+<instance part="B1" gate="P8" x="-50.8" y="175.26"/>
+<instance part="B1" gate="P9" x="-50.8" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -10212,6 +10636,16 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="119.38" y1="12.7" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="119.38" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="VDD_5V@1"/>
+<wire x1="-68.58" y1="124.46" x2="-88.9" y2="124.46" width="0.1524" layer="91"/>
+<label x="-88.9" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="VDD_5V@2"/>
+<wire x1="-33.02" y1="124.46" x2="-12.7" y2="124.46" width="0.1524" layer="91"/>
+<label x="-12.7" y="124.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10274,6 +10708,46 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="109.22" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="129.54" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="DGND@1"/>
+<wire x1="-68.58" y1="200.66" x2="-88.9" y2="200.66" width="0.1524" layer="91"/>
+<label x="-88.9" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="DGND@2"/>
+<wire x1="-33.02" y1="200.66" x2="-12.7" y2="200.66" width="0.1524" layer="91"/>
+<label x="-12.7" y="200.66" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="DGND@1"/>
+<wire x1="-68.58" y1="129.54" x2="-88.9" y2="129.54" width="0.1524" layer="91"/>
+<label x="-88.9" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="DGND@3"/>
+<wire x1="-68.58" y1="76.2" x2="-88.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="-88.9" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="DGND@5"/>
+<wire x1="-68.58" y1="73.66" x2="-88.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="-88.9" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="DGND@2"/>
+<wire x1="-33.02" y1="129.54" x2="-12.7" y2="129.54" width="0.1524" layer="91"/>
+<label x="-12.7" y="129.54" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="DGND@4"/>
+<wire x1="-33.02" y1="76.2" x2="-12.7" y2="76.2" width="0.1524" layer="91"/>
+<label x="-12.7" y="76.2" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="DGND@6"/>
+<wire x1="-33.02" y1="73.66" x2="-12.7" y2="73.66" width="0.1524" layer="91"/>
+<label x="-12.7" y="73.66" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="DCAN1_RX" class="0">
 <segment>
@@ -10286,6 +10760,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="58.42" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="40.64" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P9" pin="GPIO_15"/>
+<wire x1="-33.02" y1="101.6" x2="-12.7" y2="101.6" width="0.1524" layer="91"/>
+<label x="-12.7" y="101.6" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="DCAN1_TX" class="0">
 <segment>
@@ -10297,6 +10776,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="A" pin="TXD"/>
 <wire x1="58.42" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <label x="40.64" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="GPIO_14"/>
+<wire x1="-33.02" y1="99.06" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="-12.7" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="I2C2_SDA" class="0">
@@ -10312,6 +10796,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="254" y1="68.58" x2="254" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P9" pin="I2C2_SDA"/>
+<wire x1="-33.02" y1="106.68" x2="-12.7" y2="106.68" width="0.1524" layer="91"/>
+<label x="-12.7" y="106.68" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="UART2_RXD" class="0">
 <segment>
@@ -10324,6 +10813,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="116.84" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="114.3" x2="238.76" y2="114.3" width="0.1524" layer="91"/>
 <label x="238.76" y="114.3" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="GPIO_2"/>
+<wire x1="-33.02" y1="104.14" x2="-12.7" y2="104.14" width="0.1524" layer="91"/>
+<label x="-12.7" y="104.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="UART2_TXD" class="0">
@@ -10338,6 +10832,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 <label x="182.88" y="165.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P9" pin="GPIO_3"/>
+<wire x1="-68.58" y1="104.14" x2="-88.9" y2="104.14" width="0.1524" layer="91"/>
+<label x="-88.9" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PRU1_1" class="1">
 <segment>
@@ -10349,6 +10848,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT3"/>
 <wire x1="198.12" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 <label x="182.88" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_71"/>
+<wire x1="-33.02" y1="144.78" x2="-12.7" y2="144.78" width="0.1524" layer="91"/>
+<label x="-12.7" y="144.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PRU1_3" class="1">
@@ -10362,6 +10866,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="198.12" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 <label x="182.88" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_73"/>
+<wire x1="-33.02" y1="147.32" x2="-12.7" y2="147.32" width="0.1524" layer="91"/>
+<label x="-12.7" y="147.32" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="PRU1_5" class="1">
 <segment>
@@ -10373,6 +10882,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT7"/>
 <wire x1="198.12" y1="55.88" x2="182.88" y2="55.88" width="0.1524" layer="91"/>
 <label x="182.88" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_75"/>
+<wire x1="-33.02" y1="149.86" x2="-12.7" y2="149.86" width="0.1524" layer="91"/>
+<label x="-12.7" y="149.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PRU1_7" class="1">
@@ -10386,6 +10900,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="198.12" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
 <label x="182.88" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_77"/>
+<wire x1="-33.02" y1="152.4" x2="-12.7" y2="152.4" width="0.1524" layer="91"/>
+<label x="-12.7" y="152.4" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="PRU1_0" class="1">
 <segment>
@@ -10397,6 +10916,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT2"/>
 <wire x1="231.14" y1="50.8" x2="246.38" y2="50.8" width="0.1524" layer="91"/>
 <label x="246.38" y="50.8" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_70"/>
+<wire x1="-68.58" y1="144.78" x2="-88.9" y2="144.78" width="0.1524" layer="91"/>
+<label x="-88.9" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PRU1_2" class="1">
@@ -10410,6 +10934,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="231.14" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
 <label x="246.38" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_72"/>
+<wire x1="-68.58" y1="147.32" x2="-88.9" y2="147.32" width="0.1524" layer="91"/>
+<label x="-88.9" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PRU1_4" class="1">
 <segment>
@@ -10421,6 +10950,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="DOUT6"/>
 <wire x1="231.14" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
 <label x="246.38" y="55.88" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_74"/>
+<wire x1="-68.58" y1="149.86" x2="-88.9" y2="149.86" width="0.1524" layer="91"/>
+<label x="-88.9" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PRU1_6" class="1">
@@ -10434,6 +10968,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="231.14" y1="58.42" x2="246.38" y2="58.42" width="0.1524" layer="91"/>
 <label x="246.38" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_76"/>
+<wire x1="-68.58" y1="152.4" x2="-88.9" y2="152.4" width="0.1524" layer="91"/>
+<label x="-88.9" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PRU1_9" class="1">
 <segment>
@@ -10445,6 +10984,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="HREF"/>
 <wire x1="231.14" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <label x="246.38" y="63.5" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_87"/>
+<wire x1="-68.58" y1="165.1" x2="-88.9" y2="165.1" width="0.1524" layer="91"/>
+<label x="-88.9" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PRU1_8" class="1">
@@ -10458,6 +11002,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="198.12" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 <label x="182.88" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_86"/>
+<wire x1="-68.58" y1="167.64" x2="-88.9" y2="167.64" width="0.1524" layer="91"/>
+<label x="-88.9" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PRU1_10" class="1">
 <segment>
@@ -10469,6 +11018,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="PCLK"/>
 <wire x1="198.12" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <label x="182.88" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_88"/>
+<wire x1="-33.02" y1="167.64" x2="-12.7" y2="167.64" width="0.1524" layer="91"/>
+<label x="-12.7" y="167.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="TIMER4" class="1">
@@ -10482,6 +11036,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="231.14" y1="60.96" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
 <label x="246.38" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_66"/>
+<wire x1="-68.58" y1="193.04" x2="-88.9" y2="193.04" width="0.1524" layer="91"/>
+<label x="-88.9" y="193.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWDN" class="0">
 <segment>
@@ -10493,6 +11052,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="&gt;NAME" pin="PWDN"/>
 <wire x1="198.12" y1="48.26" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
 <label x="182.88" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P8" pin="GPIO_32"/>
+<wire x1="-68.58" y1="170.18" x2="-88.9" y2="170.18" width="0.1524" layer="91"/>
+<label x="-88.9" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -10590,6 +11154,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="53.34" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="33.02" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P9" pin="GPIO_49"/>
+<wire x1="-68.58" y1="101.6" x2="-88.9" y2="101.6" width="0.1524" layer="91"/>
+<label x="-88.9" y="101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C2_SCL" class="1">
 <segment>
@@ -10604,12 +11173,22 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="68.58" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="B1" gate="P9" pin="I2C2_SCL"/>
+<wire x1="-68.58" y1="106.68" x2="-88.9" y2="106.68" width="0.1524" layer="91"/>
+<label x="-88.9" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SYS_RESETN" class="0">
 <segment>
 <pinref part="A1" gate="G$1" pin="SYS_RESETN.10@P9"/>
 <wire x1="109.22" y1="111.76" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
 <label x="129.54" y="111.76" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="B1" gate="P9" pin="SYS_RESET!N"/>
+<wire x1="-33.02" y1="119.38" x2="-12.7" y2="119.38" width="0.1524" layer="91"/>
+<label x="-12.7" y="119.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>

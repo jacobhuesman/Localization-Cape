@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjQyNjE5" projecturn="a.cGVyc29uYWw6dWUyYjQyNjE5IzIwMTcxMDA4OTczMTc3MDE" f3durn="urn:adsk.wipprod:dm.lineage:4ue_-3ieTSSXT3ZEs_mMkw" pcbguid="aeb03dfb-aa97-4c81-a82f-a409306b356b" lastpulledtime="" lastsyncedchangeguid="f051ff45-cb78-acbb-7a43-63a7e936fee8"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjQyNjE5" projecturn="a.cGVyc29uYWw6dWUyYjQyNjE5IzIwMTcxMDA4OTczMTc3MDE" f3durn="urn:adsk.wipprod:dm.lineage:4ue_-3ieTSSXT3ZEs_mMkw" pcbguid="aeb03dfb-aa97-4c81-a82f-a409306b356b" lastpulledtime="" lastsyncedchangeguid="6125b496-6ff6-958e-8fa7-ed24874aabff"/>
 <plain>
 <text x="71.12" y="-20.32" size="1.778" layer="48" rot="R270">Add holes for bolts</text>
 <text x="50.165" y="45.085" size="1.27" layer="25" rot="R90">TST</text>
@@ -3576,7 +3576,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="B1" pad="P9.2"/>
 <contactref element="B1" pad="P9.44"/>
 <contactref element="B1" pad="P9.46"/>
-<wire x1="35.8648" y1="6.97" x2="31.75" y2="20.635" width="0" layer="19" extent="1-1"/>
+<via x="30.48" y="7.62" extent="1-16" drill="0.35"/>
+<wire x1="30.48" y1="7.62" x2="31.75" y2="7.62" width="0.8128" layer="16"/>
+<via x="33.02" y="6.35" extent="1-16" drill="0.35"/>
+<wire x1="31.75" y1="7.62" x2="33.02" y2="6.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="+5V">
 <contactref element="PS1" pad="3"/>

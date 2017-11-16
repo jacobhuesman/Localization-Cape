@@ -19978,18 +19978,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="116.84" y="160.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="TIMER4" class="1">
-<segment>
-<pinref part="U2" gate="&gt;NAME" pin="XCLK"/>
-<wire x1="231.14" y1="60.96" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
-<label x="246.38" y="60.96" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="B1" gate="P8" pin="GPIO_66"/>
-<wire x1="60.96" y1="185.42" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
-<label x="40.64" y="185.42" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PWDN" class="0">
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="PWDN"/>
@@ -20117,6 +20105,18 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="B1" gate="P9" pin="SYS_RESET!N"/>
 <wire x1="96.52" y1="111.76" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
 <label x="116.84" y="111.76" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="XCLK" class="0">
+<segment>
+<pinref part="B1" gate="P9" pin="GPIO_117"/>
+<wire x1="60.96" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="40.64" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="&gt;NAME" pin="XCLK"/>
+<wire x1="231.14" y1="60.96" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
+<label x="246.38" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
@@ -20722,30 +20722,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <approved hash="104,3,198.12,99.06,U8,OUT,+10V,,,"/>
 <approved hash="104,3,165.1,99.06,U8,IN,+12V,,,"/>
 <approved hash="104,3,165.1,96.52,U8,TAB,+10V,,,"/>
-<approved hash="104,1,53.34,121.92,A1,01.DGND,GND,,,"/>
-<approved hash="104,1,109.22,121.92,A1,GND.02,GND,,,"/>
-<approved hash="204,1,53.34,119.38,A1,03.VDD_3V3,,,,"/>
-<approved hash="204,1,109.22,119.38,A1,VDD_3V3.04,,,,"/>
-<approved hash="104,1,53.34,116.84,A1,05.VDD_5V,+5V,,,"/>
-<approved hash="104,1,109.22,116.84,A1,VDD_5V.06,+5V,,,"/>
-<approved hash="204,1,53.34,114.3,A1,07.SYS_5V,,,,"/>
-<approved hash="204,1,109.22,114.3,A1,SYS_5V.08,,,,"/>
-<approved hash="202,1,53.34,111.76,A1,09.PWR_BUT,,,,"/>
-<approved hash="204,1,109.22,83.82,A1,VDD_ADC.32,,,,"/>
-<approved hash="202,1,53.34,81.28,A1,33.AIN4,,,,"/>
-<approved hash="204,1,109.22,81.28,A1,GNDA_ADC.34,,,,"/>
-<approved hash="202,1,53.34,78.74,A1,35.AIN6,,,,"/>
-<approved hash="202,1,109.22,78.74,A1,AIN5.36,,,,"/>
-<approved hash="202,1,53.34,76.2,A1,37.AIN2,,,,"/>
-<approved hash="202,1,109.22,76.2,A1,AIN3.38,,,,"/>
-<approved hash="202,1,53.34,73.66,A1,39.AIN0,,,,"/>
-<approved hash="202,1,109.22,73.66,A1,AIN1.40,,,,"/>
-<approved hash="104,1,53.34,68.58,A1,43.DGND,GND,,,"/>
-<approved hash="104,1,109.22,68.58,A1,DGND.44,GND,,,"/>
-<approved hash="104,1,53.34,66.04,A1,45.DGND,GND,,,"/>
-<approved hash="104,1,109.22,66.04,A1,DGND.46,GND,,,"/>
-<approved hash="104,1,53.34,187.96,A1,01.DGND,GND,,,"/>
-<approved hash="104,1,109.22,187.96,A1,DGND.02,GND,,,"/>
 <approved hash="104,2,45.72,165.1,U3,DVCC,+3V3,,,"/>
 <approved hash="104,2,187.96,165.1,U3,DVSS,GND,,,"/>
 <approved hash="104,1,58.42,25.4,U1,VCC,+5V,,,"/>
@@ -20765,11 +20741,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <approved hash="208,3,241.3,175.26,+3V3,sup,,,,"/>
 <approved hash="113,2,231.377,172.946,JP1,,,,,"/>
 <approved hash="113,3,139.596,107.846,FRAME3,,,,,"/>
-<approved hash="113,1,124.943,25.9436,J1,,,,,"/>
 <approved hash="113,1,209.624,121.92,SJ3,,,,,"/>
 <approved hash="113,1,212.016,172.72,SJ1,,,,,"/>
 <approved hash="113,1,212.016,147.32,SJ2,,,,,"/>
 <approved hash="113,2,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="113,3,38.1,170.762,D1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

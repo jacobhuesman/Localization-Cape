@@ -1,0 +1,53 @@
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage[left=1.00in, right=1.00in, top=1.00in, bottom=1.00in]{geometry}
+
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	breaklinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+	pdftitle={Pocket Beagle Cape Requirements},
+	bookmarks=true,
+	pdfpagemode=FullScreen,
+}
+\def\UrlBreaks{\do\/\do-}
+
+%opening
+\title{Pocket Beagle Cape Requirements}
+\author{Jacob Huesman}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The requirements document for the new senior design node cape.
+\end{abstract}
+
+\section{Power Requirements}
+\subsection{Pocket Beagle}
+Should be the same as the BeagleBone Black. Minimum recommended is 5V @ 1.2A, recommended is 5V @ 2A, which includes room for USB peripherals. See: \url{http://beagleboard.org/support/faq}
+
+The actual usage by the BeagleBone Black measured during a test done by Adafruit saw current usage of less than 500mA. Which makes sense since it can operate as a USB device. See: \url{https://learn.adafruit.com/embedded-linux-board-comparison/power-usage}. It might actually be lower since there everything is integrated on the pocket beagle.
+
+\subsection{ELP VGA USB Camera Module}
+According to the specs available on Amazon this camera doesn't exceed 160mA of power usage. See: \url{https://www.amazon.com/gp/product/B01DRG250Q/ref=oh_aui_search_detailpage?ie=UTF8&psc=1}. Since they are USB Devices we can expect no more than 5V @ 500mA. 
+
+\subsection{Dynamixel XL-320}
+See: \url{http://www.robotis.us/dynamixel-xl-320/} and
+6~8.4V
+
+
+\end{document}

@@ -12,6 +12,10 @@
 \usepackage[table]{xcolor}
 \usepackage{hyperref}
 
+\usepackage[T1]{fontenc}
+\usepackage[scaled=1.0]{DejaVuSansMono}
+\usepackage{listings}
+
 \hypersetup{
 	colorlinks=true,
 	hidelinks=true,
@@ -25,6 +29,42 @@
 }
 \def\UrlBreaks{\do\/\do-}
 
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.965,0.973,0.980}
+\lstdefinestyle{Default-Custom-Style}{
+	backgroundcolor=\color{backcolour}, 
+	xleftmargin=0.5cm,
+	frame=tlbr,
+	framesep=8pt,
+	framerule=0pt,  
+	%commentstyle=\color{codegreen},
+	%keywordstyle=\color{magenta},
+	%numberstyle=\tiny\color{codegray},
+	%stringstyle=\color{codepurple},
+	basicstyle=\footnotesize\ttfamily,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=none,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=Default-Custom-Style}
+
+% Code listing structure
+%\begin{lstlisting}[language=bash]
+%
+%\end{lstlisting}
+
 %opening
 \title{Localization Cape Manual}
 \author{Jacob Huesman}
@@ -35,6 +75,37 @@
 	\maketitle
 	\tableofcontents
 }
+
+\chapter{Notes}
+\section{Using this document}
+All urls and table of contents entries are active. If you click on them they'll take you to the url or document location respectively.
+
+The code view is copy and paste able only on particular pdf viewers. Firefox works.
+
+\chapter{Beagle Configuration}
+\section{Hardware}
+\begin{itemize}
+	\item BeagleBone Black
+	\item Class 10 SD Card
+\end{itemize}
+
+\section{Configuration}
+\subsection{Getting an OS}
+Retrieve latest IoT (non-GUI) image from: \url{https://beagleboard.org/latest-images}.
+
+Follow instructions available at \url{http://beagleboard.org/getting-started} for "Update Board with latest software. You can ignore the start your beagle section.
+
+Configure udev rules for ssh over usb: \url{http://beagleboard.org/static/Drivers/Linux/FTDI/mkudevrule.sh}.
+
+After pluggin in the usb cable you should now be able to ssh into the BeagleBone Black
+
+\begin{lstlisting}[language=bash]
+ssh debian@192.168.7.2
+\end{lstlisting}
+
+
+\section{Stuff to look into}
+Building a custom image with just the stuff we need: \url{https://github.com/fhunleth/bbb-buildroot-fwup}, \url{https://elinux.org/BeagleBone_Operating_Systems}
 
 \chapter{Localization Cape Requirements}
 \section{Power Requirements}

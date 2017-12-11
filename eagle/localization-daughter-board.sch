@@ -10380,7 +10380,7 @@ Programming Port</text>
 <approved hash="102,1,40.64,45.72,3V3,+3V3,,,,"/>
 <approved hash="102,1,88.9,182.88,VCC,+7V4,,,,"/>
 <approved hash="102,1,35.56,172.72,VCC,+7V4,,,,"/>
-<approved hash="102,1,177.8,127,VCC,+7V4,,,,"/>
+<approved hash="102,1,177.8,116.84,VCC,+7V4,,,,"/>
 <approved hash="104,1,38.1,121.92,U1,IN,+12V,,,"/>
 <approved hash="104,1,66.04,119.38,U1,OUT,+5V,,,"/>
 <approved hash="104,1,66.04,121.92,U1,TAB,GND,,,"/>
@@ -10390,15 +10390,15 @@ Programming Port</text>
 <approved hash="104,1,152.4,172.72,U5,VCC,+5V,,,"/>
 <approved hash="104,1,190.5,175.26,U5,VRXD,+3V3,,,"/>
 <approved hash="202,1,190.5,167.64,U5,S,,,,"/>
-<approved hash="104,1,121.92,114.3,U4,VCCA,+3V3,,,"/>
-<approved hash="104,1,152.4,114.3,U4,VCCB,+5V,,,"/>
+<approved hash="104,1,124.46,114.3,U4,VCCA,+3V3,,,"/>
+<approved hash="104,1,154.94,114.3,U4,VCCB,+5V,,,"/>
 <approved hash="206,1,81.28,180.34,+7V4,,,,,"/>
 <approved hash="206,1,48.26,177.8,+7V4,,,,,"/>
 <approved hash="208,1,81.28,180.34,+7V4,out,,,,"/>
 <approved hash="208,1,88.9,182.88,+7V4,sup,,,,"/>
 <approved hash="208,1,35.56,172.72,+7V4,sup,,,,"/>
 <approved hash="208,1,48.26,177.8,+7V4,out,,,,"/>
-<approved hash="208,1,177.8,127,+7V4,sup,,,,"/>
+<approved hash="208,1,177.8,116.84,+7V4,sup,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
 <approved hash="113,1,241.977,110.327,J3,,,,,"/>
 <approved hash="113,1,224.197,174.153,J2,,,,,"/>

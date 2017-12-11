@@ -1688,7 +1688,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="Localization-Daughter-Board" urn="urn:adsk.eagle:library:1230207">
 <packages>
-<package name="D8" library_version="1" library_locally_modified="yes">
+<package name="D8" urn="urn:adsk.eagle:footprint:1230536/1" library_version="3">
 <smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="2" x="-2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="3" x="-2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
@@ -1741,7 +1741,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-3.302" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="MOLEX-053253-0370" library_version="1" library_locally_modified="yes">
+<package name="MOLEX-053253-0370" urn="urn:adsk.eagle:footprint:1230540/1" library_version="3">
 <pad name="1" x="2" y="2.15" drill="0.8" diameter="1.4224" shape="square"/>
 <pad name="2" x="4" y="2.15" drill="0.8" diameter="1.4224"/>
 <pad name="3" x="6" y="2.15" drill="0.8" diameter="1.4224"/>
@@ -1793,7 +1793,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.8034" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="MP04A" urn="urn:adsk.eagle:footprint:1230209/1" locally_modified="yes" library_version="2" library_locally_modified="yes">
+<package name="MP04A" urn="urn:adsk.eagle:footprint:1230209/2" library_version="3">
 <smd name="1" x="-3.2004" y="2.3" dx="1.6002" dy="0.8382" layer="1"/>
 <smd name="2" x="-3.2004" y="0" dx="1.6002" dy="0.8382" layer="1"/>
 <smd name="3" x="-3.2004" y="-2.3" dx="1.6002" dy="0.8382" layer="1"/>
@@ -1804,9 +1804,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.8542" y1="1.905" x2="-1.8542" y2="0.4064" width="0.1524" layer="51"/>
 <wire x1="-1.8542" y1="-0.381" x2="-1.8542" y2="-1.905" width="0.1524" layer="51"/>
 <wire x1="-1.8542" y1="-2.6924" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
-<text x="-2.1844" y="1.9558" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-4.0386" y="2.4638" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <wire x1="-1.8542" y1="1.905" x2="-1.8542" y2="2.6924" width="0.1524" layer="51"/>
 <wire x1="-1.8542" y1="2.6924" x2="-3.6576" y2="2.6924" width="0.1524" layer="51"/>
 <wire x1="-3.6576" y1="2.6924" x2="-3.6322" y2="1.905" width="0.1524" layer="51"/>
@@ -1826,15 +1823,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.8542" y1="-1.5494" x2="1.8542" y2="1.5494" width="0.1524" layer="51"/>
 <wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
 <wire x1="-1.8542" y1="2.6924" x2="-1.8542" y2="-2.6924" width="0.1524" layer="51"/>
-<text x="-2.1844" y="1.9558" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="-1.9812" y1="-3.4798" x2="1.9812" y2="-3.4798" width="0.1524" layer="21"/>
 <wire x1="1.9812" y1="-3.4798" x2="1.9812" y2="3.4798" width="0.1524" layer="21"/>
 <wire x1="1.9812" y1="3.4798" x2="-1.9812" y2="3.4798" width="0.1524" layer="21"/>
 <wire x1="-1.9812" y1="3.4798" x2="-1.9812" y2="-3.4798" width="0.1524" layer="21"/>
+<text x="-2.1844" y="1.9558" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-4.0386" y="2.4638" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.1844" y="1.9558" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-4.0386" y="2.4638" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="F93-C" library_version="2" library_locally_modified="yes">
+<package name="F93-C" urn="urn:adsk.eagle:footprint:1231817/1" library_version="3">
 <smd name="1" x="-2.286" y="0" dx="2.3114" dy="1.778" layer="1" rot="R90"/>
 <smd name="2" x="2.286" y="0" dx="2.3114" dy="1.778" layer="1" rot="R90"/>
 <wire x1="-3.2258" y1="-1.8288" x2="3.2258" y2="-1.8288" width="0.1524" layer="21"/>
@@ -1853,7 +1853,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.921" y1="0" x2="-2.7686" y2="0" width="0" layer="51" curve="-180"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="SMA" library_version="2" library_locally_modified="yes">
+<package name="SMA" urn="urn:adsk.eagle:footprint:1231821/1" library_version="3">
 <smd name="1" x="-1.9304" y="0" dx="2.2098" dy="1.7018" layer="1"/>
 <smd name="2" x="1.9304" y="0" dx="2.2098" dy="1.7018" layer="1"/>
 <wire x1="-2.286" y1="-0.8128" x2="-2.286" y2="-0.7112" width="0.1524" layer="51"/>
@@ -1913,6 +1913,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </packages>
 <packages3d>
 <package3d name="DCK6" urn="urn:adsk.eagle:package:1230550/1" type="box" library_version="2">
+</package3d>
+<package3d name="D8" urn="urn:adsk.eagle:package:1230545/1" type="box" library_version="3">
+</package3d>
+<package3d name="MOLEX-053253-0370" urn="urn:adsk.eagle:package:1230547/1" type="box" library_version="3">
+</package3d>
+<package3d name="MP04A" urn="urn:adsk.eagle:package:1230221/2" type="box" library_version="3">
+</package3d>
+<package3d name="F93-C" urn="urn:adsk.eagle:package:1231828/1" type="box" library_version="3">
+</package3d>
+<package3d name="SMA" urn="urn:adsk.eagle:package:1231830/1" type="box" library_version="3">
 </package3d>
 </packages3d>
 </library>
@@ -2099,55 +2109,55 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="0.52" y="0.17"/>
+<element name="U2" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="0.52" y="0.17"/>
 <element name="U1" library="Localization-Daughter-Board" package="MP04A" value="LM340MP-5.0/NOPB" x="16.51" y="19.05" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM340MP5.0NOPB" x="16.51" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.8534" y="20.955" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="National Semiconductor" x="16.51" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="Localization-Daughter-Board" package="TSSOP20" value="STM32F042FXP" x="17.78" y="7.62" smashed="yes" rot="R270">
+<element name="U6" library="Localization-Daughter-Board" package="TSSOP20" value="STM32F042FXP" x="17.78" y="7.62" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="STM32F042FxP" x="17.78" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.5034" y="12.065" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="STMicroelectronics" x="17.78" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="26.67" y="8.89" smashed="yes" rot="R90">
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="26.67" y="8.89" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.4" y="8.255" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="S1" library="Localization-Daughter-Board" package="KMR231GLFS" value="KMR231GLFS" x="5.08" y="20.32" smashed="yes">
 <attribute name="NAME" x="2.08" y="22.32" size="1.27" layer="25"/>
 </element>
-<element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF" x="3.81" y="15.24" smashed="yes">
+<element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF" x="3.81" y="15.24" smashed="yes">
 <attribute name="NAME" x="2.54" y="16.51" size="1.27" layer="25"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="1X05" value="" x="10.16" y="13.97" rot="R270"/>
+<element name="J3" library="SparkFun-Connectors" package="1X05" value="" x="10.16" y="13.97" rot="R270"/>
 <element name="J2" library="SparkFun-Connectors" package="JST-5-PTH-VERT" value="" x="52.07" y="19.05"/>
-<element name="U3" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="D8" value="SN65HVD256DR" x="35.56" y="7.62">
+<element name="U5" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="D8" package3d_urn="urn:adsk.eagle:package:1230545/1" value="SN65HVD256DR" x="35.56" y="7.62">
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN65HVD256DR" x="35.56" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="35.56" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="MOLEX-053253-0370" value="" x="48.26" y="8.89"/>
+<element name="J1" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="MOLEX-053253-0370" package3d_urn="urn:adsk.eagle:package:1230547/1" value="" x="48.26" y="8.89"/>
 <element name="U4" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="DCK6" package3d_urn="urn:adsk.eagle:package:1230550/1" value="TXS0101DCKR" x="49.53" y="5.08">
 <attribute name="MANUFACTURER_PART_NUMBER" value="TXS0101DCKR" x="49.53" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="49.53" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U5" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="MP04A" value="LMS8117AMP-ADJ/NOPB" x="29.21" y="19.05" rot="R270">
+<element name="U3" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="MP04A" package3d_urn="urn:adsk.eagle:package:1230221/2" value="LMS8117AMP-ADJ/NOPB" x="29.21" y="19.05" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LMS8117AMPADJNOPB" x="29.21" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="29.21" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="" x="35.56" y="21.59" rot="R90"/>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="" x="25.4" y="15.24" rot="R180"/>
-<element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="10u" x="24.13" y="20.32" rot="R270"/>
-<element name="C3" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="F93-C" value="100u" x="38.1" y="16.51">
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="" x="25.4" y="15.24" rot="R180"/>
+<element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="10u" x="24.13" y="20.32" rot="R270"/>
+<element name="C3" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="F93-C" package3d_urn="urn:adsk.eagle:package:1231828/1" value="100u" x="38.1" y="16.51">
 <attribute name="MANUFACTURER_PART_NUMBER" value="F931C107MCC" x="38.1" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="AVX Corporation" x="38.1" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="22u" x="21.59" y="13.97"/>
-<element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="22u" x="24.13" y="5.08"/>
-<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="22u" x="34.29" y="2.54"/>
-<element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="0.1u" x="11.43" y="20.32"/>
-<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="54.61" y="5.08"/>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="43.18" y="3.81"/>
-<element name="CR1" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="SMA" value="STPS2H100A" x="58.42" y="13.97">
+<element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="22u" x="21.59" y="13.97"/>
+<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="22u" x="24.13" y="5.08"/>
+<element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="22u" x="34.29" y="2.54"/>
+<element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="0.1u" x="11.43" y="20.32"/>
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="54.61" y="5.08"/>
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="43.18" y="3.81"/>
+<element name="CR1" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="SMA" package3d_urn="urn:adsk.eagle:package:1231830/1" value="STPS2H100A" x="58.42" y="13.97">
 <attribute name="MANUFACTURER_PART_NUMBER" value="STPS2H100A" x="58.42" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="ST Microelectronics" x="58.42" y="13.97" size="1.778" layer="27" display="off"/>
 </element>
@@ -2156,14 +2166,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="GND">
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="4"/>
-<contactref element="U$1" pad="39"/>
-<contactref element="U$1" pad="25"/>
-<contactref element="U$1" pad="9"/>
-<contactref element="U$1" pad="6"/>
-<contactref element="U$1" pad="14"/>
-<contactref element="U$1" pad="20"/>
-<contactref element="U$1" pad="30"/>
-<contactref element="U$1" pad="34"/>
+<contactref element="U2" pad="39"/>
+<contactref element="U2" pad="25"/>
+<contactref element="U2" pad="9"/>
+<contactref element="U2" pad="6"/>
+<contactref element="U2" pad="14"/>
+<contactref element="U2" pad="20"/>
+<contactref element="U2" pad="30"/>
+<contactref element="U2" pad="34"/>
 <polygon width="0.1524" layer="1">
 <vertex x="0.52" y="27.17" curve="-90"/>
 <vertex x="3.52" y="30.17"/>
@@ -2174,30 +2184,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="3.52" y="0.17" curve="-90"/>
 <vertex x="0.52" y="3.17"/>
 </polygon>
-<contactref element="U2" pad="15"/>
-<contactref element="R1" pad="1"/>
+<contactref element="U6" pad="15"/>
+<contactref element="R3" pad="1"/>
 <contactref element="S1" pad="1"/>
-<contactref element="C1" pad="2"/>
-<contactref element="J1" pad="2"/>
-<contactref element="U3" pad="2"/>
-<contactref element="J3" pad="1"/>
+<contactref element="C5" pad="2"/>
+<contactref element="J3" pad="2"/>
+<contactref element="U5" pad="2"/>
+<contactref element="J1" pad="1"/>
 <contactref element="U4" pad="2"/>
 <contactref element="J2" pad="4"/>
-<contactref element="R3" pad="2"/>
-<contactref element="C2" pad="2"/>
+<contactref element="R1" pad="2"/>
+<contactref element="C1" pad="2"/>
 <contactref element="C3" pad="2"/>
-<contactref element="C4" pad="2"/>
-<contactref element="C5" pad="2"/>
+<contactref element="C2" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
+<contactref element="C4" pad="2"/>
 <wire x1="17.455" y1="4.699" x2="12.38" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="U1" pad="1"/>
-<contactref element="U5" pad="3"/>
+<contactref element="U3" pad="3"/>
+<contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="C4" pad="1"/>
-<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
 <contactref element="CR1" pad="1"/>
 <wire x1="24.13" y1="21.72" x2="26.91" y2="22.2504" width="0" layer="19" extent="1-1"/>
 <wire x1="18.81" y1="22.2504" x2="24.13" y2="21.72" width="0" layer="19" extent="1-1"/>
@@ -2207,8 +2217,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="3"/>
-<contactref element="U$1" pad="2"/>
-<contactref element="U$1" pad="4"/>
+<contactref element="U2" pad="2"/>
+<contactref element="U2" pad="4"/>
 <polygon width="0.1524" layer="16">
 <vertex x="0.52" y="27.17" curve="-90"/>
 <vertex x="3.52" y="30.17"/>
@@ -2219,12 +2229,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="3.52" y="0.17" curve="-90"/>
 <vertex x="0.52" y="3.17"/>
 </polygon>
-<contactref element="U3" pad="3"/>
+<contactref element="U5" pad="3"/>
 <contactref element="U4" pad="6"/>
 <contactref element="J2" pad="1"/>
-<contactref element="C6" pad="1"/>
 <contactref element="C7" pad="1"/>
-<contactref element="R4" pad="2"/>
+<contactref element="C4" pad="1"/>
+<contactref element="R5" pad="2"/>
 <wire x1="48.07" y1="19.23" x2="50.5079" y2="5.73" width="0" layer="19" extent="1-1"/>
 <wire x1="14.21" y1="22.2504" x2="11.43" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="10.48" y1="20.32" x2="14.21" y2="22.2504" width="0" layer="19" extent="1-1"/>
@@ -2233,12 +2243,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="55.56" y1="5.08" x2="10.48" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
-<contactref element="J1" pad="1"/>
-<contactref element="U3" pad="5"/>
+<contactref element="J3" pad="1"/>
+<contactref element="U5" pad="5"/>
 <contactref element="U4" pad="1"/>
-<contactref element="U$1" pad="17"/>
-<contactref element="U$1" pad="1"/>
-<contactref element="R5" pad="2"/>
+<contactref element="U2" pad="17"/>
+<contactref element="U2" pad="1"/>
+<contactref element="R4" pad="2"/>
 <wire x1="38.0238" y1="5.715" x2="48.5521" y2="5.73" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="25.4" x2="38.0238" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="25.4" x2="29.21" y2="25.4" width="0" layer="19" extent="1-1"/>
@@ -2246,88 +2256,87 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="44.13" y1="3.81" x2="10.16" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
-<contactref element="U2" pad="16"/>
-<contactref element="U2" pad="5"/>
+<contactref element="U6" pad="16"/>
+<contactref element="U6" pad="5"/>
 <wire x1="18.104996875" y1="4.699" x2="18.105" y2="10.541" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
-<contactref element="R1" pad="2"/>
-<contactref element="U2" pad="1"/>
+<contactref element="R3" pad="2"/>
+<contactref element="U6" pad="1"/>
 <wire x1="20.705" y1="10.541" x2="26.67" y2="9.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRST">
-<contactref element="C1" pad="1"/>
+<contactref element="C5" pad="1"/>
 <contactref element="S1" pad="3"/>
-<contactref element="U2" pad="4"/>
-<contactref element="J1" pad="5"/>
+<contactref element="U6" pad="4"/>
+<contactref element="J3" pad="5"/>
 <wire x1="10.16" y1="3.81" x2="18.755" y2="10.541" width="0" layer="19" extent="1-1"/>
 <wire x1="2.86" y1="15.24" x2="10.16" y2="3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="3.08" y1="19.57" x2="2.86" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
-<contactref element="U2" pad="19"/>
-<contactref element="J1" pad="3"/>
+<contactref element="U6" pad="19"/>
+<contactref element="J3" pad="3"/>
 <wire x1="10.16" y1="8.89" x2="20.055" y2="4.699" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
-<contactref element="U2" pad="20"/>
-<contactref element="J1" pad="4"/>
+<contactref element="U6" pad="20"/>
+<contactref element="J3" pad="4"/>
 <wire x1="10.16" y1="6.35" x2="20.704996875" y2="4.699" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_TX">
-<contactref element="U2" pad="18"/>
-<contactref element="U3" pad="1"/>
+<contactref element="U6" pad="18"/>
+<contactref element="U5" pad="1"/>
 <wire x1="19.404996875" y1="4.699" x2="33.0962" y2="9.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_RX">
-<contactref element="U2" pad="17"/>
-<contactref element="U3" pad="4"/>
+<contactref element="U6" pad="17"/>
+<contactref element="U5" pad="4"/>
 <wire x1="18.755" y1="4.699" x2="33.0962" y2="5.715" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA1">
-<contactref element="U$1" pad="3"/>
-<contactref element="U2" pad="2"/>
+<contactref element="U2" pad="3"/>
+<contactref element="U6" pad="2"/>
 <wire x1="20.055" y1="10.541" x2="11.43" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL1">
-<contactref element="U$1" pad="5"/>
-<contactref element="U2" pad="3"/>
+<contactref element="U2" pad="5"/>
+<contactref element="U6" pad="3"/>
 <wire x1="19.405" y1="10.541" x2="13.97" y2="25.4" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="UART_DYN">
-<contactref element="U2" pad="8"/>
 </signal>
 <signal name="N$2">
 <contactref element="J2" pad="2"/>
-<contactref element="U3" pad="7"/>
+<contactref element="U5" pad="7"/>
 <wire x1="38.0238" y1="8.255" x2="50.07" y2="19.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="J2" pad="3"/>
-<contactref element="U3" pad="6"/>
+<contactref element="U5" pad="6"/>
 <wire x1="38.0238" y1="6.985" x2="52.07" y2="19.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_DYN_5V">
-<contactref element="J3" pad="3"/>
+<contactref element="J1" pad="3"/>
 <contactref element="U4" pad="4"/>
-<contactref element="R4" pad="1"/>
+<contactref element="R5" pad="1"/>
 <wire x1="50.5079" y1="4.43" x2="54.26" y2="11.04" width="0" layer="19" extent="1-1"/>
 <wire x1="53.66" y1="5.08" x2="50.5079" y2="4.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DYN_OE">
 <contactref element="U4" pad="5"/>
-<contactref element="R5" pad="1"/>
+<contactref element="R4" pad="1"/>
 <wire x1="42.23" y1="3.81" x2="50.5079" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_DYN_3V3">
 <contactref element="U4" pad="3"/>
+<contactref element="U6" pad="8"/>
+<wire x1="16.155003125" y1="10.541" x2="48.5521" y2="4.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+7V4">
-<contactref element="U5" pad="2"/>
-<contactref element="U5" pad="4"/>
+<contactref element="U3" pad="2"/>
+<contactref element="U3" pad="4"/>
 <contactref element="R2" pad="2"/>
 <contactref element="C3" pad="1"/>
-<contactref element="J3" pad="2"/>
+<contactref element="J1" pad="2"/>
 <wire x1="35.814" y1="16.51" x2="52.26" y2="11.04" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="22.54" x2="35.814" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="22.2504" x2="35.56" y2="22.54" width="0" layer="19" extent="1-1"/>
@@ -2335,8 +2344,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$4">
 <contactref element="R2" pad="1"/>
-<contactref element="R3" pad="1"/>
-<contactref element="U5" pad="1"/>
+<contactref element="R1" pad="1"/>
+<contactref element="U3" pad="1"/>
 <wire x1="31.51" y1="22.2504" x2="35.56" y2="20.64" width="0" layer="19" extent="1-1"/>
 <wire x1="26.35" y1="15.24" x2="31.51" y2="22.2504" width="0" layer="19" extent="1-1"/>
 </signal>

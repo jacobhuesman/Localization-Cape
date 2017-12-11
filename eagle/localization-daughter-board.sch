@@ -10182,17 +10182,15 @@ Programming Port</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="127" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="3V3" class="0">
-<segment>
-<pinref part="U6" gate="A" pin="VDD"/>
-<wire x1="215.9" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
-<label x="226.06" y="66.04" size="1.778" layer="95" rot="MR0"/>
-</segment>
 <segment>
 <pinref part="U6" gate="A" pin="VDDA"/>
 <wire x1="172.72" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 <label x="162.56" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="A" pin="VDD"/>
+<wire x1="215.9" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
+<label x="226.06" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10393,6 +10391,37 @@ Programming Port</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,88.9,66.04,5V0,+5V,,,,"/>
+<approved hash="102,1,40.64,66.04,3V3,+3V3,,,,"/>
+<approved hash="102,1,88.9,63.5,5V0,+5V,,,,"/>
+<approved hash="102,1,40.64,45.72,3V3,+3V3,,,,"/>
+<approved hash="102,1,88.9,182.88,VCC,+7V4,,,,"/>
+<approved hash="102,1,35.56,172.72,VCC,+7V4,,,,"/>
+<approved hash="102,1,177.8,127,VCC,+7V4,,,,"/>
+<approved hash="104,1,38.1,121.92,U1,IN,+12V,,,"/>
+<approved hash="104,1,66.04,119.38,U1,OUT,+5V,,,"/>
+<approved hash="104,1,66.04,121.92,U1,TAB,GND,,,"/>
+<approved hash="104,1,172.72,66.04,U6,VDDA,+3V3,,,"/>
+<approved hash="104,1,215.9,63.5,U6,VSS,GND,,,"/>
+<approved hash="104,1,215.9,66.04,U6,VDD,+3V3,,,"/>
+<approved hash="104,1,152.4,172.72,U5,VCC,+5V,,,"/>
+<approved hash="104,1,190.5,175.26,U5,VRXD,+3V3,,,"/>
+<approved hash="202,1,190.5,167.64,U5,S,,,,"/>
+<approved hash="104,1,121.92,114.3,U4,VCCA,+3V3,,,"/>
+<approved hash="104,1,152.4,114.3,U4,VCCB,+5V,,,"/>
+<approved hash="206,1,81.28,180.34,+7V4,,,,,"/>
+<approved hash="206,1,48.26,177.8,+7V4,,,,,"/>
+<approved hash="208,1,81.28,180.34,+7V4,out,,,,"/>
+<approved hash="208,1,88.9,182.88,+7V4,sup,,,,"/>
+<approved hash="208,1,35.56,172.72,+7V4,sup,,,,"/>
+<approved hash="208,1,48.26,177.8,+7V4,out,,,,"/>
+<approved hash="208,1,177.8,127,+7V4,sup,,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,1,241.977,110.327,J3,,,,,"/>
+<approved hash="113,1,224.197,174.153,J2,,,,,"/>
+<approved hash="113,1,193.717,110.327,J1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

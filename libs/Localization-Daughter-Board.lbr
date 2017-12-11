@@ -81,6 +81,7 @@
 <layer number="100" name="ISO" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Layout" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="layer" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="S_DOKU" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>

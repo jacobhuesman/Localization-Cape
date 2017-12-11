@@ -2166,9 +2166,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="0.1u" x="33.02" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.29" y="12.7" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="8.89" y="11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.16" y="12.065" size="1.27" layer="25" rot="R270"/>
-</element>
 <element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="10.16" y="2.54"/>
 <element name="CR1" library="Localization-Daughter-Board" library_urn="urn:adsk.eagle:library:1230207" package="SMA" package3d_urn="urn:adsk.eagle:package:1231830/1" value="STPS2H100A" x="48.26" y="7.62" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="STPS2H100A" x="48.26" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2250,7 +2247,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J2" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="C4" pad="1"/>
-<contactref element="R5" pad="2"/>
 <wire x1="31.2154" y1="12.38" x2="33.02" y2="12.38" width="1.27" layer="1"/>
 <wire x1="31.2154" y1="12.38" x2="29.605" y2="10.7696" width="1.27" layer="1"/>
 <wire x1="56.515" y1="21.59" x2="53.655" y2="21.59" width="1.27" layer="1"/>
@@ -2281,8 +2277,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="2.54" y1="20.32" x2="2.54" y2="8.89" width="0.6096" layer="16"/>
 <wire x1="2.54" y1="8.89" x2="3.81" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="3.81" y1="7.62" x2="7.62" y2="7.62" width="0.6096" layer="16"/>
-<wire x1="8.89" y1="10.48" x2="7.62" y2="9.21" width="0.6096" layer="1"/>
-<wire x1="7.62" y1="9.21" x2="7.62" y2="7.62" width="0.6096" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="J3" pad="1"/>
@@ -2426,15 +2420,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="UART_DYN_5V">
 <contactref element="J1" pad="3"/>
 <contactref element="U4" pad="4"/>
-<contactref element="R5" pad="1"/>
-<wire x1="4.835" y1="14.89" x2="7.62" y2="14.89" width="0.6096" layer="1"/>
-<wire x1="7.62" y1="14.89" x2="7.97" y2="14.89" width="0.6096" layer="1"/>
-<wire x1="7.97" y1="14.89" x2="9.24" y2="14.89" width="0.6096" layer="1"/>
-<wire x1="9.525" y1="14.605" x2="9.24" y2="14.89" width="0.6096" layer="1"/>
-<wire x1="9.525" y1="14.605" x2="10.81" y2="13.32" width="0.6096" layer="1"/>
+<wire x1="4.835" y1="14.89" x2="9.24" y2="14.89" width="0.6096" layer="1"/>
+<wire x1="9.24" y1="14.89" x2="10.81" y2="13.32" width="0.6096" layer="1"/>
 <wire x1="10.81" y1="13.32" x2="10.81" y2="8.5979" width="0.6096" layer="1"/>
-<wire x1="8.89" y1="12.38" x2="9.525" y2="13.015" width="0.6096" layer="1"/>
-<wire x1="9.525" y1="13.015" x2="9.525" y2="14.605" width="0.6096" layer="1"/>
 </signal>
 <signal name="DYN_OE">
 <contactref element="U4" pad="5"/>

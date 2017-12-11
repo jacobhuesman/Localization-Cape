@@ -10382,7 +10382,7 @@ Programming Port</text>
 <junction x="83.82" y="167.64"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="220.98" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>

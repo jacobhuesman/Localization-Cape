@@ -13113,21 +13113,21 @@ Programming Port</text>
 <approved hash="102,1,40.64,66.04,3V3,+3V3,,,,"/>
 <approved hash="102,1,88.9,63.5,5V0,+5V,,,,"/>
 <approved hash="102,1,40.64,45.72,3V3,+3V3,,,,"/>
-<approved hash="104,1,172.72,66.04,U6,VDDA,+3V3,,,"/>
-<approved hash="104,1,215.9,63.5,U6,VSS,GND,,,"/>
-<approved hash="104,1,215.9,66.04,U6,VDD,+3V3,,,"/>
+<approved hash="104,1,180.34,63.5,U6,VDDA,+3V3,,,"/>
+<approved hash="104,1,223.52,60.96,U6,VSS,GND,,,"/>
+<approved hash="104,1,223.52,63.5,U6,VDD,+3V3,,,"/>
 <approved hash="104,1,38.1,106.68,U4,VCCA,+3V3,,,"/>
 <approved hash="104,1,68.58,106.68,U4,VCCB,+5V,,,"/>
 <approved hash="104,1,66.04,180.34,U1,OUT,+10V,,,"/>
 <approved hash="104,1,33.02,180.34,U1,IN,+12V,,,"/>
 <approved hash="104,1,33.02,177.8,U1,TAB,+10V,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
-<approved hash="113,1,224.197,158.587,J3,,,,,"/>
+<approved hash="113,1,229.277,166.207,J3,,,,,"/>
 <approved hash="113,1,158.157,166.533,J2,,,,,"/>
-<approved hash="113,1,207.01,114.622,I2C,,,,,"/>
-<approved hash="113,1,199.39,119.702,DYN,,,,,"/>
-<approved hash="113,1,191.77,124.782,STAT1,,,,,"/>
-<approved hash="113,1,199.39,129.862,STAT2,,,,,"/>
+<approved hash="113,1,227.33,109.542,I2C,,,,,"/>
+<approved hash="113,1,219.71,114.622,DYN,,,,,"/>
+<approved hash="113,1,212.09,119.702,STAT1,,,,,"/>
+<approved hash="113,1,219.71,124.782,STAT2,,,,,"/>
 <approved hash="113,1,25.4,54.9504,SJ1,,,,,"/>
 </errors>
 </schematic>

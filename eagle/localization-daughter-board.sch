@@ -8469,7 +8469,7 @@ Source: AVX .. aphvc.pdf</description>
 </library>
 <library name="bbb_localization_cape" urn="urn:adsk.eagle:library:616562">
 <packages>
-<package name="TS3B" urn="urn:adsk.eagle:footprint:616587/1" library_version="24">
+<package name="TS3B" urn="urn:adsk.eagle:footprint:616587/1" locally_modified="yes" library_version="24" library_locally_modified="yes">
 <smd name="1" x="-2.54" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
 <smd name="2" x="0" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
 <smd name="3" x="2.54" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
@@ -8497,7 +8497,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="0.4826" y1="-5.7658" x2="0.4826" y2="-6.5786" width="0.1524" layer="21"/>
 <wire x1="3.0226" y1="-5.7658" x2="3.0226" y2="-6.5786" width="0.1524" layer="21"/>
 <text x="-3.1242" y="-5.461" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-5.0292" y="-8.9154" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-5.0292" y="-7.6454" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="TS3B-M" urn="urn:adsk.eagle:footprint:616588/1" library_version="24">
@@ -8623,7 +8623,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM1085ISX-ADJ" urn="urn:adsk.eagle:component:616626/10" prefix="U" library_version="24">
+<deviceset name="LM1085ISX-ADJ" urn="urn:adsk.eagle:component:616626/10" locally_modified="yes" prefix="U" library_version="24" library_locally_modified="yes">
 <description>Adjustable Linear Voltage Regulator</description>
 <gates>
 <gate name="A" symbol="LM1085ISX-ADJ" x="0" y="0"/>
@@ -14358,14 +14358,14 @@ Programming Port</text>
 <approved hash="102,1,40.64,66.04,3V3,+3V3,,,,"/>
 <approved hash="102,1,88.9,63.5,5V0,+5V,,,,"/>
 <approved hash="102,1,40.64,45.72,3V3,+3V3,,,,"/>
-<approved hash="104,1,180.34,63.5,U6,VDDA,+3V3,,,"/>
-<approved hash="104,1,223.52,60.96,U6,VSS,GND,,,"/>
-<approved hash="104,1,223.52,63.5,U6,VDD,+3V3,,,"/>
-<approved hash="104,1,38.1,106.68,U4,VCCA,+3V3,,,"/>
-<approved hash="104,1,68.58,106.68,U4,VCCB,+5V,,,"/>
-<approved hash="104,1,66.04,180.34,U1,OUT,+10V,,,"/>
-<approved hash="104,1,33.02,180.34,U1,IN,+12V,,,"/>
-<approved hash="104,1,33.02,177.8,U1,TAB,+10V,,,"/>
+<approved hash="104,1,180.34,63.5,U5,VDDA,+3V3,,,"/>
+<approved hash="104,1,223.52,60.96,U5,VSS,GND,,,"/>
+<approved hash="104,1,223.52,63.5,U5,VDD,+3V3,,,"/>
+<approved hash="104,1,38.1,106.68,U1,VCCA,+3V3,,,"/>
+<approved hash="104,1,68.58,106.68,U1,VCCB,+5V,,,"/>
+<approved hash="104,1,66.04,180.34,U3,OUT,+10V,,,"/>
+<approved hash="104,1,33.02,180.34,U3,IN,+12V,,,"/>
+<approved hash="104,1,33.02,177.8,U3,TAB,+10V,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
 <approved hash="113,1,229.277,166.207,J3,,,,,"/>
 <approved hash="113,1,158.157,166.533,J2,,,,,"/>
@@ -14374,6 +14374,7 @@ Programming Port</text>
 <approved hash="113,1,212.09,119.702,STAT1,,,,,"/>
 <approved hash="113,1,219.71,124.782,STAT2,,,,,"/>
 <approved hash="113,1,25.4,54.9504,SJ1,,,,,"/>
+<approved hash="113,1,241.977,53.1774,J4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
